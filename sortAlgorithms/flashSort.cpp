@@ -4,24 +4,24 @@
 
 void flashSort(std::vector<int>& array, long long& comparisons) {
     int n = array.size();
-    if (n <= 1) return;
+    if (++comparisons && n <= 1) return;
     int m = 0.45 * n;
     int* L = new int[m]{0};
     int maxVal = array[0], minVal = array[0];
 
-    for (int i = 1; i < n; ++i) {
+    for (int i = 1; ++comparisons && i < n; ++i) {
         maxVal = std::max(maxVal, array[i]);
         minVal = std::min(minVal, array[i]);
     }
 
-    if (minVal == maxVal) return;
+    if (++comparisons && minVal == maxVal) return;
 
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; ++comparisons && i < n; ++i) {
         int k = 1.0 * (m - 1) * (array[i] - minVal) / (maxVal - minVal);
         ++L[k];
     }
 
-    for (int i = 1; i < m; ++i) {
+    for (int i = 1; ++comparisons && i < m; ++i) {
         L[i] += L[i - 1];
     }
     
@@ -32,14 +32,14 @@ void flashSort(std::vector<int>& array, long long& comparisons) {
     int t = 0;
     int j = 0;
 
-    while (move < n - 1) {
-        while (j > (L[k] - 1)) {
+    while (++comparisons && move < n - 1) {
+        while (++comparisons && j > (L[k] - 1)) {
             ++j;
             k = 1.0 * (m - 1) * (array[j] - minVal) / (maxVal - minVal);
         }
 
         flash = array[j];
-        while (j != L[k]) {
+        while (++comparisons && j != L[k]) {
             k = 1.0 * (m - 1) * (array[j] - minVal) / (maxVal - minVal);
             hold = array[t=--L[k]];
             array[t] = hold;
