@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-using namespace std;
+#include "sort.h"
 
 void Heapify(std::vector<int>&array , int start, int n, long long&comparisons) {
     int leftChild = start *  2 + 1;

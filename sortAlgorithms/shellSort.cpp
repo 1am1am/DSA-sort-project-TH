@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include "sort.h"
 void shellSort(std::vector<int>&array,  long long&comparisons) {
     for (int i = (array.size())/2; ++comparisons && i > 0 ; i/=2) {
         for (int j = i; ++comparisons && j < array.size();j++) {
