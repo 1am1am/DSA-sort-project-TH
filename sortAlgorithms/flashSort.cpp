@@ -14,6 +14,8 @@ void flashSort(std::vector<int>& array, long long& comparisons) {
         minVal = std::min(minVal, array[i]);
     }
 
+    if (minVal == maxVal) return;
+
     for (int i = 0; i < n; ++i) {
         int k = 1.0 * (m - 1) * (array[i] - minVal) / (maxVal - minVal);
         ++L[k];
