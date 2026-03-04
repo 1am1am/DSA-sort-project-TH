@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 
-void insertionSort(std::vector<int>& array) {
+void insertionSort(std::vector<int>& array, long long& comparisons) {
     int n = array.size();
     for (int i = 1; i < n; ++i) {
         int val = array[i];

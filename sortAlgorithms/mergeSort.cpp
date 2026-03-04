@@ -36,6 +36,6 @@ void mergeArray(std::vector<int>& array, int left, int right) {
     merge(array, left, mid, right);
 }
 
-void mergeSort(std::vector<int>& array) {
+void mergeSort(std::vector<int>& array, long long& comparisons) {
     mergeArray(array, 0, array.size());
 }
