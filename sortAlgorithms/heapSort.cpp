@@ -2,7 +2,7 @@
 #include <vector>
 #include "sort.h"
 
-void Heapify(std::vector<int>&array , int start, int n, long long&comparisons) {
+void Heapify(std::vector<int>& array , int start, int n, long long& comparisons) {
     int leftChild = start *  2 + 1;
     if ( ++comparisons && leftChild >= n) return;
     int largerChild = leftChild;
