@@ -2,6 +2,6 @@
 #include <iostream>
 #include <vector>
 
-void flashSort(std::vector<int> array) {
+void flashSort(std::vector<int> array, long long& comparisons) {
 
 }
