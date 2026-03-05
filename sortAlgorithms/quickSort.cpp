@@ -32,14 +32,3 @@ void quickSortArray(vector<int>& array, int l, int r) {// lumoto
 void quickSort(vector<int>& array, long long& comparisons) {// lumoto
 	quickSortArray(array, 0, array.size() - 1);
 }
-
-
-int main() {
-	vector<int> arr = {3, 2, 1, 6, 5, 8, 4};
-	long long index = 0;
-	quickSort(arr, index);
-	for (int i = 0;i < arr.size();i++) {
-		cout << arr[i] << " ";
-	}
-	return 0;
-}
