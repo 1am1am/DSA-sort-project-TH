@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void insertionbinarySort(vector<int>& A, long long& comparisions){
+void binaryInsertionSort(vector<int>& A, long long& comparisions){
     for(int i = 1; i < A.size(); ++i){
         int value = A[i];
         int l = 0, r = i - 1, pos = i - 1;
