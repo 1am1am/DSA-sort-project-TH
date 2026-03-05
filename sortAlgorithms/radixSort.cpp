@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
-#include <ctime>
+#include <ctime> 
 #include "sort.h"
 
 using namespace std;
@@ -32,7 +32,7 @@ void radixSort(vector<int> &&array, long long &comparisons) {
 			buckets[digit].count++;
 		}
 		int dex = 0;
-		for (int i = 0;++comparisons && i < 10; i++) {
+		for (int i = 0; i < 10; i++) {
 			for (int l = 0;++comparisons && l < buckets[i].count;l++) {
 				array[dex] = buckets[i].data[l];
 				dex++;

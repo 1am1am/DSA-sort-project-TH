@@ -11,7 +11,7 @@ void selectionSort(std::vector<int>& array, long long& comparisons){
 	while ( ++comparisons && i < (size - 1)) {
 		int min = i;
 		for (int j = i + 1;++comparisons && j < size;j++) {
-			if (array[min] > array[j]) min = j;
+			if (array[min] > array[j]) min = j; ++comparisons;
 		}
 		swap(array[i], array[min]);
 		i++;
