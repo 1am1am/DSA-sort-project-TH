@@ -1,4 +1,5 @@
-﻿#include <iostream>
+﻿#include "commandProcessing.h"
+#include <iostream>
 #include <fstream>
 #include <cmath>
 #include <time.h>
@@ -89,14 +90,14 @@ vector<int> GenerateData(int n , string dataType) {
 	return array;
 }
 
-void writeFile(string filename, string dataType, int size) {
+void writeFile(Command command, string filename) {
 	ofstream fout(filename);
 	if (!fout.is_open()) {
 		cout << "Error " << endl;
 	}
 
-	fout << size << endl;
-	vector<int> array = GenerateData(size, dataType);
+	fout << command.inputSize << endl;
+	vector<int> array = GenerateData(command.inputSize, command.inputOrder);
 	for (int x: array ){
 		fout << x << " ";
 	}
