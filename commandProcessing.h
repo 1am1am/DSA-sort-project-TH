@@ -4,7 +4,7 @@
 #include <vector>
 #include <string>
 
-struct Input{
+struct Command{
     std::string mode;
     std::string algorithm1;
     std::string algorithm2;
@@ -14,6 +14,6 @@ struct Input{
     std::string outputParameter;
 };
 
-Input inputProcessing(int argc, std::vector<std::string> argv);
+Command inputProcessing(int argc, std::vector<std::string> argv);
 
 #endif

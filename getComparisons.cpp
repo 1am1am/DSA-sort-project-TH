@@ -3,6 +3,7 @@
 #include "sortAlgorithms/sort.h"
 #include <fstream>
 #include "dataGeneration.h"
+#include "commandProcessing.h"
 
 using namespace std;
 
@@ -26,29 +27,29 @@ long long getAlgorithm(string Name, const vector<int>& Array){
     return Comparisions;
 }
 
-void getComparisons(string Mode, string Algorithm1, string Algorithm2, string InputFile, int InputSize, string InputOrder, string Output){
+void getComparisons(Command command){
     vector<int> Array; 
-    if(InputFile != ""){
+    if(command.inputFile != ""){
         ifstream fin;
-        fin.open(InputFile);
-        fin >> InputSize;
-        for(int i = 0; i < InputSize; ++i){
+        fin.open(command.inputFile);
+        fin >> command.inputFile;
+        for(int i = 0; i < command.inputSize; ++i){
             int Number; fin >> Number;
             Array.push_back(Number);
         }
         fin.close();
     }
     else{
-        int* Array2 = new int[InputSize];
-        if(InputOrder == "-rand") (Array2, InputSize, 0);
-        if(InputOrder == "-sorted") (Array2, InputSize, 1);
-        if(InputOrder == "-rev") (Array2, InputSize, 2);
-        if(InputOrder == "-nsorted") (Array2, InputSize, 3);
-        for(int i = 0; i < InputSize; ++i) Array.push_back(Array2[i]);
+        int* Array2 = new int[command.inputSize];
+        if(command.inputOrder == "-rand") (Array2, command.inputSize, 0);
+        if(command.inputOrder == "-sorted") (Array2, command.inputSize, 1);
+        if(command.inputOrder == "-rev") (Array2, command.inputSize, 2);
+        if(command.inputOrder == "-nsorted") (Array2, command.inputSize, 3);
+        for(int i = 0; i < command.inputSize; ++i) Array.push_back(Array2[i]);
         delete[]Array2;
     }
-    int Comparision1 = getAlgorithm(Algorithm1, Array), Comparision2 = 0;
-    if(Mode == "-c"){
-        Comparision2 = getAlgorithm(Algorithm2, Array);
+    int Comparision1 = getAlgorithm(command.algorithm1, Array), Comparision2 = 0;
+    if(command.mode == "-c"){
+        Comparision2 = getAlgorithm(command.algorithm2, Array);
     }
 }

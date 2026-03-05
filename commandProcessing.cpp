@@ -1,4 +1,3 @@
-#include "setMode.h"
 #include "consoleUI.h"
 #include "commandProcessing.h"
 #include <iostream>
