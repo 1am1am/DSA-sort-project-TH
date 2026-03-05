@@ -9,22 +9,22 @@ using namespace std;
 
 long long getAlgorithm(string Name, const vector<int>& Array){
     vector<int> Tmp = Array;
-    long long Comparisions = 0;
+    long long Comparisons = 0;
 
-    if("selection-sort" == Name) selectionSort(Tmp, Comparisions);
-    if("insertion-sort" == Name) insertionSort(Tmp, Comparisions);
-    if("shell-sort" == Name) shellSort(Tmp, Comparisions);
-    if("bubble-sort" == Name) bubbleSort(Tmp, Comparisions);
-    if("heap-sort" == Name) heapSort(Tmp, Comparisions);
-    if("merge-sort" == Name) mergeSort(Tmp, Comparisions);
-    if("quick-sort" == Name) quickSort(Tmp, Comparisions);
-    if("radix-sort" == Name) radixSort(Tmp, Comparisions);
-    if("counting-sort" == Name) countingSort(Tmp, Comparisions);
-    if("binary-insertion-sort" == Name) binaryInsertionSort(Tmp, Comparisions);
-    if("shaker-sort" == Name) shakerSort(Tmp, Comparisions);
-    if("flash-sort" == Name) flashSort(Tmp, Comparisions);
+    if("selection-sort" == Name) selectionSort(Tmp, Comparisons);
+    if("insertion-sort" == Name) insertionSort(Tmp, Comparisons);
+    if("shell-sort" == Name) shellSort(Tmp, Comparisons);
+    if("bubble-sort" == Name) bubbleSort(Tmp, Comparisons);
+    if("heap-sort" == Name) heapSort(Tmp, Comparisons);
+    if("merge-sort" == Name) mergeSort(Tmp, Comparisons);
+    if("quick-sort" == Name) quickSort(Tmp, Comparisons);
+    if("radix-sort" == Name) radixSort(Tmp, Comparisons);
+    if("counting-sort" == Name) countingSort(Tmp, Comparisons);
+    if("binary-insertion-sort" == Name) binaryInsertionSort(Tmp, Comparisons);
+    if("shaker-sort" == Name) shakerSort(Tmp, Comparisons);
+    if("flash-sort" == Name) flashSort(Tmp, Comparisons);
 
-    return Comparisions;
+    return Comparisons;
 }
 
 void getComparisons(Command command){
