@@ -1,10 +1,12 @@
+#include "consoleUI.h"
 #include <iostream>
+#include <string>
 
-void consoleUI(char* algorithm, char* inputSize, char* inputOrder, double runningTime, long long comparisons) {
-    std::cout << "Algorithm: " << algorithm << '\n';
-    std::cout << "Input size: " << inputSize << '\n';
-    std::cout << "Input order: " << inputOrder << '\n';
+void consoleUI(Parameter parameter) {
+    std::cout << "Algorithm: " << parameter.algorithm << '\n';
+    std::cout << "Input size: " << parameter.inputSize << '\n';
+    std::cout << "Input order: " << parameter.inputOrder << '\n';
     std::cout << "-------------------------\n";
-    std::cout << "Running time: " << '\n';
-    std::cout << "Comparisons: " << '\n';
+    std::cout << "Running time: " << parameter.runningTime << '\n';
+    std::cout << "Comparisons: " << parameter.comparisons << '\n';
 }
