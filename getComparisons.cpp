@@ -37,7 +37,7 @@ long long getAlgorithm(string Name, const vector<int>& Array,double &Time){
 void readFile(vector<int>& Array, Command& command){
     ifstream fin;
     fin.open(command.inputFile);
-    fin >> command.inputFile;
+    fin >> command.inputSize;
     for(int i = 0; i < command.inputSize; ++i){
         int Number; fin >> Number;
         Array.push_back(Number);
