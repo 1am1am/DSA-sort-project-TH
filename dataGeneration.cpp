@@ -2,6 +2,7 @@
 #include <fstream>
 #include <cmath>
 #include <time.h>
+#include <vector>
 using namespace std;
 
 template <class T>
@@ -15,67 +16,89 @@ void Swap(T &a, T &b)
 //-------------------------------------------------
 
 // Function to generate an array with random data
-void GenerateRandomData(int a[], int n)
+vector<int> GenerateRandomData(int n)
 {
 	srand((unsigned int)time(NULL));
-
+	vector<int> array;
 	for (int i = 0; i < n; i++)
 	{
-		a[i] = rand()%n;
+		array.push_back (rand()%n);
 	}
+
+	return array;
 }
 
 // Function to generate an array with ascending order data
-void GenerateSortedData(int a[], int n)
-{
+vector<int> GenerateSortedData( int n)
+{	
+	vector<int> array;
 	for (int i = 0; i < n; i++)
 	{
-		a[i] = i;
+		array.push_back (i);
 	}
+
+	return array;
 }
 
 // Function to generate an array with descending order data
-void GenerateReverseData(int a[], int n)
-{
+vector<int> GenerateReverseData( int n)
+{	
+	vector<int> array;
 	for (int i = 0; i < n; i++)
 	{
-		a[i] = n - 1 - i;
+		array.push_back(n - 1 - i);
 	}
+
+	return array;
 }
 
 // Function to generate an array with nearly sorted data
-void GenerateNearlySortedData(int a[], int n)
+vector<int> GenerateNearlySortedData( int n)
 {
+	vector<int> array;
 	for (int i = 0; i < n; i++)
 	{
-		a[i] = i;
+		array.push_back(i);
 	}
 	srand((unsigned int) time(NULL));
 	for (int i = 0; i < 10; i ++)
 	{
 		int r1 = rand()%n;
 		int r2 = rand()%n;
-		Swap(a[r1], a[r2]);
+		Swap(array[r1], array[r2]);
 	}
 }
 
-void GenerateData(int a[], int n, int dataType)
-{
-	switch (dataType)
-	{
-	case 0:	// random
-		GenerateRandomData(a, n);
-		break;
-	case 1:	// sorted
-		GenerateSortedData(a, n);
-		break;
-	case 2:	// reverse sorted
-		GenerateReverseData(a, n);
-		break;
-	case 3:	// nearly sorted
-		GenerateNearlySortedData(a, n);
-		break;
-	default:
-		printf("Error: unknown data type!\n");
+vector<int> GenerateData(int n , string dataType) {
+	vector<int> array;
+	if (dataType == "-sorted") {
+		array = GenerateSortedData(n);
 	}
+	else if (dataType == "-nsorted" ) {
+		array = GenerateNearlySortedData(n);
+	}
+	else if (dataType == "-rev") {
+		array = GenerateReverseData(n);
+	}
+	else if (dataType =="-rand" ) {
+		array = GenerateRandomData(n);
+	}
+	else {
+		cout << "Invalid dataset type input \n";
+	}
+	return array;
+}
+
+void writeFile(string filename, string dataType, int size) {
+	ofstream fout(filename);
+	if (!fout.is_open()) {
+		cout << "Error " << endl;
+	}
+
+	fout << size << endl;
+	vector<int> array = GenerateData(size, dataType);
+	for (int x: array ){
+		fout << x << " ";
+	}
+	fout.close();
 }
