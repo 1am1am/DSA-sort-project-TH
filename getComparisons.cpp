@@ -27,29 +27,33 @@ long long getAlgorithm(string Name, const vector<int>& Array){
     return Comparisons;
 }
 
+void readFile(vector<int>& Array, Command& command){
+    ifstream fin;
+    fin.open(command.inputFile);
+    fin >> command.inputFile;
+    for(int i = 0; i < command.inputSize; ++i){
+        int Number; fin >> Number;
+        Array.push_back(Number);
+    }
+    fin.close();
+}
+
+void makeInput(vector<int>& Array, Command& command){
+    int* Array2 = new int[command.inputSize];
+    if(command.inputOrder == "-rand") (Array2, command.inputSize, 0);
+    if(command.inputOrder == "-sorted") (Array2, command.inputSize, 1);
+    if(command.inputOrder == "-rev") (Array2, command.inputSize, 2);
+    if(command.inputOrder == "-nsorted") (Array2, command.inputSize, 3);
+    for(int i = 0; i < command.inputSize; ++i) Array.push_back(Array2[i]);
+    delete[]Array2;
+}
+
 void getComparisons(Command command){
     vector<int> Array; 
-    if(command.inputFile != ""){
-        ifstream fin;
-        fin.open(command.inputFile);
-        fin >> command.inputFile;
-        for(int i = 0; i < command.inputSize; ++i){
-            int Number; fin >> Number;
-            Array.push_back(Number);
-        }
-        fin.close();
-    }
-    else{
-        int* Array2 = new int[command.inputSize];
-        if(command.inputOrder == "-rand") (Array2, command.inputSize, 0);
-        if(command.inputOrder == "-sorted") (Array2, command.inputSize, 1);
-        if(command.inputOrder == "-rev") (Array2, command.inputSize, 2);
-        if(command.inputOrder == "-nsorted") (Array2, command.inputSize, 3);
-        for(int i = 0; i < command.inputSize; ++i) Array.push_back(Array2[i]);
-        delete[]Array2;
-    }
-    int Comparision1 = getAlgorithm(command.algorithm1, Array), Comparision2 = 0;
-    if(command.mode == "-c"){
-        Comparision2 = getAlgorithm(command.algorithm2, Array);
-    }
+    if(command.inputFile != "") readFile(Array, command);
+    else makeInput(Array, command);
+    int Comparison1 = getAlgorithm(command.algorithm1, Array), Comparison2 = 0;
+    if(command.mode == "-c") Comparison2 = getAlgorithm(command.algorithm2, Array);
+    command.comparisons1 = Comparison1;
+    command.comparisons2 = Comparison2;
 }
