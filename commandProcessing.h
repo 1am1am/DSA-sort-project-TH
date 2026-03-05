@@ -12,7 +12,7 @@ struct Command{
     int inputSize;
     std::string inputOrder;
     std::string outputParameter;
-    double time1, time2;
+    double runningTime1, runningTime2;
     long long comparisons1, comparisons2;
 
 };
