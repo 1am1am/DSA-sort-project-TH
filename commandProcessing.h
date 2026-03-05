@@ -12,6 +12,9 @@ struct Command{
     int inputSize;
     std::string inputOrder;
     std::string outputParameter;
+    double time1, time2;
+    long long comparisons1, comparisons2;
+
 };
 
 Command commandProcessing(int argc, std::vector<std::string> argv);

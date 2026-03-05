@@ -1,6 +1,8 @@
 #ifndef CONSOLE_UI_H
 #define CONSOLE_UI_H
 
+#include "commandProcessing.h"
+
 struct Parameter {
     std::string algorithm;
     int inputSize;
