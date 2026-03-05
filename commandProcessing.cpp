@@ -1,4 +1,4 @@
-#include "setMode.h"
+#include "getComparisons.h"
 #include "consoleUI.h"
 #include "commandProcessing.h"
 #include <iostream>
