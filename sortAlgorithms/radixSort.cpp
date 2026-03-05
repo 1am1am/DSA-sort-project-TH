@@ -2,12 +2,14 @@
 #include <algorithm>
 #include <vector>
 #include <ctime>
+#include "sort.h"
+
 using namespace std;
 struct Bucket {
 	int* data;
 	int count;
 };
-void radixSort(int arr[], int size) {
+void radixSort(int arr[], int size, long long& comparisions) {
 	int maxv = arr[0];
 	for (int i = 0; i < size;i++) {
 		if (maxv < arr[i]) maxv = arr[i];
