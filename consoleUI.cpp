@@ -10,10 +10,10 @@ void outputParameter(std::string outputType, Command command) {
     if (outputType == "-time") {
         std::cout << "Running time: " << command.runningTime1 << (!command.algorithm2.empty() ? " | " : "") << (!command.algorithm2.empty() ? std::to_string(command.runningTime2) : "") << '\n';
     } else if (outputType == "-comp") {
-        std::cout << "Comparisons: " << command.runningTime1 << (!command.algorithm2.empty() ? " | " : "") << (!command.algorithm2.empty() ? std::to_string(command.comparisons2) : "") << '\n';
+        std::cout << "Comparisons: " << command.comparisons1 << (!command.algorithm2.empty() ? " | " : "") << (!command.algorithm2.empty() ? std::to_string(command.comparisons2) : "") << '\n';
     } else if (outputType == "-both") {
         std::cout << "Running time: " << command.runningTime1 << (!command.algorithm2.empty() ? " | " : "") << (!command.algorithm2.empty() ? std::to_string(command.runningTime2) : "") << '\n';
-        std::cout << "Comparisons: " << command.runningTime1 << (!command.algorithm2.empty() ? " | " : "") << (!command.algorithm2.empty() ? std::to_string(command.comparisons2) : "") << '\n';
+        std::cout << "Comparisons: " << command.comparisons1 << (!command.algorithm2.empty() ? " | " : "") << (!command.algorithm2.empty() ? std::to_string(command.comparisons2) : "") << '\n';
     }
 }
 
@@ -37,14 +37,20 @@ void print(Command& command) {
     if (command.inputOrder == "-all" && command.inputFile.empty()) {
         command.inputOrder = "-sorted";
         consoleUI(command);
+        std::cout << '\n';
 
         command.inputOrder = "-nsorted";
+        getComparisonsAndTime(command);
         consoleUI(command);
+        std::cout << '\n';
 
         command.inputOrder = "-rev";
+        getComparisonsAndTime(command);
         consoleUI(command);
+        std::cout << '\n';
 
         command.inputOrder = "-rand";
+        getComparisonsAndTime(command);
         consoleUI(command);
     } else {
         consoleUI(command);
