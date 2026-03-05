@@ -2,6 +2,8 @@
 #include <algorithm>
 #include <vector>
 #include <ctime>
+#include "sort.h"
+
 using namespace std;
 struct Bucket {
 	int* data;
