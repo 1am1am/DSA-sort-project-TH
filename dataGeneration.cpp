@@ -53,8 +53,7 @@ vector<int> GenerateReverseData( int n)
 }
 
 // Function to generate an array with nearly sorted data
-vector<int> GenerateNearlySortedData( int n)
-{
+vector<int> GenerateNearlySortedData(int n) {
 	vector<int> array;
 	for (int i = 0; i < n; i++)
 	{
@@ -67,6 +66,8 @@ vector<int> GenerateNearlySortedData( int n)
 		int r2 = rand()%n;
 		Swap(array[r1], array[r2]);
 	}
+
+	return array;
 }
 
 vector<int> GenerateData(int n , string dataType) {

@@ -2,12 +2,13 @@
 #define DATAGENERATION_H
 #include <iostream>
 #include <vector>
+
 using namespace std;
 
 template <class T>
 void Swap(T &a, T &b);
 //-------------------------------------------------
-
+void writeFile(string filename, string dataType, int size);
 // Function to generate an array with random data
 vector<int> GenerateRandomData(int n);
 
