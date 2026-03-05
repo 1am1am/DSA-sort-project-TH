@@ -1,4 +1,4 @@
-#include "getComparisons.h"
+#include "getComparisonsAndTime.h"
 #include "consoleUI.h"
 #include "commandProcessing.h"
 #include <iostream>
@@ -18,17 +18,18 @@ Command commandProcessing(int argc, std::vector<std::string> argv) {
     std::vector<int> array;
     long long comparisons1, comparisons2;
     if (command.mode == "-a") {
-        if (isNumber(argv[4])) {
-            command.inputSize = stoi(argv[4]);
+        if (isNumber(argv[3])) {
+            command.inputSize = stoi(argv[3]);
         } else {
-            command.inputFile = argv[4];
+            command.inputFile = argv[3];
         }
 
         if (argc == 5) {
-            command.outputParameter = argv[5];
+            command.outputParameter = argv[4];
+
         } else {
-            command.inputOrder = argv[5];
-            command.outputParameter = argv[6];
+            command.inputOrder = argv[4];
+            command.outputParameter = argv[5];
         }
     } else if (command.mode == "-c") {
         command.algorithm2 = argv[3];

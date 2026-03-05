@@ -7,7 +7,7 @@
 using namespace std;
 
 long long getAlgorithm(string Name, const vector<int>& Array,double &Time);
-void getComparisons(Command& command);
+void getComparisonsAndTime(Command& command);
 void readFile(vector<int>& Array, Command& command);
 void makeInput(vector<int>& Array, Command& command);
 

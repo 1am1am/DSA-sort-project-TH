@@ -13,10 +13,36 @@ void outputParameter(std::string outputType, Command command) {
     }
 }
 
+std::string nameInputOrder(std::string inputOrder) {
+    if (inputOrder == "-sorted") return "Sorted";
+    if (inputOrder == "-nsorted") return "Nearly Sorted";
+    if (inputOrder == "-rev") return "Reverse Sorted";
+    return "Randomized";
+}
+
 void consoleUI(Command command) {
     std::cout << "Algorithm: " << command.algorithm1 << (!command.algorithm2.empty() ? " | " : "") << command.algorithm2 << '\n';
+    if (!command.inputFile.empty()) std::cout << "Input file: " << command.inputFile << '\n';
     std::cout << "Input size: " << command.inputSize << '\n';
-    std::cout << "Input order: " << command.inputOrder << '\n';
+    if (command.inputFile.empty()) std::cout << "Input order: " << nameInputOrder(command.inputOrder) << '\n';
     std::cout << "-------------------------\n";
     outputParameter(command.outputParameter, command);
+}
+
+void print(Command& command) {
+    if (command.inputOrder == "-all" && command.inputFile.empty()) {
+        command.inputOrder = "-sorted";
+        consoleUI(command);
+
+        command.inputOrder = "-nsorted";
+        consoleUI(command);
+
+        command.inputOrder = "-rev";
+        consoleUI(command);
+
+        command.inputOrder = "-rand";
+        consoleUI(command);
+    } else {
+        consoleUI(command);
+    }
 }

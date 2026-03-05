@@ -14,7 +14,9 @@ struct Command{
     std::string outputParameter;
     double runningTime1, runningTime2;
     long long comparisons1, comparisons2;
-
+    Command() {
+        inputOrder = "-all";
+    }
 };
 
 Command commandProcessing(int argc, std::vector<std::string> argv);

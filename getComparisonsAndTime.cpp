@@ -55,7 +55,7 @@ void makeInput(vector<int>& Array, Command& command){
     delete[]Array2;
 }
 
-void getComparisons(Command& command){
+void getComparisonsAndTime(Command& command){
     double time1 = 0.0, time2 = 0.0;
     vector<int> Array; 
     if(command.inputFile != "") readFile(Array, command);
