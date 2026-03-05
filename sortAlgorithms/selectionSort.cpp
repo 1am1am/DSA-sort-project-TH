@@ -2,6 +2,8 @@
 #include <algorithm>
 #include <vector>
 #include <ctime>
+#include "sort.h"
+
 using namespace std;
 void selectionSort(std::vector<int>& array, long long& comparisons){
 	int size = array.size();
