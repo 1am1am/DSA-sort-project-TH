@@ -4,12 +4,15 @@
 #include <fstream>
 #include "dataGeneration.h"
 #include "commandProcessing.h"
+#include <chrono>
+#include "commandProcessing.h"
 
 using namespace std;
 
-long long getAlgorithm(string Name, const vector<int>& Array){
+long long getAlgorithm(string Name, const vector<int>& Array,double &Time){
     vector<int> Tmp = Array;
     long long Comparisons = 0;
+    auto start = chrono::high_resolution_clock::now();
 
     if("selection-sort" == Name) selectionSort(Tmp, Comparisons);
     if("insertion-sort" == Name) insertionSort(Tmp, Comparisons);
@@ -24,6 +27,10 @@ long long getAlgorithm(string Name, const vector<int>& Array){
     if("shaker-sort" == Name) shakerSort(Tmp, Comparisons);
     if("flash-sort" == Name) flashSort(Tmp, Comparisons);
 
+    auto end = chrono::high_resolution_clock::now();
+    
+    chrono::duration<double, milli> duration = end - start;
+    Time = duration.count();
     return Comparisons;
 }
 
@@ -48,12 +55,15 @@ void makeInput(vector<int>& Array, Command& command){
     delete[]Array2;
 }
 
-void getComparisons(Command command){
+void getComparisons(Command& command){
+    double time1 = 0.0, time2 = 0.0;
     vector<int> Array; 
     if(command.inputFile != "") readFile(Array, command);
     else makeInput(Array, command);
-    int Comparison1 = getAlgorithm(command.algorithm1, Array), Comparison2 = 0;
-    if(command.mode == "-c") Comparison2 = getAlgorithm(command.algorithm2, Array);
+    long long Comparison1 = getAlgorithm(command.algorithm1, Array,time1), Comparison2 = 0;
+    if(command.mode == "-c") Comparison2 = getAlgorithm(command.algorithm2, Array,time2);
     command.comparisons1 = Comparison1;
     command.comparisons2 = Comparison2;
+    command.runningTime1 = time1;
+    command.runningTime2 = time2;
 }
