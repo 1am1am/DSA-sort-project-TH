@@ -1,4 +1,8 @@
-﻿#include "commandProcessing.h"
+﻿#include "consoleUI.h"
+#include "getComparisonsAndTime.h"
+#include "commandProcessing.h"
+#include "dataGeneration.h"
+#include "sortAlgorithms/sort.h"
 #include <iostream>
 #include <fstream>
 #include <cmath>

@@ -9,7 +9,7 @@ struct Bucket {
 	int* data;
 	int count;
 };
-void radixSort(vector<int> &&array, long long &comparisons) {
+void radixSort(vector<int>& array, long long& comparisons) {
 	int size = array.size();
 	int maxv = array[0];
 	for (int i = 0; ++comparisons && i < size;i++) {

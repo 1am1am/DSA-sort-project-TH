@@ -3,11 +3,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file",
-<<<<<<< HEAD
-            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
-=======
-            "command": "C:\\MinGW\\bin\\g++.exe",
->>>>>>> 72ec83490b00d43426c2ec1e73ffa097d7f521e2
+            "command": "C:\\Strawberry\\c\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -16,11 +12,7 @@
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-<<<<<<< HEAD
                 "cwd": "${fileDirname}"
-=======
-                "cwd": "C:\\MinGW\\bin"
->>>>>>> 72ec83490b00d43426c2ec1e73ffa097d7f521e2
             },
             "problemMatcher": [
                 "$gcc"

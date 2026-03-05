@@ -3,6 +3,6 @@
 
 #include "commandProcessing.h"
 
-void print(Command command);
+void print(Command& command);
 
 #endif
