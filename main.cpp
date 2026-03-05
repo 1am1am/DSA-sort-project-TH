@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
     //g++ main.cpp -o 07.exe
 
     std::vector<std::string> commandLine(argv, argv + argc);
-    inputProcessing(argc, commandLine);
+    commandProcessing(argc, commandLine);
     
     return 0;
 }
