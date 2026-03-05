@@ -3,6 +3,8 @@
 #include <vector>
 #include <ctime>
 #include <cstdlib>
+#include "sort.h"
+
 using namespace std;
 
 int partition(vector<int>& arr, int l, int r) { // lumoto
