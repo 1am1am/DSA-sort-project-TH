@@ -1,5 +1,5 @@
-#ifndef INPUT_PROCESSING_H
-#define INPUT_PROCESSING_H
+#ifndef COMMAND_PROCESSING_H
+#define COMMAND_PROCESSING_H
 
 #include <vector>
 #include <string>
@@ -14,6 +14,6 @@ struct Command{
     std::string outputParameter;
 };
 
-Command inputProcessing(int argc, std::vector<std::string> argv);
+Command commandProcessing(int argc, std::vector<std::string> argv);
 
 #endif
