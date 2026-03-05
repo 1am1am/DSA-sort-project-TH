@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "sort.h"
+#include "sortAlgorithms/sort.h"
 #include <fstream>
 #include "dataGeneration.h"
 
@@ -26,7 +26,7 @@ long long getAlgorithm(string Name, const vector<int>& Array){
     return Comparisions;
 }
 
-void setMode(string Mode, string Algorithm1, string Algorithm2, string InputFile, int InputSize, string InputOrder, string Output){
+void getComparisons(string Mode, string Algorithm1, string Algorithm2, string InputFile, int InputSize, string InputOrder, string Output){
     vector<int> Array; 
     if(InputFile != ""){
         ifstream fin;

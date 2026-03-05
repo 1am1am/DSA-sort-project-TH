@@ -10,8 +10,8 @@ bool isNumber(const std::string& s) {
     return !s.empty() && it == s.end();
 }
 
-Input inputProcessing(int argc, std::vector<std::string> argv) {
-    Input command;
+Command inputProcessing(int argc, std::vector<std::string> argv) {
+    Command command;
     command.mode = argv[1];
     command.algorithm1 = argv[2];
     
