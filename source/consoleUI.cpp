@@ -17,18 +17,33 @@ void outputParameter(std::string outputType, Command command) {
     }
 }
 
-std::string nameInputOrder(std::string inputOrder) {
+std::string algorithmInputOrder(std::string inputOrder) {
     if (inputOrder == "-sorted") return "Sorted";
     if (inputOrder == "-nsorted") return "Nearly Sorted";
     if (inputOrder == "-rev") return "Reverse Sorted";
     return "Randomized";
 }
 
+std::string nameAlgorithm(std::string algorithm) {
+    if("selection-sort" == algorithm) return "Selection Sort";
+    if("insertion-sort" == algorithm) return "Insertion Sort";
+    if("shell-sort" == algorithm) return "Shell Sort";
+    if("bubble-sort" == algorithm) return "Bubble Sort";
+    if("heap-sort" == algorithm) return "Heap Sort";
+    if("merge-sort" == algorithm) return "Merge Sort";
+    if("quick-sort" == algorithm) return "Quick Sort";
+    if("radix-sort" == algorithm) return "Radix Sort";
+    if("counting-sort" == algorithm) return "Counting Sort";
+    if("binary-insertion-sort" == algorithm) return "Binary Insertion Sort";
+    if("shaker-sort" == algorithm) return "Shaker Sort";
+    if("flash-sort" == algorithm) return "Flash Sort";
+}
+
 void consoleUI(Command command) {
-    std::cout << "Algorithm: " << command.algorithm1 << (!command.algorithm2.empty() ? " | " : "") << command.algorithm2 << '\n';
+    std::cout << "Algorithm: " << nameAlgorithm(command.algorithm1) << (!command.algorithm2.empty() ? " | " : "") << nameAlgorithm(command.algorithm2) << '\n';
     if (!command.inputFile.empty()) std::cout << "Input file: " << command.inputFile << '\n';
     std::cout << "Input size: " << command.inputSize << '\n';
-    if (command.inputFile.empty()) std::cout << "Input order: " << nameInputOrder(command.inputOrder) << '\n';
+    if (command.inputFile.empty()) std::cout << "Input order: " << algorithmInputOrder(command.inputOrder) << '\n';
     std::cout << "-------------------------\n";
     outputParameter(command.outputParameter, command);
 }

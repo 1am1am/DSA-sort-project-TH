@@ -41,7 +41,7 @@ void readFile(vector<int>& Array, Command& command){
     if(!fin.is_open()){
         cout << "Error!\n";
         command.inputSize = 0;
-        return;
+        exit(0);
     }
     fin >> command.inputSize;
     for(int i = 0; i < command.inputSize; ++i){
