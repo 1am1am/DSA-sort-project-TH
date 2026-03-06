@@ -47,13 +47,10 @@ void readFile(vector<int>& Array, Command& command){
 }
 
 void makeInput(vector<int>& Array, Command& command){
-    int* Array2 = new int[command.inputSize];
-    if(command.inputOrder == "-rand") (Array2, command.inputSize, 0);
-    if(command.inputOrder == "-sorted") (Array2, command.inputSize, 1);
-    if(command.inputOrder == "-rev") (Array2, command.inputSize, 2);
-    if(command.inputOrder == "-nsorted") (Array2, command.inputSize, 3);
-    for(int i = 0; i < command.inputSize; ++i) Array.push_back(Array2[i]);
-    delete[]Array2;
+    if(command.inputOrder == "-rand") Array = GenerateData(command.inputSize, "-rand");
+    if(command.inputOrder == "-sorted") Array = GenerateData(command.inputSize, "-sorted");
+    if(command.inputOrder == "-rev") Array = GenerateData(command.inputSize, "-rev");
+    if(command.inputOrder == "-nsorted") Array = GenerateData(command.inputSize, "-nsorted");
 }
 
 void getComparisonsAndTime(Command& command){

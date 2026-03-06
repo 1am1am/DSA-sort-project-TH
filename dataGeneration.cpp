@@ -29,7 +29,7 @@ vector<int> GenerateRandomData(int n)
 	{
 		array.push_back (rand()%n);
 	}
-
+	cout << endl;
 	return array;
 }
 
