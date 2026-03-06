@@ -53,6 +53,7 @@ void consoleUI(Command command) {
 void print(Command& command) {
     if (command.inputOrder == "-all" && command.inputFile.empty()) {
         command.inputOrder = "-sorted";
+        getComparisonsAndTime(command);
         consoleUI(command);
         std::cout << '\n';
 
