@@ -21,7 +21,8 @@ std::string algorithmInputOrder(std::string inputOrder) {
     if (inputOrder == "-sorted") return "Sorted";
     if (inputOrder == "-nsorted") return "Nearly Sorted";
     if (inputOrder == "-rev") return "Reverse Sorted";
-    return "Randomized";
+    if (inputOrder == "-rand") return "Randomized";
+    return "None";
 }
 
 std::string nameAlgorithm(std::string algorithm) {
@@ -37,6 +38,7 @@ std::string nameAlgorithm(std::string algorithm) {
     if("binary-insertion-sort" == algorithm) return "Binary Insertion Sort";
     if("shaker-sort" == algorithm) return "Shaker Sort";
     if("flash-sort" == algorithm) return "Flash Sort";
+    return "None";
 }
 
 void consoleUI(Command command) {
