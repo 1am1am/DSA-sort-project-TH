@@ -12,6 +12,7 @@ void runTest() {
     std::vector<std::string> algorithm = {"selection-sort", "insertion-sort", "shell-sort", "bubble-sort", "heap-sort", "merge-sort", "quick-sort", "radix-sort", "counting-sort", "binary-insertion-sort", "shaker-sort", "flash-sort"};
     std::vector<std::string> size = {"10000", "30000", "50000", "100000", "300000", "500000"};
     for (std::string alg : algorithm) {
+        std::cout << "############### ĐÂY LÀ " << alg << " ###############\n"; 
         for (std::string x : size) {
             cmdLine[1] = "-a";
             cmdLine[2] = alg;
@@ -20,6 +21,7 @@ void runTest() {
             Command cmd = commandProcessing(5, cmdLine);
             getComparisonsAndTime(cmd);
             print(cmd);
+            std::cout << "\n";
         }
     }
 }
