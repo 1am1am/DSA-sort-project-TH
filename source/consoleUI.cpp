@@ -22,7 +22,7 @@ std::string algorithmInputOrder(std::string inputOrder) {
     if (inputOrder == "-nsorted") return "Nearly Sorted";
     if (inputOrder == "-rev") return "Reverse Sorted";
     if (inputOrder == "-rand") return "Randomized";
-    return "None";
+    return "";
 }
 
 std::string nameAlgorithm(std::string algorithm) {
@@ -38,7 +38,7 @@ std::string nameAlgorithm(std::string algorithm) {
     if("binary-insertion-sort" == algorithm) return "Binary Insertion Sort";
     if("shaker-sort" == algorithm) return "Shaker Sort";
     if("flash-sort" == algorithm) return "Flash Sort";
-    return "None";
+    return "";
 }
 
 void consoleUI(Command command) {
