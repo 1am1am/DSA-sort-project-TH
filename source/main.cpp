@@ -14,7 +14,7 @@ int main(int argc, char* argv[]) {
 
     Command command = commandProcessing(argc, commandLine);
     getComparisonsAndTime(command);
-
+    
     print(command);
     return 0;
 }
