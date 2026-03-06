@@ -8,7 +8,7 @@ void insertionSort(std::vector<int>& array, long long& comparisons) {
         int val = array[i];
         int j = i - 1;
         
-        while (++comparisons && j >= 0 && array[j] > val) {
+        while (++comparisons && j >= 0 && ++comparisons && array[j] > val) {
             array[j + 1] = array[j];
             --j;
         }

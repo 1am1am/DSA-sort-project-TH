@@ -8,9 +8,9 @@ void binaryInsertionSort(vector<int>& A, long long& comparisions){
     for(int i = 1; ++comparisions && i < A.size(); ++i){
         int value = A[i];
         int l = 0, r = i - 1, pos = i - 1;
-        while( ++comparisions && l <= r){
+        while (++comparisions && l <= r){
             int m = l + ((r - l) >> 1);
-            if( ++comparisions && A[m] >= value){
+            if (++comparisions && A[m] >= value){
                 r = m - 1;
                 pos = m;
             }

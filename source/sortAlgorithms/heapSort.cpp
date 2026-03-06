@@ -4,7 +4,7 @@
 
 void Heapify(std::vector<int>& array , int start, int n, long long& comparisons) {
     int leftChild = start *  2 + 1;
-    if ( ++comparisons && leftChild >= n) return;
+    if (++comparisons && leftChild >= n) return;
     int largerChild = leftChild;
     int rightChild = start * 2 + 2;
     if (++comparisons && rightChild < n) {
@@ -20,7 +20,7 @@ void Heapify(std::vector<int>& array , int start, int n, long long& comparisons)
 }
 
 
-void heapSort(std::vector<int>&array, long long &comparisons) {
+void heapSort(std::vector<int>& array, long long& comparisons) {
     for (int i = (array.size()-1)/2; ++comparisons && i >= 0 ; i--) {
         Heapify(array,i,array.size(),comparisons);
     }

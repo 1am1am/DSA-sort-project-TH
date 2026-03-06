@@ -15,6 +15,8 @@ struct Command{
     double runningTime1, runningTime2;
     long long comparisons1, comparisons2;
     Command() {
+        runningTime1 = runningTime2 = 0;
+        comparisons1 = comparisons2 = 0;
         inputOrder = "-all";
     }
 };

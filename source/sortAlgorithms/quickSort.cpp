@@ -7,32 +7,67 @@
 
 using namespace std;
 
+void insertionSortSubmatrix(std::vector<int>& array, int l, int r, long long& comparisons) {
+    int n = array.size();
+    for (int i = l + 1; ++comparisons && i <= r; ++i) {
+        int val = array[i];
+        int j = i - 1;
+        
+        while (++comparisons && j >= 0 && ++comparisons && array[j] > val) {
+            array[j + 1] = array[j];
+            --j;
+        }
+        array[j + 1] = val;
+    }
+}
+
+int selectPivot(vector<int>& arr, int l, int r, long long& comparisons) {
+    int mid = l + (r - l) / 2;
+    if (++comparisons && arr[l] > arr[mid]) std::swap(arr[l], arr[mid]);
+    if (++comparisons && arr[mid] > arr[r]) std::swap(arr[mid], arr[r]);
+    if (++comparisons && arr[l] > arr[mid]) std::swap(arr[l], arr[mid]);
+    return mid;
+}
+
 int partition(vector<int>& arr, int l, int r, long long& comparisons) { // lomuto
-    int pivot = arr[r];
-    int j = l - 1;
-    for (int i = l; i < r; i++) {
-        comparisons++; 
-        if (arr[i] <= pivot) {
-            j++;
-            swap(arr[j], arr[i]);
+    int pivotIdx = selectPivot(arr, l, r, comparisons);
+    int pivot = arr[pivotIdx];
+
+    std::swap(arr[pivotIdx], arr[r - 1]);
+    pivotIdx = r - 1;
+
+    int left = l + 1;
+    int right = r - 2;
+
+    while (++comparisons && left <= right) {
+        while (++comparisons && arr[left] < pivot) left++;
+        while (++comparisons && arr[right] > pivot) right--;
+
+        if (++comparisons && left <= right) {
+            std::swap(arr[left], arr[right]);
+            left++;
+            right--;
         }
     }
-    j++;
-    swap(arr[j], arr[r]);
-    return j;
+
+    std::swap(arr[pivotIdx], arr[left]);
+    pivotIdx = left;
+    return pivotIdx;
 }
 
 void quickSortArray(vector<int>& array, int l, int r, long long& comparisons) { // lomuto
-    if (l < r) {
+    if (++comparisons && l < r) {
+        if (++comparisons && (r - l) < 10) {
+            insertionSortSubmatrix(array, l, r, comparisons);
+            return;
+        }
         int p = partition(array, l, r, comparisons);
         quickSortArray(array, l, p - 1, comparisons);
         quickSortArray(array, p + 1, r, comparisons);
     }
 }
 void quickSort(vector<int>& array, long long& comparisons) { // lomuto
-    comparisons = 0; 
-
-    if (!array.empty()) {
+    if (++comparisons && !array.empty()) {
         quickSortArray(array, 0, array.size() - 1, comparisons);
     }
 }

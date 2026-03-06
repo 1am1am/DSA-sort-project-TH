@@ -15,9 +15,8 @@ void merge(std::vector<int>& array, int left, int mid, int right) {
     for (int i = 0; ++countCompare && i < n2; ++i) R[i] = array[mid + i + 1];
 
     int i = 0, j = 0, k = left;
-    while (countCompare += 2 && i < n1 && j < n2) {
-        ++countCompare;
-        if (L[i] < R[j]) {
+    while (++countCompare && i < n1 && ++countCompare && j < n2) {
+        if (++countCompare && L[i] < R[j]) {
             array[k++] = L[i++];
         } else {
             array[k++] = R[j++];
