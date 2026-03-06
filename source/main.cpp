@@ -6,6 +6,22 @@
 #include <iostream>
 #include <string>
 
+void runTest() {
+    std::vector<std::string> cmdLine(5);
+    std::vector<std::string> algorithm = {"selection-sort", "insertion-sort", "shell-sort", "bubble-sort", "heap-sort", "merge-sort", "quick-sort", "radix-sort", "counting-sort", "binary-insertion-sort", "shaker-sort", "flash-sort"};
+    std::vector<std::string> size = {"10000", "30000", "50000", "100000", "300000", "500000"};
+    for (std::string alg : algorithm) {
+        for (std::string x : size) {
+            cmdLine[1] = "-a";
+            cmdLine[2] = alg;
+            cmdLine[3] = x;
+            cmdLine[4] = "-both";
+            Command cmd = commandProcessing(5, cmdLine);
+            getComparisonsAndTime(cmd);
+            print(cmd);
+        }
+    }
+}
 
 int main(int argc, char* argv[]) {
     //g++ main.cpp -o 07.exe
@@ -16,5 +32,6 @@ int main(int argc, char* argv[]) {
     getComparisonsAndTime(command);
     
     print(command);
+    
     return 0;
 }
