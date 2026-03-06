@@ -38,6 +38,10 @@ long long getAlgorithm(string Name, const vector<int>& Array,double &Time){
 void readFile(vector<int>& Array, Command& command){
     ifstream fin;
     fin.open(command.inputFile);
+    if(fin.is_open()){
+        cout << "Error!\n";
+        command.inputSize = 0;
+    }
     fin >> command.inputSize;
     for(int i = 0; i < command.inputSize; ++i){
         int Number; fin >> Number;
