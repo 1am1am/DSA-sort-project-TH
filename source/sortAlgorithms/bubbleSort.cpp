@@ -18,3 +18,19 @@ void bubbleSort(std::vector<int>& array, long long& comparisons) {
         }
     }
 }
+
+void bubbleSortTime(std::vector<int>& array) {
+    bool unsorted = true;
+    int pas = 0 ; 
+    int n = array.size();
+    while (unsorted) {
+        unsorted = false;
+        pas++;
+        for (int i = 0; i < n - pas; i++ ) {
+            if (array[i] > array[i+1]) {
+                swap(array[i], array[i+1]);
+                unsorted = true;    
+            }
+        }
+    }
+}
