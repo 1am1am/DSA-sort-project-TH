@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.22)  11 MAR 2026 13:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.22)  11 MAR 2026 13:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -834,8 +834,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count347
 \l__pdf_internal_box=\box83
-)
-No file main.aux.
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -858,7 +857,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
-(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count348
 \scratchdimen=\dimen303
@@ -878,6 +877,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 4.
+ (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -918,55 +918,57 @@ Package hyperref Info: Link coloring ON on input line 4.
 
 \c@lstlisting=\count354
 (content/contents/3-experimental-results-and-comments.tex) (chart.tex
-<img/charts/Nearly Sorted Input (1).pdf, id=6, 721.69624pt x 372.39125pt>
-File: img/charts/Nearly Sorted Input (1).pdf Graphic file (type pdf)
-<use img/charts/Nearly Sorted Input (1).pdf>
-Package pdftex.def Info: img/charts/Nearly Sorted Input (1).pdf  used on input line 3.
+<img/charts/test.pdf, id=14, 721.69624pt x 372.39125pt>
+File: img/charts/test.pdf Graphic file (type pdf)
+<use img/charts/test.pdf>
+Package pdftex.def Info: img/charts/test.pdf  used on input line 3.
 (pdftex.def)             Requested size: 721.69449pt x 372.39034pt.
-<img/charts/Nearly Sorted Input (1).pdf, id=8, page=1, 721.69624pt x 372.39125pt>
-File: img/charts/Nearly Sorted Input (1).pdf Graphic file (type pdf)
-<use img/charts/Nearly Sorted Input (1).pdf, page 1>
-Package pdftex.def Info: img/charts/Nearly Sorted Input (1).pdf , page1 used on input line 3.
+<img/charts/test.pdf, id=16, page=1, 721.69624pt x 372.39125pt>
+File: img/charts/test.pdf Graphic file (type pdf)
+<use img/charts/test.pdf, page 1>
+Package pdftex.def Info: img/charts/test.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 721.69449pt x 372.39034pt.
-File: img/charts/Nearly Sorted Input (1).pdf Graphic file (type pdf)
-<use img/charts/Nearly Sorted Input (1).pdf, page 1>
-Package pdftex.def Info: img/charts/Nearly Sorted Input (1).pdf , page1 used on input line 3.
+File: img/charts/test.pdf Graphic file (type pdf)
+<use img/charts/test.pdf, page 1>
+Package pdftex.def Info: img/charts/test.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 649.52063pt x 335.14902pt.
  [1{C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
-File: img/charts/Nearly Sorted Input (1).pdf Graphic file (type pdf)
-<use img/charts/Nearly Sorted Input (1).pdf, page 1>
-Package pdftex.def Info: img/charts/Nearly Sorted Input (1).pdf , page1 used on input line 3.
+File: img/charts/test.pdf Graphic file (type pdf)
+<use img/charts/test.pdf, page 1>
+Package pdftex.def Info: img/charts/test.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 649.52063pt x 335.14902pt.
-File: img/charts/Nearly Sorted Input (1).pdf Graphic file (type pdf)
-<use img/charts/Nearly Sorted Input (1).pdf, page 1>
-Package pdftex.def Info: img/charts/Nearly Sorted Input (1).pdf , page1 used on input line 3.
+File: img/charts/test.pdf Graphic file (type pdf)
+<use img/charts/test.pdf, page 1>
+Package pdftex.def Info: img/charts/test.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 649.52063pt x 335.14902pt.
-File: img/charts/Nearly Sorted Input (1).pdf Graphic file (type pdf)
-<use img/charts/Nearly Sorted Input (1).pdf, page 1>
-Package pdftex.def Info: img/charts/Nearly Sorted Input (1).pdf , page1 used on input line 3.
+File: img/charts/test.pdf Graphic file (type pdf)
+<use img/charts/test.pdf, page 1>
+Package pdftex.def Info: img/charts/test.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 649.52063pt x 335.14902pt.
  [2
 
- <./img/charts/Nearly Sorted Input (1).pdf>]
-File: img/charts/Nearly Sorted Input (1).pdf Graphic file (type pdf)
-<use img/charts/Nearly Sorted Input (1).pdf>
-Package pdftex.def Info: img/charts/Nearly Sorted Input (1).pdf  used on input line 4.
-(pdftex.def)             Requested size: 721.69449pt x 372.39034pt.
+ <./img/charts/test.pdf>]) (main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: CC0864A4A02A2983A9008E20A399CE3F;402.
+ ) 
+Here is how much of TeX's memory you used:
+ 26226 strings out of 474486
+ 474328 string characters out of 5753569
+ 1928542 words of memory out of 5000000
+ 48038 multiletter control sequences out of 15000+600000
+ 562428 words of font info for 42 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 95i,18n,96p,455b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/vntex/vnr/dpi600\vnr12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/vntex/vnr/dpi864\vnbx12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/vntex/vnr/dpi600\vnsl12.pk>
+Output written on main.pdf (2 pages, 77201 bytes).
+PDF statistics:
+ 121 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
+ 44 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-
-chart.tex:4: Package pdfpages Error: Page 2 of `img/charts/Nearly Sorted Input (1).pdf' does not exist.
-
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 ...{}]{img/charts/Nearly Sorted Input (1).pdf}
-                                                  
-You have set a wrong page number in the `pages' option. Document 
-`img/charts/Nearly Sorted Input (1).pdf' does not have 2 pages.
-
-
-!pdfTeX error: pdflatex (file ./img/charts/Nearly Sorted Input (1).pdf): PDF inclusion: required page does not exist <1>
- ==> Fatal error occurred, no output PDF file produced!
