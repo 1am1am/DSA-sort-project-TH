@@ -14,8 +14,13 @@ long long getAlgorithm(string Name, const vector<int>& Array,double &Time){
     vector<int> Tmp = Array;
     long long Comparisons = 0;
     auto start = chrono::high_resolution_clock::now();
+    auto end = chrono::high_resolution_clock::now();
 
-    if("selection-sort" == Name) selectionSortTime(Tmp);
+    if("selection-sort" == Name){
+        selectionSortTime(Tmp);
+        end = chrono::high_resolution_clock::now();
+        selectionSort(Tmp, Comparisons);
+    }
     if("insertion-sort" == Name) insertionSort(Tmp, Comparisons);
     if("shell-sort" == Name) shellSort(Tmp, Comparisons);
     if("bubble-sort" == Name) bubbleSort(Tmp, Comparisons);
@@ -28,10 +33,9 @@ long long getAlgorithm(string Name, const vector<int>& Array,double &Time){
     if("shaker-sort" == Name) shakerSort(Tmp, Comparisons);
     if("flash-sort" == Name) flashSort(Tmp, Comparisons);
 
-    auto end = chrono::high_resolution_clock::now();
-    
     chrono::duration<double, milli> duration = end - start;
     Time = duration.count();
+
     return Comparisons;
 }
 

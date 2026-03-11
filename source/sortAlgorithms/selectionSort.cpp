@@ -17,7 +17,7 @@ void selectionSort(std::vector<int>& array, long long& comparisons){
 		i++;
 	}
 }
-void selectionSortTime(std::vector<int>& array, long long& comparisons){
+void selectionSortTime(std::vector<int>& array){
 	int size = array.size();
 	int i = 0;
 	while (i < (size - 1)) {
