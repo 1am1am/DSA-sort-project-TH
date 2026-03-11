@@ -15,7 +15,7 @@ long long getAlgorithm(string Name, const vector<int>& Array,double &Time){
     long long Comparisons = 0;
     auto start = chrono::high_resolution_clock::now();
 
-    if("selection-sort" == Name) selectionSort(Tmp, Comparisons);
+    if("selection-sort" == Name) selectionSortTime(Tmp);
     if("insertion-sort" == Name) insertionSort(Tmp, Comparisons);
     if("shell-sort" == Name) shellSort(Tmp, Comparisons);
     if("bubble-sort" == Name) bubbleSort(Tmp, Comparisons);

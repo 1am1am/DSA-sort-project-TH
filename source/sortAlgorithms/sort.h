@@ -4,6 +4,7 @@
 #include <vector>
 
 void selectionSort(std::vector<int>& array, long long& comparisons);
+void selectionSortTime(std::vector<int>& array);
 void insertionSort(std::vector<int>& array, long long& comparisons);
 void shellSort(std::vector<int>& array, long long& comparisons);
 void bubbleSort(std::vector<int>& array, long long& comparisons);
