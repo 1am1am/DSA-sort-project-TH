@@ -21,17 +21,61 @@ long long getAlgorithm(string Name, const vector<int>& Array,double &Time){
         end = chrono::high_resolution_clock::now();
         selectionSort(Tmp, Comparisons);
     }
-    if("insertion-sort" == Name) insertionSort(Tmp, Comparisons);
-    if("shell-sort" == Name) shellSort(Tmp, Comparisons);
-    if("bubble-sort" == Name) bubbleSort(Tmp, Comparisons);
-    if("heap-sort" == Name) heapSort(Tmp, Comparisons);
-    if("merge-sort" == Name) mergeSort(Tmp, Comparisons);
-    if("quick-sort" == Name) quickSort(Tmp, Comparisons);
-    if("radix-sort" == Name) radixSort(Tmp, Comparisons);
-    if("counting-sort" == Name) countingSort(Tmp, Comparisons);
-    if("binary-insertion-sort" == Name) binaryInsertionSort(Tmp, Comparisons);
-    if("shaker-sort" == Name) shakerSort(Tmp, Comparisons);
-    if("flash-sort" == Name) flashSort(Tmp, Comparisons);
+    else if("insertion-sort" == Name){
+        insertionSortTime(Tmp);
+        end = chrono::high_resolution_clock::now();
+        insertionSort(Tmp, Comparisons);
+    }
+    else if("shell-sort" == Name){
+        shellSortTime(Tmp);
+        end = chrono::high_resolution_clock::now();
+        shellSort(Tmp, Comparisons);
+    }
+    else if("bubble-sort" == Name){
+        bubbleSortTime(Tmp);
+        end = chrono::high_resolution_clock::now();
+        bubbleSort(Tmp, Comparisons);
+    }
+    else if("heap-sort" == Name){
+        heapSortTime(Tmp);
+        end = chrono::high_resolution_clock::now();
+        heapSort(Tmp, Comparisons);
+    }
+    else if("merge-sort" == Name){
+        mergeSortTime(Tmp);
+        end = chrono::high_resolution_clock::now();
+        mergeSort(Tmp, Comparisons);
+    }
+    else if("quick-sort" == Name){
+        quickSortTime(Tmp);
+        end = chrono::high_resolution_clock::now();
+        quickSort(Tmp, Comparisons);
+    }
+    else if("radix-sort" == Name){
+        radixSortTime(Tmp);
+        end = chrono::high_resolution_clock::now();
+        radixSort(Tmp, Comparisons);
+    }
+    else if("counting-sort" == Name){
+        countingSortTime(Tmp);
+        end = chrono::high_resolution_clock::now();
+        countingSort(Tmp, Comparisons);
+    }
+    else if("binary-insertion-sort" == Name){
+        binaryInsertionSortTime(Tmp);
+        end = chrono::high_resolution_clock::now();
+        binaryInsertionSort(Tmp, Comparisons);
+    }
+    else if("shaker-sort" == Name){
+        shakerSortTime(Tmp);
+        end = chrono::high_resolution_clock::now();
+        shakerSort(Tmp, Comparisons);
+    }
+    else if("flash-sort" == Name){
+        flashSortTime(Tmp);
+        end = chrono::high_resolution_clock::now();
+        flashSort(Tmp, Comparisons);
+    }
 
     chrono::duration<double, milli> duration = end - start;
     Time = duration.count();
