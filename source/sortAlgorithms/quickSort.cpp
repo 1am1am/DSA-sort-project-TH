@@ -71,3 +71,72 @@ void quickSort(vector<int>& array, long long& comparisons) { // lomuto
         quickSortArray(array, 0, array.size() - 1, comparisons);
     }
 }
+
+
+
+
+
+void insertionSortSubmatrixTime(std::vector<int>& array, int l, int r) {
+    int n = array.size();
+    for (int i = l + 1; i <= r; ++i) {
+        int val = array[i];
+        int j = i - 1;
+        
+        while (j >= 0 && array[j] > val) {
+            array[j + 1] = array[j];
+            --j;
+        }
+        array[j + 1] = val;
+    }
+}
+
+int selectPivotTime(vector<int>& arr, int l, int r) {
+    int mid = l + (r - l) / 2;
+    if (arr[l] > arr[mid]) std::swap(arr[l], arr[mid]);
+    if (arr[mid] > arr[r]) std::swap(arr[mid], arr[r]);
+    if (arr[l] > arr[mid]) std::swap(arr[l], arr[mid]);
+    return mid;
+}
+
+int partitionTime(vector<int>& arr, int l, int r) { // lomuto
+    int pivotIdx = selectPivotTime(arr, l, r);
+    int pivot = arr[pivotIdx];
+
+    std::swap(arr[pivotIdx], arr[r - 1]);
+    pivotIdx = r - 1;
+
+    int left = l + 1;
+    int right = r - 2;
+
+    while (left <= right) {
+        while (arr[left] < pivot) left++;
+        while (arr[right] > pivot) right--;
+
+        if (left <= right) {
+            std::swap(arr[left], arr[right]);
+            left++;
+            right--;
+        }
+    }
+
+    std::swap(arr[pivotIdx], arr[left]);
+    pivotIdx = left;
+    return pivotIdx;
+}
+
+void quickSortArrayTime(vector<int>& array, int l, int r) { // lomuto
+    if (l < r) {
+        if ((r - l) < 10) {
+            insertionSortSubmatrixTime(array, l, r);
+            return;
+        }
+        int p = partitionTime(array, l, r);
+        quickSortArrayTime(array, l, p - 1);
+        quickSortArrayTime(array, p + 1, r);
+    }
+}
+void quickSortTime(vector<int>& array) { // lomuto
+    if (!array.empty()) {
+        quickSortArrayTime(array, 0, array.size() - 1);
+    }
+}
