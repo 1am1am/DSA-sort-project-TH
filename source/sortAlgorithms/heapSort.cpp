@@ -39,20 +39,20 @@ void heapSort(std::vector<int>& array, long long& comparisons) {
 
 void HeapifyTime(std::vector<int>& array, int start, int n) {
     int leftChild = start * 2 + 1;
-    if (++comparisons && leftChild >= n) return;
+    if (leftChild >= n) return;
 
     int largerChild = leftChild;
     int rightChild = start * 2 + 2;
 
-    if (++comparisons && rightChild < n) {
-        if (++comparisons && array[rightChild] > array[leftChild]) {
+    if (rightChild < n) {
+        if (array[rightChild] > array[leftChild]) {
             largerChild = rightChild;
         }
     }
 
-    if (++comparisons && array[start] < array[largerChild]) {
+    if (array[start] < array[largerChild]) {
         std::swap(array[start], array[largerChild]);
-        Heapify(array, largerChild, n, comparisons);
+        HeapifyTime(array, largerChild, n);
     }
 }
 
