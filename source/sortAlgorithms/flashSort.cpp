@@ -59,7 +59,7 @@ void flashSort(std::vector<int>& array, long long& comparisons) {
     insertionSort(array, comparisons);
 }
 
-void flashSort(std::vector<int>& array) {
+void flashSortTime(std::vector<int>& array) {
     int n = array.size();
     if (n <= 1) return;
 
