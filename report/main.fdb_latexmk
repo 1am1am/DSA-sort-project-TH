@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1773293068.78572 "main.aux" "main.bbl" "main" 1773293072.0752 0
+["bibtex main"] 1773293683.43012 "main.aux" "main.bbl" "main" 1773293687.06309 0
   "./bibliography/bibliography.bib" 1773292238 940 554fb20f0bcf0069658396f00c80bc0b ""
   "C:/Users/Lam/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1773293070 2575 8a758b2d679c113e59a819e15737a2b9 "pdflatex"
+  "main.aux" 1773293685 3080 d0f5151cdcdf455591a9e61966e34f6b "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1773293069.2262 "d:/COLLEGE/Lectures/HK2/DSA TH/Sort Project/report/main.tex" "main.pdf" "main" 1773293072.07614 0
+["pdflatex"] 1773293683.9202 "d:/COLLEGE/Lectures/HK2/DSA TH/Sort Project/report/main.tex" "main.pdf" "main" 1773293687.06466 0
   "C:/Users/Lam/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773192903 88371 b965f57369ed322039596060d18f4416 ""
   "C:/Users/Lam/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1767538571 14064 66704dd2a8dd29001f9f2fbfb85c1247 ""
   "C:/Users/Lam/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1767538303 13332518 e8d974c03b4027776d43f9479ed866db ""
@@ -202,16 +202,20 @@
   "C:/Users/Lam/AppData/Local/Programs/MiKTeX/tex/latex/vntex/vncaps.tex" 1368738347 3273 a55ebdb07413d2fea580f210e3c0b252 ""
   "C:/Users/Lam/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/Lam/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "content/algorithms.tex" 1773292812 151 e5307068d659c5c6f80c3dab8b5b82bf ""
+  "content/acknowledgements.tex" 1773293485 26 03ed023908241e5ccb52e96927429a11 ""
+  "content/algorithms.tex" 1773293679 169 fd3de480acab67a054b8081ae9ab37be ""
   "content/algorithms/insertion-sort.tex" 1773293008 4022 06b896ca10a689a3d235ba58966a4722 ""
-  "content/algorithms/merge-sort.tex" 1773293064 3785 ca354059805f6c752b45120db13006da ""
+  "content/algorithms/merge-sort.tex" 1773293089 3785 ca354059805f6c752b45120db13006da ""
+  "content/experimental-results-and-comments.tex" 1773195410 45 5637a7d452b89067f55e0fc9f12ecd17 ""
+  "content/group-information.tex" 1773293557 27 08b495d4f40c7acd98280930602376d3 ""
+  "content/project-organization-and-programming-notes.tex" 1773293507 54 61d7d0cbeb56ed7ae07c9952195ff6d2 ""
   "content/reference.tex" 1773292532 103 26d32b2955345a54136c8557e5892334 ""
-  "d:/COLLEGE/Lectures/HK2/DSA TH/Sort Project/report/main.tex" 1773292834 266 98b1ad0b57a30dda275836ad738dded3 ""
+  "d:/COLLEGE/Lectures/HK2/DSA TH/Sort Project/report/main.tex" 1773293584 534 b17be59f3bf819e991887cd0343dbaa8 ""
   "hcmus-report-template.sty" 1773159025 4759 9449d115106628569569337f0f4c446c ""
-  "main.aux" 1773293070 2575 8a758b2d679c113e59a819e15737a2b9 "pdflatex"
-  "main.bbl" 1773293069 750 fffda7e6f952b08795849ab171902e30 "bibtex main"
-  "main.out" 1773293070 2177 add07eb831e55df1050459db0a5449e4 "pdflatex"
-  "main.tex" 1773292834 266 98b1ad0b57a30dda275836ad738dded3 ""
+  "main.aux" 1773293685 3080 d0f5151cdcdf455591a9e61966e34f6b "pdflatex"
+  "main.bbl" 1773293683 750 fffda7e6f952b08795849ab171902e30 "bibtex main"
+  "main.out" 1773293685 2938 6b9c61a1dd337ccd371b2f16a8fcee16 "pdflatex"
+  "main.tex" 1773293584 534 b17be59f3bf819e991887cd0343dbaa8 ""
   "preamble.tex" 1773194807 390 966488eb43b2cdf148686ebfdb0f9e1b ""
   (generated)
   "main.aux"
