@@ -26,7 +26,7 @@ void shakerSort(vector<int>& A, long long& comparisions){
     }
 }
 
-void shakerSortTime(vector<int>& A, long long){
+void shakerSortTime(vector<int>& A){
     int l = 0, r = A.size() - 1, pos = A.size() - 1;
     while(l < r){
         for(int i = l + 1; i <= r; ++i){
