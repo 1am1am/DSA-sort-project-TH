@@ -2,7 +2,10 @@
 \input{preamble.tex}
 
 \begin{document}
-\input{content/contents/3-experimental-results-and-comments.tex}
-Hello
-\input{chart.tex}
+    \setcounter{section}{0}
+    \renewcommand{\thesection}{\arabic{section}}
+    \input{content/algorithms.tex}
+    \newpage
+    \input{content/reference.tex}
+    \appendix
 \end{document}

@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{ali2021performance}
+Humaira Ali, Haque Nawaz, and Abdullah Maitlo.
+\newblock Performance analysis of heap sort and insertion sort algorithm.
+\newblock {\em International Journal}, 9(5), 2021.
+
+\bibitem{lobo2020performance}
+Joella Lobo and Sonia Kuwelkar.
+\newblock Performance analysis of merge sort algorithms.
+\newblock In {\em 2020 International Conference on Electronics and Sustainable
+  Communication Systems (ICESC)}, pages 110--115. IEEE, 2020.
+
+\bibitem{sodhi2013enhanced}
+Tarundeep~Singh Sodhi, Surmeet Kaur, and Snehdeep Kaur.
+\newblock Enhanced insertion sort algorithm.
+\newblock {\em International journal of Computer applications}, 64(21):35--39,
+  2013.
+
+\end{thebibliography}
