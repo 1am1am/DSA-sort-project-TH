@@ -18,6 +18,18 @@ Ghaniyyat~Bolanle Balogun, Muhideen Abdulraheem, Peter~Ogirima Sadiku,
   algorithms.
 \newblock {\em Jambura Journal of Informatics}, 5(2):141--151, 2023.
 
+\bibitem{nebel2014pivot}
+Markus~E Nebel and Sebastian Wild.
+\newblock Pivot sampling in dual-pivot quicksort.
+\newblock In {\em 25th International Conference on Probabilistic, Combinatorial
+  and Asymptotic Methods for the Analysis of Algorithms}, pages 325--338, 2014.
+
+\bibitem{shun2019parallel}
+Julian Shun.
+\newblock Theoretically-efficient and practical parallel in-place radix
+  sorting.
+\newblock {\em arXiv preprint arXiv:1906.09697}, 2019.
+
 \bibitem{sodhi2013enhanced}
 Tarundeep~Singh Sodhi, Surmeet Kaur, and Snehdeep Kaur.
 \newblock Enhanced insertion sort algorithm.
