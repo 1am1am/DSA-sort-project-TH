@@ -1,8 +1,9 @@
-\subsection[Merge Sort]{Merge Sort \cite{lobo2020performance}}
+\subsection[Merge Sort]{Merge Sort \cite{balogun2023halstead}}
     \subsubsection{Overview}
         \begin{itemize}
             \item \textbf{History and Origin:} Merge Sort is a divide-and-conquer algorithm that was invented by John von Neumann in 1945.
-            \item \textbf{Efficiency:} Consistently performs well on large datasets with a time complexity of O(n log n).
+            Merge sorting is also known as a divide and conquer method of sorting features, and it is based on this method (Varshney \& Yadav, 2014).
+            \item \textbf{Efficiency:} Consistently performs well on large datasets.
             \item \textbf{Application:} Commonly used in external sorting and when stable sorting is required.
         \end{itemize}
     \subsubsection{Idea}
@@ -13,55 +14,52 @@
     \subsubsection{Step-by-Step Algorithm}
         \begin{itemize}
             \item Consider an array of n elements, a[0\ldots (n - 1)].
-            \item \textbf{Step 1:} Start an increase variable \textit{i} that is from 1 to n - 1.
-            \item \textbf{Step 2:} Find the correct position \textit{pos} in a[0\ldots (i - 1)] to insert a[i], where a[pos - 1] < a[i] < a[pos].
-            \begin{itemize}
-                \item Set val = a[i], then move forward a[pos\ldots (i - 1)] to one element. After that, set a[pos] = val.
-                \item Increase \textit{i} by 1.
-            \end{itemize}
-            \item \textbf{Step 3:} If i < n return to \textbf{Step 2}. Otherwise, stop the algorithm. 
+            \item \textbf{Step 1:} Recursively divide the array into halves until it reaches sub-arrays of size 1.
+            \item \textbf{Step 2:} Merge the sorted sub-arrays back together by using two pointers to track the current position in the left and right sub-arrays, respectively.
+            If there are remaining elements in the left sub-array, copy them to a temporary array. Repeat the same for the right sub-array.
+            \item \textbf{Step 3:} Copy the sorted temporary array back to the original array a[left\ldots right].
+            \item \textbf{Step 4:} Repeat the process until the entire array is merged and the recursion stack is empty.
         \end{itemize}
-
     \subsubsection{Pseudo Code}
         \begin{itemize}
-            \item \textbf{Algorithm:} Insertion Sort
+            \item \textbf{Algorithm:} Merge Sort
             \item \textbf{Input:} An array A of n elements
         \end{itemize}
         \begin{verbatim}
-        1. For i = 1 to n - 1:
-        2.    val = A[i]
-        3.    j = i - 1
-        4.    While j >= 0 and A[j] > key:
-        5.       A[j + 1] = A[j]
-        6.       j = j - 1
-        7.    A[j + 1] = key
+            MergeSort(arr[], l, r):
+                If l < r:
+                    middle index: m = l + (r - l)/2
+                    Call mergeSort(arr, l, m)
+                    Call mergeSort(arr, m + 1, r)
+                    Call merge(arr[], l, m, r) to merge the two halves
+
+            merge(arr[], l, m, r):
+                Set pos = left, leftPos = left, rightPos = mid + 1
+                While leftPos <= mid and rightPos <= right:
+                    tempArray[pos++] = min(a[leftPos], a[rightPos])
+                    If a[leftPos] <= a[rightPos]: increment leftPos
+                    else: increment rightPos
         \end{verbatim}
     \subsubsection{Complexity}
         \begin{itemize}
             \item \textbf{Time Complexity:}
             \begin{itemize}
-                \item Best case: $O(n)$
-                    \subitem When the input is already sorted.
-                \item Average case: $O(n^2)$
-                    \subitem When the input is random.
-                \item Worst case: $O(n^2)$ 
-                    \subitem When the input is reverse-sorted.
+                \item Best case: $O(n \log n)$
+                \item Average case: $O(n \log n)$
+                \item Worst case: $O(n \log n)$ 
             \end{itemize}
-            \item \textbf{Space Complexity:} O(1) 
-                \subitem In-place algorithm. Requires only a constant amount of extra memory.
+            \item \textbf{Space Complexity:} O(n) 
+                \subitem Requires additional memory for the temporary array used in the merge process.
         \end{itemize}
         
     \subsubsection{Variants and Optimizations}
         \begin{itemize}
-            \item \textbf{The "Hit" Method (Enhanced Insertion Sort)\cite{sodhi2013enhanced}:}
+            \item \textbf{The Hybrid Sort (Mixing between Quick Sort and Merge Sort)}
             \begin{itemize}
-                \item \textbf{Problem:} Conventional Insertion Sort is inefficient for reverse-sorted lists due to maximum comparisons.
-                \item \textbf{Solution:} Immediately compare $A[i]$ with $A[0]$ (the current minimum).
-                \item \textbf{Benefit:} If $A[i] < A[0]$, it is moved to the front instantly, bypassing all intermediate comparisons and significantly reducing execution time.
-            \end{itemize}
-            \item \textbf{Binary Insertion Sort:}
-            \begin{itemize}
-                \item Use Binary Search to find the position of an element within the sorted sub-array which is greater than or equal to A[i].
-                \item While Binary Search reduces the number of comparisons to $O(n \log n)$, the complexity of data movement remains $O(n^2)$ because elements must still be shifted to make space for the new entry.
+                \item \textbf{Step 1:} Split the array [a] into [n] parts.
+                \item \textbf{Step 2:} Select part [1]
+                \item \textbf{Step 3:} Sort it using Quick Sort.
+                \item \textbf{Step 4:} Select part [2] and implement the same process until part [n] is sorted.
+                \item \textbf{Step 5:} Merge the sorted parts using Merge Sort.
             \end{itemize}
         \end{itemize}
