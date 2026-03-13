@@ -2,29 +2,26 @@
 #include <iostream>
 #include <vector>
 
+const int MAX_SIZE = 1e6;
 long long countCompare = 0;
+std::vector<int> tempArr(MAX_SIZE);
 
 void merge(std::vector<int>& array, int left, int mid, int right) {
-    int n1 = mid - left + 1;
-    int n2 = right - mid;
+    int first1 = left, last1 = mid;
+    int first2 = mid + 1, last2 = right;
 
-    std::vector<int> L(n1);
-    std::vector<int> R(n2);
-
-    for (int i = 0; ++countCompare && i < n1; ++i) L[i] = array[left + i];
-    for (int i = 0; ++countCompare && i < n2; ++i) R[i] = array[mid + i + 1];
-
-    int i = 0, j = 0, k = left;
-    while (++countCompare && i < n1 && ++countCompare && j < n2) {
-        if (++countCompare && L[i] < R[j]) {
-            array[k++] = L[i++];
-        } else {
-            array[k++] = R[j++];
-        }
+    int index = left;
+    while ((++countCompare && first1 <= last1) && (++countCompare && first2 <= last2)) {
+        if (++countCompare && array[first1] < array[first2]) tempArr[index++] = array[first1++];
+        else tempArr[index++] = array[first2++];
     }
 
-    while (++countCompare && i < n1) array[k++] = L[i++];
-    while (++countCompare && j < n2) array[k++] = R[j++];
+    while (++countCompare && first1 <= last1) tempArr[index++] = array[first1++];
+    while (++countCompare && first2 <= last2) tempArr[index++] = array[first2++];
+
+    for (int i = left; ++countCompare && i <= right; ++i) {
+        array[i] = tempArr[i];
+    }
 }
 
 void mergeArray(std::vector<int>& array, int left, int right) {
@@ -39,37 +36,33 @@ void mergeArray(std::vector<int>& array, int left, int right) {
 }
 
 void mergeSort(std::vector<int>& array, long long& comparisons) {
-    mergeArray(array, 0, array.size());
+    if (array.empty()) return;
+    mergeArray(array, 0, array.size() - 1);
     comparisons = countCompare;
 }
 
 void mergeTime(std::vector<int>& array, int left, int mid, int right) {
-    int n1 = mid - left + 1;
-    int n2 = right - mid;
+    int first1 = left, last1 = mid;
+    int first2 = mid + 1, last2 = right;
 
-    std::vector<int> L(n1);
-    std::vector<int> R(n2);
-
-    for (int i = 0; i < n1; ++i) L[i] = array[left + i];
-    for (int i = 0; i < n2; ++i) R[i] = array[mid + i + 1];
-
-    int i = 0, j = 0, k = left;
-    while (i < n1 && j < n2) {
-        if (L[i] < R[j]) {
-            array[k++] = L[i++];
-        } else {
-            array[k++] = R[j++];
-        }
+    int index = left;
+    while ((first1 <= last1) && (first2 <= last2)) {
+        if (array[first1] < array[first2]) tempArr[index++] = array[first1++];
+        else tempArr[index++] = array[first2++];
     }
 
-    while (i < n1) array[k++] = L[i++];
-    while (j < n2) array[k++] = R[j++];
+    while (first1 <= last1) tempArr[index++] = array[first1++];
+    while (first2 <= last2) tempArr[index++] = array[first2++];
+
+    for (int i = left; i <= right; ++i) {
+        array[i] = tempArr[i];
+    }
 }
 
 void mergeArrayTime(std::vector<int>& array, int left, int right) {
     if (left >= right) return;
 
-    int mid = (left + right) / 2;
+    int mid = left + (right - left) / 2;
 
     mergeArrayTime(array, left, mid);
     mergeArrayTime(array, mid + 1, right);
@@ -78,5 +71,6 @@ void mergeArrayTime(std::vector<int>& array, int left, int right) {
 }
 
 void mergeSortTime(std::vector<int>& array) {
-    mergeArrayTime(array, 0, array.size());
+    if (array.empty()) return;
+    mergeArrayTime(array, 0, array.size() - 1);
 }
