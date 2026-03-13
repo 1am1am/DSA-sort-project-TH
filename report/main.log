@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.4)  14 MAR 2026 01:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.4)  14 MAR 2026 01:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -805,7 +805,27 @@ l.50 ...ine {2.11}Flash Sort}{20}{subsection.2.11}
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [2] (content/group-information.tex) [3] (content/algorithms.tex (content/algorithms/selection-sort.tex [4]) [5] (content/algorithms/insertion-sort.tex [6]) [7] (content/algorithms/shell-sort.tex) [8] (content/algorithms/bubble-sort.tex [9]) [10] (content/algorithms/heap-sort.tex) [11] (content/algorithms/merge-sort.tex [12]) [13] (content/algorithms/quick-sort.tex
+ [2] (content/group-information.tex
+Overfull \hbox (403.74461pt too wide) in paragraph at lines 8--8
+[]|[]| 
+ []
+
+
+Overfull \hbox (403.74461pt too wide) in paragraph at lines 10--10
+[]|[]| 
+ []
+
+
+Overfull \hbox (403.74461pt too wide) in paragraph at lines 12--12
+[]|[]| 
+ []
+
+
+Overfull \hbox (403.74461pt too wide) in paragraph at lines 14--14
+[]|[]
+ []
+
+) [3] (content/algorithms.tex (content/algorithms/selection-sort.tex [4]) [5] (content/algorithms/insertion-sort.tex [6]) [7] (content/algorithms/shell-sort.tex) [8] (content/algorithms/bubble-sort.tex [9]) [10] (content/algorithms/heap-sort.tex) [11] (content/algorithms/merge-sort.tex [12]) [13] (content/algorithms/quick-sort.tex
 Overfull \hbox (23.99454pt too wide) in paragraph at lines 6--7
 []\OT1/cmr/bx/n/12 Application: \OT1/cmr/m/n/12 The de-fault sort-ing al-go-rithm in many stan-dard li-braries (e.g., C++ \OT1/cmtt/m/n/12 std::sort\OT1/cmr/m/n/12 ). 
  []
@@ -1208,7 +1228,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  95i,18n,97p,480b,662s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Lam\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Lam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Lam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Lam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/Lam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Lam/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (37 pages, 1092675 bytes).
+Output written on main.pdf (37 pages, 1093082 bytes).
 PDF statistics:
  739 PDF objects out of 1000 (max. 8388607)
  99 named destinations out of 1000 (max. 500000)
