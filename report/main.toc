@@ -1,0 +1,47 @@
+\contentsline {section}{\numberline {1}Group Information}{3}{section.1}%
+\contentsline {section}{\numberline {2}Algorithms Presentation}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Selection Sort}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Overview}{4}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Idea}{4}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Step-by-Step Algorithm}{4}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Pseudo Code}{4}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}Complexity}{5}{subsubsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.6}Variants and Optimizations}{5}{subsubsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.2}Insertion Sort}{6}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Overview}{6}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Idea}{6}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Step-by-Step Algorithm}{6}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Pseudo Code}{6}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}Complexity}{7}{subsubsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.6}Variants and Optimizations}{7}{subsubsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.3}Shell Sort}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Bubble Sort}{9}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Heap Sort}{10}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Merge Sort}{11}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Overview}{11}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Idea}{11}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}Step-by-Step Algorithm}{11}{subsubsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.4}Pseudo Code}{11}{subsubsection.2.6.4}%
+\contentsline {subsubsection}{\numberline {2.6.5}Complexity}{12}{subsubsection.2.6.5}%
+\contentsline {subsubsection}{\numberline {2.6.6}Variants and Optimizations}{12}{subsubsection.2.6.6}%
+\contentsline {subsection}{\numberline {2.7}Quick Sort}{13}{subsection.2.7}%
+\contentsline {subsubsection}{\numberline {2.7.1}Overview}{13}{subsubsection.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.7.2}Idea}{13}{subsubsection.2.7.2}%
+\contentsline {subsubsection}{\numberline {2.7.3}Step-by-Step Algorithm}{13}{subsubsection.2.7.3}%
+\contentsline {subsubsection}{\numberline {2.7.4}Pseudo Code}{13}{subsubsection.2.7.4}%
+\contentsline {subsubsection}{\numberline {2.7.5}Complexity}{14}{subsubsection.2.7.5}%
+\contentsline {subsubsection}{\numberline {2.7.6}Variants and Optimizations}{14}{subsubsection.2.7.6}%
+\contentsline {subsection}{\numberline {2.8}Radix Sort}{15}{subsection.2.8}%
+\contentsline {subsubsection}{\numberline {2.8.1}Overview}{15}{subsubsection.2.8.1}%
+\contentsline {subsubsection}{\numberline {2.8.2}Idea}{15}{subsubsection.2.8.2}%
+\contentsline {subsubsection}{\numberline {2.8.3}Step-by-Step Algorithm}{15}{subsubsection.2.8.3}%
+\contentsline {subsubsection}{\numberline {2.8.4}Pseudo Code}{15}{subsubsection.2.8.4}%
+\contentsline {subsubsection}{\numberline {2.8.5}Complexity}{16}{subsubsection.2.8.5}%
+\contentsline {subsubsection}{\numberline {2.8.6}Variants and Optimizations}{16}{subsubsection.2.8.6}%
+\contentsline {subsection}{\numberline {2.9}Binary Insertion Sort}{17}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Shaker Sort}{18}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Flash Sort}{19}{subsection.2.11}%
+\contentsline {section}{\numberline {3}Experimental results and comments}{20}{section.3}%
+\contentsline {section}{\numberline {4}Project Organization and Programming Notes}{21}{section.4}%
+\contentsline {section}{\numberline {5}Acknowledgements}{22}{section.5}%
+\contentsline {section}{\numberline {A}Tài liệu tham khảo}{23}{appendix.A}%
