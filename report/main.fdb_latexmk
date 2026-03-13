@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1773419416.00046 "main.aux" "main.bbl" "main" 1773419418.73082 0
+["bibtex main"] 1773419708.38861 "main.aux" "main.bbl" "main" 1773419711.28028 0
   "./bibliography/bibliography.bib" 1773419248 1745 8eb82d26b6501fe31a2880453b4058d5 ""
   "C:/Users/Lam/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1773419417 6724 547d4bc52f325ebdab35472be29f0452 "pdflatex"
+  "main.aux" 1773419710 6724 547d4bc52f325ebdab35472be29f0452 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1773419416.36227 "d:/COLLEGE/Lectures/HK2/DSA TH/Sort Project/report/main.tex" "main.pdf" "main" 1773419418.7314 0
+["pdflatex"] 1773419708.673 "d:/COLLEGE/Lectures/HK2/DSA TH/Sort Project/report/main.tex" "main.pdf" "main" 1773419711.28107 0
   "C:/Users/Lam/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773192903 88371 b965f57369ed322039596060d18f4416 ""
   "C:/Users/Lam/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1767538571 14064 66704dd2a8dd29001f9f2fbfb85c1247 ""
   "C:/Users/Lam/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1767538303 13332518 e8d974c03b4027776d43f9479ed866db ""
@@ -209,7 +209,7 @@
   "content/algorithms/heap-sort.tex" 1773403721 33 a2ddd578389d8f8996fe622db65521c9 ""
   "content/algorithms/insertion-sort.tex" 1773402930 4022 06b896ca10a689a3d235ba58966a4722 ""
   "content/algorithms/merge-sort.tex" 1773402978 3746 8a1ad2786c89ce8a606d31fbc775b503 ""
-  "content/algorithms/quick-sort.tex" 1773419248 4622 774e8d53248cdc1ecaa6cceb8ac0d09b ""
+  "content/algorithms/quick-sort.tex" 1773419551 4622 774e8d53248cdc1ecaa6cceb8ac0d09b ""
   "content/algorithms/radix-sort.tex" 1773419248 4783 794d605512470ffeb325d5734bdab111 ""
   "content/algorithms/selection-sort.tex" 1773419248 4012 32621371125c40ce45757d7701d46688 ""
   "content/algorithms/shaker-sort.tex" 1773403741 37 d9737da23ae7df00f3b994f75443c3c1 ""
@@ -217,17 +217,17 @@
   "content/experimental-results-and-comments.tex" 1773195410 45 5637a7d452b89067f55e0fc9f12ecd17 ""
   "content/group-information.tex" 1773419411 618 f4e646a79522790bf29bc7a05dd60280 ""
   "content/project-organization-and-programming-notes.tex" 1773293507 54 61d7d0cbeb56ed7ae07c9952195ff6d2 ""
-  "content/reference.tex" 1773419221 90 f5cff3b0c5d1f7bf4229caf30ff79be0 ""
+  "content/reference.tex" 1773419704 90 f5cff3b0c5d1f7bf4229caf30ff79be0 ""
   "content/title.tex" 1773419408 1839 eca7791f247078a867c33c9a6c57ad4f ""
-  "d:/COLLEGE/Lectures/HK2/DSA TH/Sort Project/report/main.tex" 1773419248 751 175adb9e81201c2971a19955cf4e0886 ""
+  "d:/COLLEGE/Lectures/HK2/DSA TH/Sort Project/report/main.tex" 1773419423 751 175adb9e81201c2971a19955cf4e0886 ""
   "hcmus-report-template.sty" 1773159025 4759 9449d115106628569569337f0f4c446c ""
   "img/hcmus-logo.png" 1773419248 258629 122747e63e393f11b7f15571540c7d20 ""
-  "main.aux" 1773419417 6724 547d4bc52f325ebdab35472be29f0452 "pdflatex"
-  "main.bbl" 1773419416 1027 dda085b83d6d829a0e5a89b27df2b26c "bibtex main"
-  "main.out" 1773419417 6439 cec501002b70cfe67e9871190289acb5 "pdflatex"
-  "main.tex" 1773419248 751 175adb9e81201c2971a19955cf4e0886 ""
-  "main.toc" 1773419417 4082 239c6f407a60169cf9604b977eff27bd "pdflatex"
-  "preamble.tex" 1773419248 433 a09cee6dfd6fd0ed278702316eef81d5 ""
+  "main.aux" 1773419710 6724 547d4bc52f325ebdab35472be29f0452 "pdflatex"
+  "main.bbl" 1773419708 1027 dda085b83d6d829a0e5a89b27df2b26c "bibtex main"
+  "main.out" 1773419710 6439 cec501002b70cfe67e9871190289acb5 "pdflatex"
+  "main.tex" 1773419423 751 175adb9e81201c2971a19955cf4e0886 ""
+  "main.toc" 1773419710 4082 239c6f407a60169cf9604b977eff27bd "pdflatex"
+  "preamble.tex" 1773419421 433 a09cee6dfd6fd0ed278702316eef81d5 ""
   (generated)
   "main.aux"
   "main.log"
