@@ -17,37 +17,6 @@
 \contentsline {subsubsection}{\numberline {2.2.6}Variants and Optimizations}{7}{subsubsection.2.2.6}%
 \contentsline {subsection}{\numberline {2.3}Shell Sort}{8}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Bubble Sort}{9}{subsection.2.4}%
-<<<<<<< HEAD
-\contentsline {subsection}{\numberline {2.5}Heap Sort}{10}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Merge Sort}{11}{subsection.2.6}%
-\contentsline {subsubsection}{\numberline {2.6.1}Overview}{11}{subsubsection.2.6.1}%
-\contentsline {subsubsection}{\numberline {2.6.2}Core Concepts}{11}{subsubsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.3}Step-by-Step Explanation}{11}{subsubsection.2.6.3}%
-\contentsline {subsubsection}{\numberline {2.6.4}Pseudo Code}{11}{subsubsection.2.6.4}%
-\contentsline {subsubsection}{\numberline {2.6.5}Complexity Analysis}{12}{subsubsection.2.6.5}%
-\contentsline {subsubsection}{\numberline {2.6.6}Variants and Optimizations}{12}{subsubsection.2.6.6}%
-\contentsline {subsection}{\numberline {2.7}Quick Sort}{13}{subsection.2.7}%
-\contentsline {subsubsection}{\numberline {2.7.1}Overview}{13}{subsubsection.2.7.1}%
-\contentsline {subsubsection}{\numberline {2.7.2}Idea}{13}{subsubsection.2.7.2}%
-\contentsline {subsubsection}{\numberline {2.7.3}Step-by-Step Algorithm}{13}{subsubsection.2.7.3}%
-\contentsline {subsubsection}{\numberline {2.7.4}Pseudo Code}{13}{subsubsection.2.7.4}%
-\contentsline {subsubsection}{\numberline {2.7.5}Complexity}{14}{subsubsection.2.7.5}%
-\contentsline {subsubsection}{\numberline {2.7.6}Variants and Optimizations}{14}{subsubsection.2.7.6}%
-\contentsline {subsection}{\numberline {2.8}Radix Sort}{15}{subsection.2.8}%
-\contentsline {subsubsection}{\numberline {2.8.1}Overview}{15}{subsubsection.2.8.1}%
-\contentsline {subsubsection}{\numberline {2.8.2}Idea}{15}{subsubsection.2.8.2}%
-\contentsline {subsubsection}{\numberline {2.8.3}Step-by-Step Algorithm}{15}{subsubsection.2.8.3}%
-\contentsline {subsubsection}{\numberline {2.8.4}Pseudo Code}{15}{subsubsection.2.8.4}%
-\contentsline {subsubsection}{\numberline {2.8.5}Complexity}{16}{subsubsection.2.8.5}%
-\contentsline {subsubsection}{\numberline {2.8.6}Variants and Optimizations}{16}{subsubsection.2.8.6}%
-\contentsline {subsection}{\numberline {2.9}Binary Insertion Sort}{17}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Shaker Sort}{18}{subsection.2.10}%
-\contentsline {subsection}{\numberline {2.11}Flash Sort}{19}{subsection.2.11}%
-\contentsline {section}{\numberline {3}Experimental results and comments}{20}{section.3}%
-\contentsline {section}{\numberline {4}Project Organization and Programming Notes}{33}{section.4}%
-\contentsline {section}{\numberline {5}Acknowledgements}{34}{section.5}%
-\contentsline {section}{\numberline {A}References}{35}{appendix.A}%
-=======
 \contentsline {subsubsection}{\numberline {2.4.1}Overview}{9}{subsubsection.2.4.1}%
 \contentsline {subsubsection}{\numberline {2.4.2}Core concepts}{9}{subsubsection.2.4.2}%
 \contentsline {subsubsection}{\numberline {2.4.3}Step-by-step Expanation}{9}{subsubsection.2.4.3}%
@@ -57,10 +26,10 @@
 \contentsline {subsection}{\numberline {2.5}Heap Sort}{11}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Merge Sort}{12}{subsection.2.6}%
 \contentsline {subsubsection}{\numberline {2.6.1}Overview}{12}{subsubsection.2.6.1}%
-\contentsline {subsubsection}{\numberline {2.6.2}Idea}{12}{subsubsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.3}Step-by-Step Algorithm}{12}{subsubsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.2}Core Concepts}{12}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}Step-by-Step Explanation}{12}{subsubsection.2.6.3}%
 \contentsline {subsubsection}{\numberline {2.6.4}Pseudo Code}{12}{subsubsection.2.6.4}%
-\contentsline {subsubsection}{\numberline {2.6.5}Complexity}{13}{subsubsection.2.6.5}%
+\contentsline {subsubsection}{\numberline {2.6.5}Complexity Analysis}{13}{subsubsection.2.6.5}%
 \contentsline {subsubsection}{\numberline {2.6.6}Variants and Optimizations}{13}{subsubsection.2.6.6}%
 \contentsline {subsection}{\numberline {2.7}Quick Sort}{14}{subsection.2.7}%
 \contentsline {subsubsection}{\numberline {2.7.1}Overview}{14}{subsubsection.2.7.1}%
@@ -80,7 +49,6 @@
 \contentsline {subsection}{\numberline {2.10}Shaker Sort}{19}{subsection.2.10}%
 \contentsline {subsection}{\numberline {2.11}Flash Sort}{20}{subsection.2.11}%
 \contentsline {section}{\numberline {3}Experimental results and comments}{21}{section.3}%
-\contentsline {section}{\numberline {4}Project Organization and Programming Notes}{22}{section.4}%
-\contentsline {section}{\numberline {5}Acknowledgements}{23}{section.5}%
-\contentsline {section}{\numberline {A}References}{24}{appendix.A}%
->>>>>>> d299559063969a8e04b8d9496487c35c825550b0
+\contentsline {section}{\numberline {4}Project Organization and Programming Notes}{34}{section.4}%
+\contentsline {section}{\numberline {5}Acknowledgements}{35}{section.5}%
+\contentsline {section}{\numberline {A}References}{36}{appendix.A}%
