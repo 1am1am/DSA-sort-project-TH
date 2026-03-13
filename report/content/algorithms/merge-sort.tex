@@ -6,12 +6,12 @@
             \item \textbf{Efficiency:} Consistently performs well on large datasets.
             \item \textbf{Application:} Commonly used in external sorting and when stable sorting is required.
         \end{itemize}
-    \subsubsection{Idea}
+    \subsubsection{Core Concepts}
         \begin{itemize}
             \item The array is recursively divided into two halves until each sub-array contains a single element.
             \item The sub-arrays are then merged back together in a sorted manner.
         \end{itemize}
-    \subsubsection{Step-by-Step Algorithm}
+    \subsubsection{Step-by-Step Explanation}
         \begin{itemize}
             \item Consider an array of n elements, a[0\ldots (n - 1)].
             \item \textbf{Step 1:} Recursively divide the array into halves until it reaches sub-arrays of size 1.
@@ -40,7 +40,7 @@
                     If a[leftPos] <= a[rightPos]: increment leftPos
                     else: increment rightPos
         \end{verbatim}
-    \subsubsection{Complexity}
+    \subsubsection{Complexity Analysis}
         \begin{itemize}
             \item \textbf{Time Complexity:}
             \begin{itemize}

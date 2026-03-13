@@ -412,6 +412,174 @@ INPUT content\algorithms\flash-sort.tex
 INPUT .\content\experimental-results-and-comments.tex
 INPUT .\content\experimental-results-and-comments.tex
 INPUT content\experimental-results-and-comments.tex
+INPUT .\data\Sorted.pdf
+INPUT .\data\Sorted.pdf
+INPUT .\data\Sorted.pdf
+INPUT .\data\Sorted.pdf
+INPUT .\data\Sorted.pdf
+INPUT .\data\Sorted.pdf
+INPUT .\data\Sorted.pdf
+INPUT .\data\Sorted.pdf
+INPUT .\data\Sorted.pdf
+INPUT .\data\Sorted.pdf
+INPUT .\data\Sorted.pdf
+INPUT .\data\Sorted.pdf
+INPUT .\data\Sorted.pdf
+INPUT .\data\Sorted.pdf
+INPUT .\data\NearlySorted.pdf
+INPUT .\data\NearlySorted.pdf
+INPUT .\data\NearlySorted.pdf
+INPUT .\data\NearlySorted.pdf
+INPUT .\data\NearlySorted.pdf
+INPUT .\data\NearlySorted.pdf
+INPUT .\data\NearlySorted.pdf
+INPUT .\data\NearlySorted.pdf
+INPUT .\data\NearlySorted.pdf
+INPUT .\data\NearlySorted.pdf
+INPUT .\data\NearlySorted.pdf
+INPUT .\data\NearlySorted.pdf
+INPUT .\data\NearlySorted.pdf
+INPUT .\data\NearlySorted.pdf
+INPUT .\data\ReverseSorted.pdf
+INPUT .\data\ReverseSorted.pdf
+INPUT .\data\ReverseSorted.pdf
+INPUT .\data\ReverseSorted.pdf
+INPUT .\data\ReverseSorted.pdf
+INPUT .\data\ReverseSorted.pdf
+INPUT .\data\ReverseSorted.pdf
+INPUT .\data\ReverseSorted.pdf
+INPUT .\data\ReverseSorted.pdf
+INPUT .\data\ReverseSorted.pdf
+INPUT .\data\ReverseSorted.pdf
+INPUT .\data\ReverseSorted.pdf
+INPUT .\data\ReverseSorted.pdf
+INPUT .\data\ReverseSorted.pdf
+INPUT .\data\RandomizeSorted.pdf
+INPUT .\data\RandomizeSorted.pdf
+INPUT .\data\RandomizeSorted.pdf
+INPUT .\data\RandomizeSorted.pdf
+INPUT .\data\RandomizeSorted.pdf
+INPUT .\data\RandomizeSorted.pdf
+INPUT .\data\RandomizeSorted.pdf
+INPUT .\data\RandomizeSorted.pdf
+INPUT .\data\RandomizeSorted.pdf
+INPUT .\data\RandomizeSorted.pdf
+INPUT .\data\RandomizeSorted.pdf
+INPUT .\data\RandomizeSorted.pdf
+INPUT .\data\RandomizeSorted.pdf
+INPUT .\data\RandomizeSorted.pdf
+INPUT .\data\Graph\Sorted Input.pdf
+INPUT .\data\Graph\Sorted Input.pdf
+INPUT .\data\Graph\Sorted Input.pdf
+INPUT .\data\Graph\Sorted Input.pdf
+INPUT .\data\Graph\Sorted Input.pdf
+INPUT .\data\Graph\Sorted Input.pdf
+INPUT .\data\Graph\Sorted Input.pdf
+INPUT .\data\Graph\Sorted Input.pdf
+INPUT .\data\Graph\Sorted Input.pdf
+INPUT .\data\Graph\Sorted Input.pdf
+INPUT .\data\Graph\Sorted Input.pdf
+INPUT .\data\Graph\Sorted Input.pdf
+INPUT .\data\Graph\Sorted Input.pdf
+INPUT .\data\Graph\Sorted Input.pdf
+INPUT .\data\Graph\Nearly Sorted Input.pdf
+INPUT .\data\Graph\Nearly Sorted Input.pdf
+INPUT .\data\Graph\Nearly Sorted Input.pdf
+INPUT .\data\Graph\Nearly Sorted Input.pdf
+INPUT .\data\Graph\Nearly Sorted Input.pdf
+INPUT .\data\Graph\Nearly Sorted Input.pdf
+INPUT .\data\Graph\Nearly Sorted Input.pdf
+INPUT .\data\Graph\Nearly Sorted Input.pdf
+INPUT .\data\Graph\Nearly Sorted Input.pdf
+INPUT .\data\Graph\Nearly Sorted Input.pdf
+INPUT .\data\Graph\Nearly Sorted Input.pdf
+INPUT .\data\Graph\Nearly Sorted Input.pdf
+INPUT .\data\Graph\Nearly Sorted Input.pdf
+INPUT .\data\Graph\Nearly Sorted Input.pdf
+INPUT .\data\Graph\Reverse Sorted Input.pdf
+INPUT .\data\Graph\Reverse Sorted Input.pdf
+INPUT .\data\Graph\Reverse Sorted Input.pdf
+INPUT .\data\Graph\Reverse Sorted Input.pdf
+INPUT .\data\Graph\Reverse Sorted Input.pdf
+INPUT .\data\Graph\Reverse Sorted Input.pdf
+INPUT .\data\Graph\Reverse Sorted Input.pdf
+INPUT .\data\Graph\Reverse Sorted Input.pdf
+INPUT .\data\Graph\Reverse Sorted Input.pdf
+INPUT .\data\Graph\Reverse Sorted Input.pdf
+INPUT .\data\Graph\Reverse Sorted Input.pdf
+INPUT .\data\Graph\Reverse Sorted Input.pdf
+INPUT .\data\Graph\Reverse Sorted Input.pdf
+INPUT .\data\Graph\Reverse Sorted Input.pdf
+INPUT .\data\Graph\Randomize Input.pdf
+INPUT .\data\Graph\Randomize Input.pdf
+INPUT .\data\Graph\Randomize Input.pdf
+INPUT .\data\Graph\Randomize Input.pdf
+INPUT .\data\Graph\Randomize Input.pdf
+INPUT .\data\Graph\Randomize Input.pdf
+INPUT .\data\Graph\Randomize Input.pdf
+INPUT .\data\Graph\Randomize Input.pdf
+INPUT .\data\Graph\Randomize Input.pdf
+INPUT .\data\Graph\Randomize Input.pdf
+INPUT .\data\Graph\Randomize Input.pdf
+INPUT .\data\Graph\Randomize Input.pdf
+INPUT .\data\Graph\Randomize Input.pdf
+INPUT .\data\Graph\Randomize Input.pdf
+INPUT .\data\Graph\Sorted Input (1).pdf
+INPUT .\data\Graph\Sorted Input (1).pdf
+INPUT .\data\Graph\Sorted Input (1).pdf
+INPUT .\data\Graph\Sorted Input (1).pdf
+INPUT .\data\Graph\Sorted Input (1).pdf
+INPUT .\data\Graph\Sorted Input (1).pdf
+INPUT .\data\Graph\Sorted Input (1).pdf
+INPUT .\data\Graph\Sorted Input (1).pdf
+INPUT .\data\Graph\Sorted Input (1).pdf
+INPUT .\data\Graph\Sorted Input (1).pdf
+INPUT .\data\Graph\Sorted Input (1).pdf
+INPUT .\data\Graph\Sorted Input (1).pdf
+INPUT .\data\Graph\Sorted Input (1).pdf
+INPUT .\data\Graph\Sorted Input (1).pdf
+INPUT .\data\Graph\Nearly Sorted Input (1).pdf
+INPUT .\data\Graph\Nearly Sorted Input (1).pdf
+INPUT .\data\Graph\Nearly Sorted Input (1).pdf
+INPUT .\data\Graph\Nearly Sorted Input (1).pdf
+INPUT .\data\Graph\Nearly Sorted Input (1).pdf
+INPUT .\data\Graph\Nearly Sorted Input (1).pdf
+INPUT .\data\Graph\Nearly Sorted Input (1).pdf
+INPUT .\data\Graph\Nearly Sorted Input (1).pdf
+INPUT .\data\Graph\Nearly Sorted Input (1).pdf
+INPUT .\data\Graph\Nearly Sorted Input (1).pdf
+INPUT .\data\Graph\Nearly Sorted Input (1).pdf
+INPUT .\data\Graph\Nearly Sorted Input (1).pdf
+INPUT .\data\Graph\Nearly Sorted Input (1).pdf
+INPUT .\data\Graph\Nearly Sorted Input (1).pdf
+INPUT .\data\Graph\Reverse Sorted Input (1).pdf
+INPUT .\data\Graph\Reverse Sorted Input (1).pdf
+INPUT .\data\Graph\Reverse Sorted Input (1).pdf
+INPUT .\data\Graph\Reverse Sorted Input (1).pdf
+INPUT .\data\Graph\Reverse Sorted Input (1).pdf
+INPUT .\data\Graph\Reverse Sorted Input (1).pdf
+INPUT .\data\Graph\Reverse Sorted Input (1).pdf
+INPUT .\data\Graph\Reverse Sorted Input (1).pdf
+INPUT .\data\Graph\Reverse Sorted Input (1).pdf
+INPUT .\data\Graph\Reverse Sorted Input (1).pdf
+INPUT .\data\Graph\Reverse Sorted Input (1).pdf
+INPUT .\data\Graph\Reverse Sorted Input (1).pdf
+INPUT .\data\Graph\Reverse Sorted Input (1).pdf
+INPUT .\data\Graph\Reverse Sorted Input (1).pdf
+INPUT .\data\Graph\Randomize Input (1).pdf
+INPUT .\data\Graph\Randomize Input (1).pdf
+INPUT .\data\Graph\Randomize Input (1).pdf
+INPUT .\data\Graph\Randomize Input (1).pdf
+INPUT .\data\Graph\Randomize Input (1).pdf
+INPUT .\data\Graph\Randomize Input (1).pdf
+INPUT .\data\Graph\Randomize Input (1).pdf
+INPUT .\data\Graph\Randomize Input (1).pdf
+INPUT .\data\Graph\Randomize Input (1).pdf
+INPUT .\data\Graph\Randomize Input (1).pdf
+INPUT .\data\Graph\Randomize Input (1).pdf
+INPUT .\data\Graph\Randomize Input (1).pdf
+INPUT .\data\Graph\Randomize Input (1).pdf
+INPUT .\data\Graph\Randomize Input (1).pdf
 INPUT .\content\project-organization-and-programming-notes.tex
 INPUT .\content\project-organization-and-programming-notes.tex
 INPUT content\project-organization-and-programming-notes.tex

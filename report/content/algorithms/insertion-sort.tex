@@ -5,14 +5,14 @@
             \item \textbf{Efficiency:} Best for small datasets or nearly sorted/sorted data. Worst for reverse-sorted datasets.
             \item \textbf{Application:} Often used as the base case for hybrid algorithms by Tim Sort, Intro Sort, Quick Sort, etc. to handle small sub-lists.
         \end{itemize}
-    \subsubsection{Idea}
+    \subsubsection{Core Concepts}
         \begin{itemize}
             \item Let the list be divided by sub-lists, separating them into sorted and unsorted sections.
             \item Take the first element of the unsorted list and insert it into its proper place in the sorted one.
             \item After each placement, the size of the sorted region grows by 1 and the size of the unsorted region shrinks by 1.
         \end{itemize}
 
-    \subsubsection{Step-by-Step Algorithm}
+    \subsubsection{Step-by-Step Explanation}
         \begin{itemize}
             \item Consider an array of n elements, a[0\ldots (n - 1)].
             \item \textbf{Step 1:} Start an increase variable \textit{i} that is from 1 to n - 1.
@@ -38,7 +38,7 @@
         6.       j = j - 1
         7.    A[j + 1] = key
         \end{verbatim}
-    \subsubsection{Complexity}
+    \subsubsection{Complexity Analysis}
         \begin{itemize}
             \item \textbf{Time Complexity:}
             \begin{itemize}
