@@ -2,6 +2,13 @@
 \input{preamble.tex}
 
 \begin{document}
+    \input{content/title.tex}
+    \newpage 
+    \renewcommand{\contentsname}{Table of Contents}
+    \renewcommand{\refname}{References}
+    \renewcommand{\bibname}{References}
+    \tableofcontents
+    \newpage
     \setcounter{section}{0}
     \renewcommand{\thesection}{\arabic{section}}
     \input{content/group-information.tex}
