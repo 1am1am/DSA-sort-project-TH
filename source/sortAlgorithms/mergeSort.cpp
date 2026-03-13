@@ -71,12 +71,12 @@ void mergeArrayTime(std::vector<int>& array, int left, int right) {
 
     int mid = (left + right) / 2;
 
-    mergeArray(array, left, mid);
-    mergeArray(array, mid + 1, right);
+    mergeArrayTime(array, left, mid);
+    mergeArrayTime(array, mid + 1, right);
 
-    merge(array, left, mid, right);
+    mergeTime(array, left, mid, right);
 }
 
 void mergeSortTime(std::vector<int>& array) {
-    mergeArray(array, 0, array.size());
+    mergeArrayTime(array, 0, array.size());
 }
