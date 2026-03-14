@@ -31,7 +31,7 @@
     \subsubsection{Complexity Analysis}
         For original version of bubble sort:
         \begin{itemize}
-            \item Best case: $O(n^2)$
+            \item  Best case: $O(n^2)$
             \subitem When the array is already sorted, it requires 0 swap but the number of comparisons remain unchanged.
             \item Worst case: $O(n^2)$
             \subitem When the array is in reversed order, the number of swaps is maximum
@@ -41,7 +41,11 @@
 
     \subsubsection{Variants and Optimizations} 
     \begin{itemize}
-        \item Bubble sort with additional flag:
+        \item \textbf{Current implementation: } Original Bubble 
+            \begin{itemize}
+                \item Compares all adjacent pair of elements.
+            \end{itemize}
+        \item \textbf{Improved implementation} Bubble sort with additional flag:
          \begin{itemize}
             \item The flag is bool type to check whether the array is sorted or not.
             \begin{itemize}

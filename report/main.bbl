@@ -1,4 +1,10 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{afzal2007enhancedshellsort}
+Tanveer Afzal, Basit Shahzad, and Salman Aslam.
+\newblock Enhanced shell sort algorithm.
+\newblock {\em International Conference on Information and Communication
+  Technologies}, Feb 2007.
 
 \bibitem{ali2021performance}
 Humaira Ali, Haque Nawaz, and Abdullah Maitlo.
@@ -23,6 +29,11 @@ E.~H. Friend.
 \newblock Sorting on electronic computer systems.
 \newblock {\em Journal of the ACM}, 3(4):134--168, 1956.
 
+\bibitem{johnson1975priority}
+Donald~B. Johnson.
+\newblock Priority queues with update and finding minimum spanning trees.
+\newblock {\em Information Processing Letters}, 4(3):53--57, 1975.
+
 \bibitem{nebel2014pivot}
 Markus~E Nebel and Sebastian Wild.
 \newblock Pivot sampling in dual-pivot quicksort.
@@ -46,5 +57,10 @@ Tarundeep~Singh Sodhi, Surmeet Kaur, and Snehdeep Kaur.
 \newblock Enhanced insertion sort algorithm.
 \newblock {\em International journal of Computer applications}, 64(21):35--39,
   2013.
+
+\bibitem{williams1964heapsort}
+J.~W.~J. Williams.
+\newblock Algorithm 232 -- heapsort.
+\newblock {\em Communications of the ACM}, 7(6):347--348, 1964.
 
 \end{thebibliography}
