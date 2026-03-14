@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.22)  14 MAR 2026 20:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.22)  14 MAR 2026 21:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -328,271 +328,125 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-)) (C:\Program Files\MiKTeX\tex/latex/vntex\vietnam.sty
-Package: vietnam 2009/07/12 v1.3 support for Vietnamese
- (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
- (C:\Program Files\MiKTeX\tex/latex/vntex\t5enc.def
-File: t5enc.def 2006/11/21 v1.4 Vietnamese T5 encoding
-Now handling font encoding T5 ...
-... processing UTF-8 mapping file for font encoding T5
- (C:\Program Files\MiKTeX\tex/latex/vntex\t5enc.dfu
-File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+0102 (decimal 258)
-   defining Unicode char U+0103 (decimal 259)
-   defining Unicode char U+0110 (decimal 272)
-   defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0128 (decimal 296)
-   defining Unicode char U+0129 (decimal 297)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0168 (decimal 360)
-   defining Unicode char U+0169 (decimal 361)
-   defining Unicode char U+01A0 (decimal 416)
-   defining Unicode char U+01A1 (decimal 417)
-   defining Unicode char U+01AF (decimal 431)
-   defining Unicode char U+01B0 (decimal 432)
-   defining Unicode char U+1EA0 (decimal 7840)
-   defining Unicode char U+1EA1 (decimal 7841)
-   defining Unicode char U+1EA2 (decimal 7842)
-   defining Unicode char U+1EA3 (decimal 7843)
-   defining Unicode char U+1EA4 (decimal 7844)
-   defining Unicode char U+1EA5 (decimal 7845)
-   defining Unicode char U+1EA6 (decimal 7846)
-   defining Unicode char U+1EA7 (decimal 7847)
-   defining Unicode char U+1EA8 (decimal 7848)
-   defining Unicode char U+1EA9 (decimal 7849)
-   defining Unicode char U+1EAA (decimal 7850)
-   defining Unicode char U+1EAB (decimal 7851)
-   defining Unicode char U+1EAC (decimal 7852)
-   defining Unicode char U+1EAD (decimal 7853)
-   defining Unicode char U+1EAE (decimal 7854)
-   defining Unicode char U+1EAF (decimal 7855)
-   defining Unicode char U+1EB0 (decimal 7856)
-   defining Unicode char U+1EB1 (decimal 7857)
-   defining Unicode char U+1EB2 (decimal 7858)
-   defining Unicode char U+1EB3 (decimal 7859)
-   defining Unicode char U+1EB4 (decimal 7860)
-   defining Unicode char U+1EB5 (decimal 7861)
-   defining Unicode char U+1EB6 (decimal 7862)
-   defining Unicode char U+1EB7 (decimal 7863)
-   defining Unicode char U+1EB8 (decimal 7864)
-   defining Unicode char U+1EB9 (decimal 7865)
-   defining Unicode char U+1EBA (decimal 7866)
-   defining Unicode char U+1EBB (decimal 7867)
-   defining Unicode char U+1EBC (decimal 7868)
-   defining Unicode char U+1EBD (decimal 7869)
-   defining Unicode char U+1EBE (decimal 7870)
-   defining Unicode char U+1EBF (decimal 7871)
-   defining Unicode char U+1EC0 (decimal 7872)
-   defining Unicode char U+1EC1 (decimal 7873)
-   defining Unicode char U+1EC2 (decimal 7874)
-   defining Unicode char U+1EC3 (decimal 7875)
-   defining Unicode char U+1EC4 (decimal 7876)
-   defining Unicode char U+1EC5 (decimal 7877)
-   defining Unicode char U+1EC6 (decimal 7878)
-   defining Unicode char U+1EC7 (decimal 7879)
-   defining Unicode char U+1EC8 (decimal 7880)
-   defining Unicode char U+1EC9 (decimal 7881)
-   defining Unicode char U+1ECA (decimal 7882)
-   defining Unicode char U+1ECB (decimal 7883)
-   defining Unicode char U+1ECC (decimal 7884)
-   defining Unicode char U+1ECD (decimal 7885)
-   defining Unicode char U+1ECE (decimal 7886)
-   defining Unicode char U+1ECF (decimal 7887)
-   defining Unicode char U+1ED0 (decimal 7888)
-   defining Unicode char U+1ED1 (decimal 7889)
-   defining Unicode char U+1ED2 (decimal 7890)
-   defining Unicode char U+1ED3 (decimal 7891)
-   defining Unicode char U+1ED4 (decimal 7892)
-   defining Unicode char U+1ED5 (decimal 7893)
-   defining Unicode char U+1ED6 (decimal 7894)
-   defining Unicode char U+1ED7 (decimal 7895)
-   defining Unicode char U+1ED8 (decimal 7896)
-   defining Unicode char U+1ED9 (decimal 7897)
-   defining Unicode char U+1EDA (decimal 7898)
-   defining Unicode char U+1EDB (decimal 7899)
-   defining Unicode char U+1EDC (decimal 7900)
-   defining Unicode char U+1EDD (decimal 7901)
-   defining Unicode char U+1EDE (decimal 7902)
-   defining Unicode char U+1EDF (decimal 7903)
-   defining Unicode char U+1EE0 (decimal 7904)
-   defining Unicode char U+1EE1 (decimal 7905)
-   defining Unicode char U+1EE2 (decimal 7906)
-   defining Unicode char U+1EE3 (decimal 7907)
-   defining Unicode char U+1EE4 (decimal 7908)
-   defining Unicode char U+1EE5 (decimal 7909)
-   defining Unicode char U+1EE6 (decimal 7910)
-   defining Unicode char U+1EE7 (decimal 7911)
-   defining Unicode char U+1EE8 (decimal 7912)
-   defining Unicode char U+1EE9 (decimal 7913)
-   defining Unicode char U+1EEA (decimal 7914)
-   defining Unicode char U+1EEB (decimal 7915)
-   defining Unicode char U+1EEC (decimal 7916)
-   defining Unicode char U+1EED (decimal 7917)
-   defining Unicode char U+1EEE (decimal 7918)
-   defining Unicode char U+1EEF (decimal 7919)
-   defining Unicode char U+1EF0 (decimal 7920)
-   defining Unicode char U+1EF1 (decimal 7921)
-   defining Unicode char U+1EF2 (decimal 7922)
-   defining Unicode char U+1EF3 (decimal 7923)
-   defining Unicode char U+1EF4 (decimal 7924)
-   defining Unicode char U+1EF5 (decimal 7925)
-   defining Unicode char U+1EF6 (decimal 7926)
-   defining Unicode char U+1EF7 (decimal 7927)
-   defining Unicode char U+1EF8 (decimal 7928)
-   defining Unicode char U+1EF9 (decimal 7929)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2423 (decimal 9251)
-))
-LaTeX Font Info:    Trying to load font information for T5+cmr on input line 112.
- (C:\Program Files\MiKTeX\tex/latex/vntex\t5cmr.fd
-File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)) (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks29
-\inpenc@posthook=\toks30
-) (C:\Program Files\MiKTeX\tex/latex/vntex\vncaps.tex
-File: vncaps.tex 2006/06/07 v1.1 Captions in Vietnamese
-)) (C:\Program Files\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+)) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count305
+\U@D=\dimen168
+\l@unhyphenated=\language79
+ (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count306
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Program Files\MiKTeX\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+)) (C:\Program Files\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (C:\Program Files\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
  (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count305
-\calc@Bcount=\count306
-\calc@Adimen=\dimen168
-\calc@Bdimen=\dimen169
+\calc@Acount=\count307
+\calc@Bcount=\count308
+\calc@Adimen=\dimen169
+\calc@Bdimen=\dimen170
 \calc@Askip=\skip71
 \calc@Bskip=\skip72
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count307
+\calc@Ccount=\count309
 \calc@Cskip=\skip73
 ) (C:\Program Files\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen170
-\ESO@tempdimb=\dimen171
+\ESO@tempdima=\dimen171
+\ESO@tempdimb=\dimen172
 )
-\AM@pagewidth=\dimen172
-\AM@pageheight=\dimen173
-\AM@fboxrule=\dimen174
+\AM@pagewidth=\dimen173
+\AM@pageheight=\dimen174
+\AM@fboxrule=\dimen175
  (C:\Program Files\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count308
+\pdfpages@includegraphics@status=\count310
 \AM@pagebox=\box57
-\AM@global@opts=\toks31
-\AM@pagecnt=\count309
-\AM@toc@title=\toks32
-\AM@lof@heading=\toks33
-\c@AM@survey=\count310
+\AM@global@opts=\toks29
+\AM@pagecnt=\count311
+\AM@toc@title=\toks30
+\AM@lof@heading=\toks31
+\c@AM@survey=\count312
 \AM@templatesizebox=\box58
 ) (C:\Program Files\MiKTeX\tex/latex/csvsimple\csvsimple.sty
 Package: csvsimple 2024/09/27 v2.7.0 LaTeX CSV file processing
 ) (C:\Program Files\MiKTeX\tex/latex/csvsimple\csvsimple-legacy.sty
 Package: csvsimple-legacy 2024/09/27 version 2.7.0 LaTeX2e CSV file processing
  (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks34
-\pgfutil@tempdima=\dimen175
-\pgfutil@tempdimb=\dimen176
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen176
+\pgfutil@tempdimb=\dimen177
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box59
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks35
-\pgfkeys@temptoks=\toks36
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
  (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks37
+\pgfkeys@tmptoks=\toks35
 ))) (C:\Program Files\MiKTeX\tex/latex/tools\shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\csv@file=\read2
-\c@csvinputline=\count311
-\c@csvrow=\count312
-\c@csvcol=\count313
+\csv@file=\read3
+\c@csvinputline=\count313
+\c@csvrow=\count314
+\c@csvcol=\count315
 \csv@out=\write3
 ) (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip74
-\multirow@cntb=\count314
+\multirow@cntb=\count316
 \multirow@dima=\skip75
-\bigstrutjot=\dimen177
+\bigstrutjot=\dimen178
 ) (C:\Program Files\MiKTeX\tex/latex/ulem\ulem.sty
 \UL@box=\box60
 \UL@hyphenbox=\box61
 \UL@skip=\skip76
-\UL@hook=\toks38
-\UL@height=\dimen178
-\UL@pe=\count315
-\UL@pixel=\dimen179
+\UL@hook=\toks36
+\UL@height=\dimen179
+\UL@pe=\count317
+\UL@pixel=\dimen180
 \ULC@box=\box62
 Package: ulem 2019/11/18
-\ULdepth=\dimen180
+\ULdepth=\dimen181
 ) (C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTleft=\skip77
 \LTright=\skip78
 \LTpre=\skip79
 \LTpost=\skip80
-\LTchunksize=\count316
-\LTcapwidth=\dimen181
+\LTchunksize=\count318
+\LTcapwidth=\dimen182
 \LT@head=\box63
 \LT@firsthead=\box64
 \LT@foot=\box65
 \LT@lastfoot=\box66
 \LT@gbox=\box67
-\LT@cols=\count317
-\LT@rows=\count318
-\c@LT@tables=\count319
-\c@LT@chunks=\count320
-\LT@p@ftn=\toks39
+\LT@cols=\count319
+\LT@rows=\count320
+\c@LT@tables=\count321
+\c@LT@chunks=\count322
+\LT@p@ftn=\toks37
 ) (C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
  (C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
@@ -603,49 +457,49 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )) (C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count321
+\c@r@tfl@t=\count323
 \rotFPtop=\skip81
 \rotFPbot=\skip82
 \rot@float@box=\box68
-\rot@mess@toks=\toks40
+\rot@mess@toks=\toks38
 ) (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen182
+\col@sep=\dimen183
 \ar@mcellbox=\box69
-\extrarowheight=\dimen183
-\NC@list=\toks41
+\extrarowheight=\dimen184
+\NC@list=\toks39
 \extratabsurround=\skip83
 \backup@length=\skip84
 \ar@cellbox=\box70
 ) (C:\Program Files\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen184
-\c@nlinenum=\count322
-\TeXr@lab=\toks42
+\rotheadsize=\dimen185
+\c@nlinenum=\count324
+\TeXr@lab=\toks40
 ) (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
  (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
-\pgf@x=\dimen185
-\pgf@y=\dimen186
-\pgf@xa=\dimen187
-\pgf@ya=\dimen188
-\pgf@xb=\dimen189
-\pgf@yb=\dimen190
-\pgf@xc=\dimen191
-\pgf@yc=\dimen192
-\pgf@xd=\dimen193
-\pgf@yd=\dimen194
+\pgf@x=\dimen186
+\pgf@y=\dimen187
+\pgf@xa=\dimen188
+\pgf@ya=\dimen189
+\pgf@xb=\dimen190
+\pgf@yb=\dimen191
+\pgf@xc=\dimen192
+\pgf@yc=\dimen193
+\pgf@xd=\dimen194
+\pgf@yd=\dimen195
 \w@pgf@writea=\write4
-\r@pgf@reada=\read3
-\c@pgf@counta=\count323
-\c@pgf@countb=\count324
-\c@pgf@countc=\count325
-\c@pgf@countd=\count326
-\t@pgf@toka=\toks43
-\t@pgf@tokb=\toks44
-\t@pgf@tokc=\toks45
-\pgf@sys@id@count=\count327
+\r@pgf@reada=\read4
+\c@pgf@counta=\count325
+\c@pgf@countb=\count326
+\c@pgf@countc=\count327
+\c@pgf@countd=\count328
+\t@pgf@toka=\toks41
+\t@pgf@tokb=\toks42
+\t@pgf@tokc=\toks43
+\pgf@sys@id@count=\count329
  (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -656,59 +510,59 @@ File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count328
-\pgfsyssoftpath@bigbuffer@items=\count329
+\pgfsyssoftpath@smallbuffer@items=\count330
+\pgfsyssoftpath@bigbuffer@items=\count331
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen195
-\pgfmath@count=\count330
+\pgfmath@dimen=\dimen196
+\pgfmath@count=\count332
 \pgfmath@box=\box71
-\pgfmath@toks=\toks46
-\pgfmath@stack@operand=\toks47
-\pgfmath@stack@operation=\toks48
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count331
+\c@pgfmathroundto@lastzeros=\count333
 )) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen196
-\pgf@picmaxx=\dimen197
-\pgf@picminy=\dimen198
-\pgf@picmaxy=\dimen199
-\pgf@pathminx=\dimen256
-\pgf@pathmaxx=\dimen257
-\pgf@pathminy=\dimen258
-\pgf@pathmaxy=\dimen259
-\pgf@xx=\dimen260
-\pgf@xy=\dimen261
-\pgf@yx=\dimen262
-\pgf@yy=\dimen263
-\pgf@zx=\dimen264
-\pgf@zy=\dimen265
+\pgf@picminx=\dimen197
+\pgf@picmaxx=\dimen198
+\pgf@picminy=\dimen199
+\pgf@picmaxy=\dimen256
+\pgf@pathminx=\dimen257
+\pgf@pathmaxx=\dimen258
+\pgf@pathminy=\dimen259
+\pgf@pathmaxy=\dimen260
+\pgf@xx=\dimen261
+\pgf@xy=\dimen262
+\pgf@yx=\dimen263
+\pgf@yy=\dimen264
+\pgf@zx=\dimen265
+\pgf@zy=\dimen266
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen266
-\pgf@path@lasty=\dimen267
+\pgf@path@lastx=\dimen267
+\pgf@path@lasty=\dimen268
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen268
-\pgf@shorten@start@additional=\dimen269
+\pgf@shorten@end@additional=\dimen269
+\pgf@shorten@start@additional=\dimen270
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box72
 \pgf@hbox=\box73
 \pgf@layerbox@main=\box74
-\pgf@picture@serial@count=\count332
+\pgf@picture@serial@count=\count334
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen270
+\pgflinewidth=\dimen271
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen271
-\pgf@pt@y=\dimen272
-\pgf@pt@temp=\dimen273
+\pgf@pt@x=\dimen272
+\pgf@pt@y=\dimen273
+\pgf@pt@temp=\dimen274
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -717,12 +571,12 @@ File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen274
+\pgfarrowsep=\dimen275
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen275
-\pgf@sys@shading@range@num=\count333
-\pgf@shadingcount=\count334
+\pgf@max=\dimen276
+\pgf@sys@shading@range@num=\count335
+\pgf@shadingcount=\count336
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
@@ -743,59 +597,59 @@ File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen276
-\pgf@nodesepend=\dimen277
+\pgf@nodesepstart=\dimen277
+\pgf@nodesepend=\dimen278
 ) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen278
-\pgffor@skip=\dimen279
-\pgffor@stack=\toks49
-\pgffor@toks=\toks50
+\pgffor@iter=\dimen279
+\pgffor@skip=\dimen280
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
 )) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count335
-\pgfplotmarksize=\dimen280
+\pgf@plot@mark@count=\count337
+\pgfplotmarksize=\dimen281
 )
-\tikz@lastx=\dimen281
-\tikz@lasty=\dimen282
-\tikz@lastxsaved=\dimen283
-\tikz@lastysaved=\dimen284
-\tikz@lastmovetox=\dimen285
-\tikz@lastmovetoy=\dimen286
-\tikzleveldistance=\dimen287
-\tikzsiblingdistance=\dimen288
+\tikz@lastx=\dimen282
+\tikz@lasty=\dimen283
+\tikz@lastxsaved=\dimen284
+\tikz@lastysaved=\dimen285
+\tikz@lastmovetox=\dimen286
+\tikz@lastmovetoy=\dimen287
+\tikzleveldistance=\dimen288
+\tikzsiblingdistance=\dimen289
 \tikz@figbox=\box77
 \tikz@figbox@bg=\box78
 \tikz@tempbox=\box79
 \tikz@tempbox@bg=\box80
-\tikztreelevel=\count336
-\tikznumberofchildren=\count337
-\tikznumberofcurrentchild=\count338
-\tikz@fig@count=\count339
+\tikztreelevel=\count338
+\tikznumberofchildren=\count339
+\tikznumberofcurrentchild=\count340
+\tikz@fig@count=\count341
  (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count340
-\pgfmatrixcurrentcolumn=\count341
-\pgf@matrix@numberofcolumns=\count342
+\pgfmatrixcurrentrow=\count342
+\pgfmatrixcurrentcolumn=\count343
+\pgf@matrix@numberofcolumns=\count344
 )
-\tikz@expandcount=\count343
+\tikz@expandcount=\count345
  (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+) (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
  (C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks51
-\XKV@tempa@toks=\toks52
+\XKV@toks=\toks49
+\XKV@tempa@toks=\toks50
 )
-\XKV@depth=\count344
+\XKV@depth=\count346
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
@@ -805,34 +659,34 @@ Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box81
 )
-\tc@llx=\dimen289
-\tc@lly=\dimen290
-\tc@urx=\dimen291
-\tc@ury=\dimen292
+\tc@llx=\dimen290
+\tc@lly=\dimen291
+\tc@urx=\dimen292
+\tc@ury=\dimen293
 Package trimclip Info: Using driver 'tc-pdftex.def'.
  (C:\Program Files\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen293
-\adjbox@Height=\dimen294
-\adjbox@Depth=\dimen295
-\adjbox@Totalheight=\dimen296
-\adjbox@pwidth=\dimen297
-\adjbox@pheight=\dimen298
-\adjbox@pdepth=\dimen299
-\adjbox@ptotalheight=\dimen300
+\adjbox@Width=\dimen294
+\adjbox@Height=\dimen295
+\adjbox@Depth=\dimen296
+\adjbox@Totalheight=\dimen297
+\adjbox@pwidth=\dimen298
+\adjbox@pheight=\dimen299
+\adjbox@pdepth=\dimen300
+\adjbox@ptotalheight=\dimen301
  (C:\Program Files\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count345
+\c@checkoddpage=\count347
 ) (C:\Program Files\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box82
-\sift@deathcycles=\count346
-\@vwid@loff=\dimen301
-\@vwid@roff=\dimen302
-)) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+\sift@deathcycles=\count348
+\@vwid@loff=\dimen302
+\@vwid@roff=\dimen303
+))) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count347
+\l__color_backend_stack_int=\count349
 \l__pdf_internal_box=\box83
 ) (main.aux)
 \openout1 = `main.aux'.
@@ -855,21 +709,19 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count348
-\scratchdimen=\dimen303
+\scratchcounter=\count350
+\scratchdimen=\dimen304
 \scratchbox=\box84
-\nofMPsegments=\count349
-\nofMParguments=\count350
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count351
-\MPscratchDim=\dimen304
-\MPnumerator=\count352
-\makeMPintoPDFobject=\count353
-\everyMPtoPDFconversion=\toks54
+\nofMPsegments=\count351
+\nofMParguments=\count352
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count353
+\MPscratchDim=\dimen305
+\MPnumerator=\count354
+\makeMPintoPDFobject=\count355
+\everyMPtoPDFconversion=\toks52
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -886,16 +738,16 @@ Package hyperref Info: Link coloring ON on input line 4.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: <default>
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
-* v-part:(T,H,B)=(54.2025pt, 668.4975pt, 72.26999pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=505.89pt
-* \textheight=668.4975pt
+* h-part:(L,W,R)=(54.2025pt, 489.10287pt, 54.2025pt)
+* v-part:(T,H,B)=(54.2025pt, 718.57436pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=489.10287pt
+* \textheight=718.57436pt
 * \oddsidemargin=-18.06749pt
 * \evensidemargin=-18.06749pt
 * \topmargin=-55.06749pt
@@ -903,7 +755,7 @@ Package hyperref Info: Link coloring ON on input line 4.
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=44.0pt
+* \marginparwidth=35.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -916,45 +768,462 @@ Package hyperref Info: Link coloring ON on input line 4.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count354
-(content/group-information.tex) [1{C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+\c@lstlisting=\count356
+(content/title.tex
+<img/hcmus-logo.png, id=346, 597.9138pt x 597.9138pt>
+File: img/hcmus-logo.png Graphic file (type png)
+<use img/hcmus-logo.png>
+Package pdftex.def Info: img/hcmus-logo.png  used on input line 20.
+(pdftex.def)             Requested size: 179.37552pt x 179.37552pt.
+ [1
 
-] (content/algorithms.tex (content/algorithms/selection-sort.tex) [2] (content/algorithms/insertion-sort.tex
-LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 32.
- (C:\Program Files\MiKTeX\tex/latex/vntex\t5cmtt.fd
-File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [3]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+{C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/hcmus-logo.png>]) (main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)) [4] (content/algorithms/shell-sort.tex) [5] (content/algorithms/bubble-sort.tex) [6] (content/algorithms/heap-sort.tex) [7] (content/algorithms/merge-sort.tex [8]) [9] (content/algorithms/quick-sort.tex) [10] (content/algorithms/radix-sort.tex) [11] (content/algorithms/binary-insertion-sort.tex
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.50 ....7.4}Pseudo Code}{16}{subsubsection.2.7.4}
+                                                  % [1])
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [2] (content/group-information.tex
+Overfull \hbox (403.74461pt too wide) in paragraph at lines 8--8
+[]|[]| 
+ []
+
+
+Overfull \hbox (403.74461pt too wide) in paragraph at lines 10--10
+[]|[]| 
+ []
+
+
+Overfull \hbox (403.74461pt too wide) in paragraph at lines 12--12
+[]|[]| 
+ []
+
+
+Overfull \hbox (403.74461pt too wide) in paragraph at lines 14--14
+[]|[]
+ []
+
+) [3] (content/algorithms.tex (content/algorithms/selection-sort.tex [4]) [5] (content/algorithms/insertion-sort.tex [6]) [7] (content/algorithms/shell-sort.tex [8]) [9] (content/algorithms/bubble-sort.tex [10]) [11] (content/algorithms/heap-sort.tex [12]) [13] (content/algorithms/merge-sort.tex [14]) [15] (content/algorithms/quick-sort.tex
+Overfull \hbox (23.99454pt too wide) in paragraph at lines 6--7
+[]\OT1/cmr/bx/n/12 Application: \OT1/cmr/m/n/12 The de-fault sort-ing al-go-rithm in many stan-dard li-braries (e.g., C++ \OT1/cmtt/m/n/12 std::sort\OT1/cmr/m/n/12 ). 
+ []
+
+[16]) [17] (content/algorithms/radix-sort.tex [18]) [19] (content/algorithms/binary-insertion-sort.tex
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 48.
  (C:\Program Files\MiKTeX\tex/latex/base\ts1cmtt.fd
 File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [12]) [13] (content/algorithms/shaker-sort.tex [14]) [15] (content/algorithms/flash-sort.tex) [16]) (content/experimental-results-and-comments.tex) [17] (content/project-organization-and-programming-notes.tex) [18] (content/acknowledgements.tex) [19] (content/reference.tex (main.bbl)) [20] (main.aux)
+) [20]) [21] (content/algorithms/shaker-sort.tex [22]) [23] (content/algorithms/flash-sort.tex [24] [25]) [26]) (content/experimental-results-and-comments.tex
+
+pdfTeX warning: pdflatex (file ./data/Sorted.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<data/Sorted.pdf, id=586, 794.97pt x 614.295pt>
+File: data/Sorted.pdf Graphic file (type pdf)
+<use data/Sorted.pdf>
+Package pdftex.def Info: data/Sorted.pdf  used on input line 10.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+pdfTeX warning: pdflatex (file ./data/Sorted.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./data/Sorted.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<data/Sorted.pdf, id=588, page=1, 794.97pt x 614.295pt>
+File: data/Sorted.pdf Graphic file (type pdf)
+<use data/Sorted.pdf, page 1>
+Package pdftex.def Info: data/Sorted.pdf , page1 used on input line 10.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: data/Sorted.pdf Graphic file (type pdf)
+<use data/Sorted.pdf, page 1>
+Package pdftex.def Info: data/Sorted.pdf , page1 used on input line 10.
+(pdftex.def)             Requested size: 773.60669pt x 597.78697pt.
+[27]
+File: data/Sorted.pdf Graphic file (type pdf)
+<use data/Sorted.pdf, page 1>
+Package pdftex.def Info: data/Sorted.pdf , page1 used on input line 10.
+(pdftex.def)             Requested size: 773.60669pt x 597.78697pt.
+File: data/Sorted.pdf Graphic file (type pdf)
+<use data/Sorted.pdf, page 1>
+Package pdftex.def Info: data/Sorted.pdf , page1 used on input line 10.
+(pdftex.def)             Requested size: 773.60669pt x 597.78697pt.
+File: data/Sorted.pdf Graphic file (type pdf)
+<use data/Sorted.pdf, page 1>
+Package pdftex.def Info: data/Sorted.pdf , page1 used on input line 10.
+(pdftex.def)             Requested size: 773.60669pt x 597.78697pt.
+ [28
+
+ <./data/Sorted.pdf>]
+
+pdfTeX warning: pdflatex (file ./data/NearlySorted.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<data/NearlySorted.pdf, id=609, 794.97pt x 614.295pt>
+File: data/NearlySorted.pdf Graphic file (type pdf)
+<use data/NearlySorted.pdf>
+Package pdftex.def Info: data/NearlySorted.pdf  used on input line 11.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+pdfTeX warning: pdflatex (file ./data/NearlySorted.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./data/NearlySorted.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<data/NearlySorted.pdf, id=611, page=1, 794.97pt x 614.295pt>
+File: data/NearlySorted.pdf Graphic file (type pdf)
+<use data/NearlySorted.pdf, page 1>
+Package pdftex.def Info: data/NearlySorted.pdf , page1 used on input line 11.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: data/NearlySorted.pdf Graphic file (type pdf)
+<use data/NearlySorted.pdf, page 1>
+Package pdftex.def Info: data/NearlySorted.pdf , page1 used on input line 11.
+(pdftex.def)             Requested size: 773.60669pt x 597.78697pt.
+File: data/NearlySorted.pdf Graphic file (type pdf)
+<use data/NearlySorted.pdf, page 1>
+Package pdftex.def Info: data/NearlySorted.pdf , page1 used on input line 11.
+(pdftex.def)             Requested size: 773.60669pt x 597.78697pt.
+File: data/NearlySorted.pdf Graphic file (type pdf)
+<use data/NearlySorted.pdf, page 1>
+Package pdftex.def Info: data/NearlySorted.pdf , page1 used on input line 11.
+(pdftex.def)             Requested size: 773.60669pt x 597.78697pt.
+File: data/NearlySorted.pdf Graphic file (type pdf)
+<use data/NearlySorted.pdf, page 1>
+Package pdftex.def Info: data/NearlySorted.pdf , page1 used on input line 11.
+(pdftex.def)             Requested size: 773.60669pt x 597.78697pt.
+[29
+
+ <./data/NearlySorted.pdf>]
+
+pdfTeX warning: pdflatex (file ./data/ReverseSorted.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<data/ReverseSorted.pdf, id=628, 794.97pt x 614.295pt>
+File: data/ReverseSorted.pdf Graphic file (type pdf)
+<use data/ReverseSorted.pdf>
+Package pdftex.def Info: data/ReverseSorted.pdf  used on input line 12.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+pdfTeX warning: pdflatex (file ./data/ReverseSorted.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./data/ReverseSorted.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<data/ReverseSorted.pdf, id=630, page=1, 794.97pt x 614.295pt>
+File: data/ReverseSorted.pdf Graphic file (type pdf)
+<use data/ReverseSorted.pdf, page 1>
+Package pdftex.def Info: data/ReverseSorted.pdf , page1 used on input line 12.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: data/ReverseSorted.pdf Graphic file (type pdf)
+<use data/ReverseSorted.pdf, page 1>
+Package pdftex.def Info: data/ReverseSorted.pdf , page1 used on input line 12.
+(pdftex.def)             Requested size: 773.60669pt x 597.78697pt.
+File: data/ReverseSorted.pdf Graphic file (type pdf)
+<use data/ReverseSorted.pdf, page 1>
+Package pdftex.def Info: data/ReverseSorted.pdf , page1 used on input line 12.
+(pdftex.def)             Requested size: 773.60669pt x 597.78697pt.
+File: data/ReverseSorted.pdf Graphic file (type pdf)
+<use data/ReverseSorted.pdf, page 1>
+Package pdftex.def Info: data/ReverseSorted.pdf , page1 used on input line 12.
+(pdftex.def)             Requested size: 773.60669pt x 597.78697pt.
+File: data/ReverseSorted.pdf Graphic file (type pdf)
+<use data/ReverseSorted.pdf, page 1>
+Package pdftex.def Info: data/ReverseSorted.pdf , page1 used on input line 12.
+(pdftex.def)             Requested size: 773.60669pt x 597.78697pt.
+[30
+
+ <./data/ReverseSorted.pdf>]
+
+pdfTeX warning: pdflatex (file ./data/RandomizeSorted.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<data/RandomizeSorted.pdf, id=648, 794.97pt x 614.295pt>
+File: data/RandomizeSorted.pdf Graphic file (type pdf)
+<use data/RandomizeSorted.pdf>
+Package pdftex.def Info: data/RandomizeSorted.pdf  used on input line 13.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+pdfTeX warning: pdflatex (file ./data/RandomizeSorted.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./data/RandomizeSorted.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<data/RandomizeSorted.pdf, id=650, page=1, 794.97pt x 614.295pt>
+File: data/RandomizeSorted.pdf Graphic file (type pdf)
+<use data/RandomizeSorted.pdf, page 1>
+Package pdftex.def Info: data/RandomizeSorted.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: data/RandomizeSorted.pdf Graphic file (type pdf)
+<use data/RandomizeSorted.pdf, page 1>
+Package pdftex.def Info: data/RandomizeSorted.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 773.60669pt x 597.78697pt.
+File: data/RandomizeSorted.pdf Graphic file (type pdf)
+<use data/RandomizeSorted.pdf, page 1>
+Package pdftex.def Info: data/RandomizeSorted.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 773.60669pt x 597.78697pt.
+File: data/RandomizeSorted.pdf Graphic file (type pdf)
+<use data/RandomizeSorted.pdf, page 1>
+Package pdftex.def Info: data/RandomizeSorted.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 773.60669pt x 597.78697pt.
+File: data/RandomizeSorted.pdf Graphic file (type pdf)
+<use data/RandomizeSorted.pdf, page 1>
+Package pdftex.def Info: data/RandomizeSorted.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 773.60669pt x 597.78697pt.
+[31
+
+ <./data/RandomizeSorted.pdf>]
+<data/Graph/Sorted Input.pdf, id=667, 840.13875pt x 372.39125pt>
+File: data/Graph/Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Sorted Input.pdf>
+Package pdftex.def Info: data/Graph/Sorted Input.pdf  used on input line 14.
+(pdftex.def)             Requested size: 840.1367pt x 372.39034pt.
+<data/Graph/Sorted Input.pdf, id=669, page=1, 840.13875pt x 372.39125pt>
+File: data/Graph/Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Sorted Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Sorted Input.pdf , page1 used on input line 14.
+(pdftex.def)             Requested size: 840.1367pt x 372.39034pt.
+File: data/Graph/Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Sorted Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Sorted Input.pdf , page1 used on input line 14.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Sorted Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Sorted Input.pdf , page1 used on input line 14.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Sorted Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Sorted Input.pdf , page1 used on input line 14.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Sorted Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Sorted Input.pdf , page1 used on input line 14.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+ [32
+
+ <./data/Graph/Sorted Input.pdf>]
+<data/Graph/Nearly Sorted Input.pdf, id=690, 840.13875pt x 372.39125pt>
+File: data/Graph/Nearly Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Nearly Sorted Input.pdf>
+Package pdftex.def Info: data/Graph/Nearly Sorted Input.pdf  used on input line 15.
+(pdftex.def)             Requested size: 840.1367pt x 372.39034pt.
+<data/Graph/Nearly Sorted Input.pdf, id=692, page=1, 840.13875pt x 372.39125pt>
+File: data/Graph/Nearly Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Nearly Sorted Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Nearly Sorted Input.pdf , page1 used on input line 15.
+(pdftex.def)             Requested size: 840.1367pt x 372.39034pt.
+File: data/Graph/Nearly Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Nearly Sorted Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Nearly Sorted Input.pdf , page1 used on input line 15.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Nearly Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Nearly Sorted Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Nearly Sorted Input.pdf , page1 used on input line 15.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Nearly Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Nearly Sorted Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Nearly Sorted Input.pdf , page1 used on input line 15.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Nearly Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Nearly Sorted Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Nearly Sorted Input.pdf , page1 used on input line 15.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+ [33
+
+ <./data/Graph/Nearly Sorted Input.pdf>]
+<data/Graph/Reverse Sorted Input.pdf, id=713, 840.13875pt x 372.39125pt>
+File: data/Graph/Reverse Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Reverse Sorted Input.pdf>
+Package pdftex.def Info: data/Graph/Reverse Sorted Input.pdf  used on input line 16.
+(pdftex.def)             Requested size: 840.1367pt x 372.39034pt.
+<data/Graph/Reverse Sorted Input.pdf, id=715, page=1, 840.13875pt x 372.39125pt>
+File: data/Graph/Reverse Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Reverse Sorted Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Reverse Sorted Input.pdf , page1 used on input line 16.
+(pdftex.def)             Requested size: 840.1367pt x 372.39034pt.
+File: data/Graph/Reverse Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Reverse Sorted Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Reverse Sorted Input.pdf , page1 used on input line 16.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Reverse Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Reverse Sorted Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Reverse Sorted Input.pdf , page1 used on input line 16.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Reverse Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Reverse Sorted Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Reverse Sorted Input.pdf , page1 used on input line 16.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Reverse Sorted Input.pdf Graphic file (type pdf)
+<use data/Graph/Reverse Sorted Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Reverse Sorted Input.pdf , page1 used on input line 16.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+ [34
+
+ <./data/Graph/Reverse Sorted Input.pdf>]
+<data/Graph/Randomize Input.pdf, id=736, 840.13875pt x 372.39125pt>
+File: data/Graph/Randomize Input.pdf Graphic file (type pdf)
+<use data/Graph/Randomize Input.pdf>
+Package pdftex.def Info: data/Graph/Randomize Input.pdf  used on input line 17.
+(pdftex.def)             Requested size: 840.1367pt x 372.39034pt.
+<data/Graph/Randomize Input.pdf, id=738, page=1, 840.13875pt x 372.39125pt>
+File: data/Graph/Randomize Input.pdf Graphic file (type pdf)
+<use data/Graph/Randomize Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Randomize Input.pdf , page1 used on input line 17.
+(pdftex.def)             Requested size: 840.1367pt x 372.39034pt.
+File: data/Graph/Randomize Input.pdf Graphic file (type pdf)
+<use data/Graph/Randomize Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Randomize Input.pdf , page1 used on input line 17.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Randomize Input.pdf Graphic file (type pdf)
+<use data/Graph/Randomize Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Randomize Input.pdf , page1 used on input line 17.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Randomize Input.pdf Graphic file (type pdf)
+<use data/Graph/Randomize Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Randomize Input.pdf , page1 used on input line 17.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Randomize Input.pdf Graphic file (type pdf)
+<use data/Graph/Randomize Input.pdf, page 1>
+Package pdftex.def Info: data/Graph/Randomize Input.pdf , page1 used on input line 17.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+ [35
+
+ <./data/Graph/Randomize Input.pdf>]
+<data/Graph/Sorted Input (1).pdf, id=759, 840.13875pt x 372.39125pt>
+File: data/Graph/Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Sorted Input (1).pdf>
+Package pdftex.def Info: data/Graph/Sorted Input (1).pdf  used on input line 18.
+(pdftex.def)             Requested size: 840.1367pt x 372.39034pt.
+<data/Graph/Sorted Input (1).pdf, id=761, page=1, 840.13875pt x 372.39125pt>
+File: data/Graph/Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Sorted Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Sorted Input (1).pdf , page1 used on input line 18.
+(pdftex.def)             Requested size: 840.1367pt x 372.39034pt.
+File: data/Graph/Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Sorted Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Sorted Input (1).pdf , page1 used on input line 18.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Sorted Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Sorted Input (1).pdf , page1 used on input line 18.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Sorted Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Sorted Input (1).pdf , page1 used on input line 18.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Sorted Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Sorted Input (1).pdf , page1 used on input line 18.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+ [36
+
+ <./data/Graph/Sorted Input (1).pdf>]
+<data/Graph/Nearly Sorted Input (1).pdf, id=784, 840.13875pt x 372.39125pt>
+File: data/Graph/Nearly Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Nearly Sorted Input (1).pdf>
+Package pdftex.def Info: data/Graph/Nearly Sorted Input (1).pdf  used on input line 19.
+(pdftex.def)             Requested size: 840.1367pt x 372.39034pt.
+<data/Graph/Nearly Sorted Input (1).pdf, id=786, page=1, 840.13875pt x 372.39125pt>
+File: data/Graph/Nearly Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Nearly Sorted Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Nearly Sorted Input (1).pdf , page1 used on input line 19.
+(pdftex.def)             Requested size: 840.1367pt x 372.39034pt.
+File: data/Graph/Nearly Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Nearly Sorted Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Nearly Sorted Input (1).pdf , page1 used on input line 19.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Nearly Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Nearly Sorted Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Nearly Sorted Input (1).pdf , page1 used on input line 19.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Nearly Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Nearly Sorted Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Nearly Sorted Input (1).pdf , page1 used on input line 19.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Nearly Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Nearly Sorted Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Nearly Sorted Input (1).pdf , page1 used on input line 19.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+ [37
+
+ <./data/Graph/Nearly Sorted Input (1).pdf>]
+<data/Graph/Reverse Sorted Input (1).pdf, id=808, 840.13875pt x 372.39125pt>
+File: data/Graph/Reverse Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Reverse Sorted Input (1).pdf>
+Package pdftex.def Info: data/Graph/Reverse Sorted Input (1).pdf  used on input line 20.
+(pdftex.def)             Requested size: 840.1367pt x 372.39034pt.
+<data/Graph/Reverse Sorted Input (1).pdf, id=810, page=1, 840.13875pt x 372.39125pt>
+File: data/Graph/Reverse Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Reverse Sorted Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Reverse Sorted Input (1).pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 840.1367pt x 372.39034pt.
+File: data/Graph/Reverse Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Reverse Sorted Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Reverse Sorted Input (1).pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Reverse Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Reverse Sorted Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Reverse Sorted Input (1).pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Reverse Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Reverse Sorted Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Reverse Sorted Input (1).pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Reverse Sorted Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Reverse Sorted Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Reverse Sorted Input (1).pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+ [38
+
+ <./data/Graph/Reverse Sorted Input (1).pdf>]
+<data/Graph/Randomize Input (1).pdf, id=832, 840.13875pt x 372.39125pt>
+File: data/Graph/Randomize Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Randomize Input (1).pdf>
+Package pdftex.def Info: data/Graph/Randomize Input (1).pdf  used on input line 21.
+(pdftex.def)             Requested size: 840.1367pt x 372.39034pt.
+<data/Graph/Randomize Input (1).pdf, id=834, page=1, 840.13875pt x 372.39125pt>
+File: data/Graph/Randomize Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Randomize Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Randomize Input (1).pdf , page1 used on input line 21.
+(pdftex.def)             Requested size: 840.1367pt x 372.39034pt.
+File: data/Graph/Randomize Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Randomize Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Randomize Input (1).pdf , page1 used on input line 21.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Randomize Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Randomize Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Randomize Input (1).pdf , page1 used on input line 21.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Randomize Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Randomize Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Randomize Input (1).pdf , page1 used on input line 21.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+File: data/Graph/Randomize Input (1).pdf Graphic file (type pdf)
+<use data/Graph/Randomize Input (1).pdf, page 1>
+Package pdftex.def Info: data/Graph/Randomize Input (1).pdf , page1 used on input line 21.
+(pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
+ [39
+
+ <./data/Graph/Randomize Input (1).pdf>]) (content/project-organization-and-programming-notes.tex) [40] (content/acknowledgements.tex) [41] (content/reference.tex (main.bbl)) [42] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DF2D1754D9E4E3F83E792756E82EF025;5684.
+(rerunfilecheck)             Checksum: 09FF2B9D65A2AF782D967722D39C4AAE;12503.
  ) 
 Here is how much of TeX's memory you used:
- 26519 strings out of 474486
- 481254 string characters out of 5753569
- 1940542 words of memory out of 5000000
- 48192 multiletter control sequences out of 15000+600000
- 571475 words of font info for 66 fonts, out of 8000000 for 9000
+ 27199 strings out of 474486
+ 502028 string characters out of 5753569
+ 1945542 words of memory out of 5000000
+ 48796 multiletter control sequences out of 15000+600000
+ 567349 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,11n,96p,467b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/vntex/vnr/dpi600\vntt12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/vntex/vnr/dpi600\vnti12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/vntex/vnr/dpi600\vnbx12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/vntex/vnr/dpi720\vnbx12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/vntex/vnr/dpi600\vnr12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/vntex/vnr/dpi864\vnbx12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/vntex/vnr/dpi600\vnsl12.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (20 pages, 210778 bytes).
+ 95i,18n,96p,467b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (43 pages, 1175629 bytes).
 PDF statistics:
- 676 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
- 341 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 966 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
+ 878 words of extra memory for PDF output out of 10000 (max. 10000000)
 

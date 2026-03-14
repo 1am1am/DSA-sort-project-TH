@@ -5,29 +5,29 @@
             \item \textbf{Efficiency:} Best for small datasets or nearly sorted/sorted data. Worst for reverse-sorted datasets.
             \item \textbf{Application:} Often used as the base case for hybrid algorithms by Tim Sort, Intro Sort, Quick Sort, etc. to handle small sub-lists.
         \end{itemize}
-    \subsubsection{Idea}
+    \subsubsection{Core Concepts}
         \begin{itemize}
             \item Let the list be divided by sub-lists, separating them into sorted and unsorted sections.
             \item Take the first element of the unsorted list and insert it into its proper place in the sorted one.
             \item After each placement, the size of the sorted region grows by 1 and the size of the unsorted region shrinks by 1.
         \end{itemize}
 
-    \subsubsection{Step-by-Step Algorithm}
+    \subsubsection{Step-by-Step Explanation}
         \begin{itemize}
-            \item Consider an array of n elements, a[0\ldots (n - 1)].
-            \item \textbf{Step 1:} Start an increase variable \textit{i} that is from 1 to n - 1.
-            \item \textbf{Step 2:} Find the correct position \textit{pos} in a[0\ldots (i - 1)] to insert a[i], where a[pos - 1] < a[i] < a[pos].
+            \item Consider an array of $n$ elements, $a[0\ldots (n - 1)]$.
+            \item \textbf{Step 1:} Start an increase variable \textit{i} that is from $1$ to $n - 1$.
+            \item \textbf{Step 2:} Find the correct position \textit{pos} in $a[0\ldots (i - 1)]$ to insert $a[i]$, where $a[pos - 1] < a[i] < a[pos]$.
             \begin{itemize}
-                \item Set val = a[i], then move forward a[pos\ldots (i - 1)] to one element. After that, set a[pos] = val.
-                \item Increase \textit{i} by 1.
+                \item Set $val = a[i]$, then move forward $a[pos\ldots (i - 1)]$ to one element. After that, set $a[pos] = val$.
+                \item Increase \textit{i} by $1$.
             \end{itemize}
-            \item \textbf{Step 3:} If i < n return to \textbf{Step 2}. Otherwise, stop the algorithm. 
+            \item \textbf{Step 3:} If $i < n$ return to \textbf{Step 2}. Otherwise, stop the algorithm. 
         \end{itemize}
 
     \subsubsection{Pseudo Code}
         \begin{itemize}
             \item \textbf{Algorithm:} Insertion Sort
-            \item \textbf{Input:} An array A of n elements
+            \item \textbf{Input:} An array $A$ of $n$ elements
         \end{itemize}
         \begin{verbatim}
         1. For i = 1 to n - 1:
@@ -38,7 +38,7 @@
         6.       j = j - 1
         7.    A[j + 1] = key
         \end{verbatim}
-    \subsubsection{Complexity}
+    \subsubsection{Complexity Analysis}
         \begin{itemize}
             \item \textbf{Time Complexity:}
             \begin{itemize}
