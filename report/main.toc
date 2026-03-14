@@ -67,6 +67,8 @@
 \contentsline {subsubsection}{\numberline {2.11.5}Complexity Analysis}{23}{subsubsection.2.11.5}%
 \contentsline {subsubsection}{\numberline {2.11.6}Variants and Optimizations}{24}{subsubsection.2.11.6}%
 \contentsline {section}{\numberline {3}Experimental results and comments}{25}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Running time of algorithms}{25}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}The number of comparisons in algorithms}{25}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Project Organization and Programming Notes}{38}{section.4}%
 \contentsline {section}{\numberline {5}Acknowledgements}{39}{section.5}%
 \contentsline {section}{\numberline {6}References}{40}{section.6}%
