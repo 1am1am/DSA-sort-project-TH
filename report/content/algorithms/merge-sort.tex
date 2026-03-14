@@ -13,17 +13,17 @@
         \end{itemize}
     \subsubsection{Step-by-Step Explanation}
         \begin{itemize}
-            \item Consider an array of n elements, a[0\ldots (n - 1)].
-            \item \textbf{Step 1:} Recursively divide the array into halves until it reaches sub-arrays of size 1.
+            \item Consider an array of $n$ elements, $a[0\ldots (n - 1)]$.
+            \item \textbf{Step 1:} Recursively divide the array into halves until it reaches sub-arrays of size $1$.
             \item \textbf{Step 2:} Merge the sorted sub-arrays back together by using two pointers to track the current position in the left and right sub-arrays, respectively.
             If there are remaining elements in the left sub-array, copy them to a temporary array. Repeat the same for the right sub-array.
-            \item \textbf{Step 3:} Copy the sorted temporary array back to the original array a[left\ldots right].
+            \item \textbf{Step 3:} Copy the sorted temporary array back to the original array $a[left\ldots right]$.
             \item \textbf{Step 4:} Repeat the process until the entire array is merged and the recursion stack is empty.
         \end{itemize}
     \subsubsection{Pseudo Code}
         \begin{itemize}
             \item \textbf{Algorithm:} Merge Sort
-            \item \textbf{Input:} An array A of n elements
+            \item \textbf{Input:} An array $A$ of $n$ elements
         \end{itemize}
         \begin{verbatim}
             MergeSort(arr[], l, r):

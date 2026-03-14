@@ -48,7 +48,13 @@
 \contentsline {subsection}{\numberline {2.9}Binary Insertion Sort}{18}{subsection.2.9}%
 \contentsline {subsection}{\numberline {2.10}Shaker Sort}{19}{subsection.2.10}%
 \contentsline {subsection}{\numberline {2.11}Flash Sort}{20}{subsection.2.11}%
-\contentsline {section}{\numberline {3}Experimental results and comments}{21}{section.3}%
-\contentsline {section}{\numberline {4}Project Organization and Programming Notes}{34}{section.4}%
-\contentsline {section}{\numberline {5}Acknowledgements}{35}{section.5}%
-\contentsline {section}{\numberline {A}References}{36}{appendix.A}%
+\contentsline {subsubsection}{\numberline {2.11.1}Overview}{20}{subsubsection.2.11.1}%
+\contentsline {subsubsection}{\numberline {2.11.2}Core Concepts}{20}{subsubsection.2.11.2}%
+\contentsline {subsubsection}{\numberline {2.11.3}Step-by-Step Explanation}{20}{subsubsection.2.11.3}%
+\contentsline {subsubsection}{\numberline {2.11.4}Pseudo Code}{20}{subsubsection.2.11.4}%
+\contentsline {subsubsection}{\numberline {2.11.5}Complexity Analysis}{21}{subsubsection.2.11.5}%
+\contentsline {subsubsection}{\numberline {2.11.6}Variants and Optimizations}{22}{subsubsection.2.11.6}%
+\contentsline {section}{\numberline {3}Experimental results and comments}{23}{section.3}%
+\contentsline {section}{\numberline {4}Project Organization and Programming Notes}{36}{section.4}%
+\contentsline {section}{\numberline {5}Acknowledgements}{37}{section.5}%
+\contentsline {section}{\numberline {6}References}{38}{section.6}%
