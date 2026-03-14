@@ -13,6 +13,7 @@ struct Command{
     std::string inputOrder;
     std::string outputParameter;
     double runningTime1, runningTime2;
+    bool isCommand3 = false;
     long long comparisons1, comparisons2;
     Command() {
         runningTime1 = runningTime2 = 0;

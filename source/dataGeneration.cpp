@@ -108,3 +108,16 @@ void writeFile(Command command, string filename) {
 	}
 	fout.close();
 }
+void writeArrayToFile(string filename, int size, const vector<int>& array) {
+	ofstream fout(filename);
+	if (fout.is_open()) {
+		fout << size << "\n";
+		for (size_t i = 0; i < array.size(); i++) {
+			fout << array[i];
+			if (i < array.size() - 1) fout << " ";
+		}
+		fout.close();
+	} else {
+		cout << "Cannot open " << filename << "\n";
+	}
+}
