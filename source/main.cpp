@@ -9,7 +9,7 @@
 void runTest() {
     std::vector<std::string> cmdLine(5);
     cmdLine[0] = "07.exe";
-    std::vector<std::string> algorithm = {"merge-sort", "flash-sort", "insertion-sort"/*, "insertion-sort", "shell-sort", "bubble-sort", "heap-sort", "merge-sort", "quick-sort", "radix-sort", "counting-sort", "binary-insertion-sort", "shaker-sort", "flash-sort"*/};
+    std::vector<std::string> algorithm = {/*"merge-sort", "flash-sort", */"insertion-sort"/*, "insertion-sort", "shell-sort", "bubble-sort", "heap-sort", "merge-sort", "quick-sort", "radix-sort", "counting-sort", "binary-insertion-sort", "shaker-sort", "flash-sort"*/};
     std::vector<std::string> size = {"10000", "30000", "50000", "100000", "300000", "500000"};
     for (std::string alg : algorithm) {
         std::cout << "############### DAY LA " << alg << " ###############\n"; 
