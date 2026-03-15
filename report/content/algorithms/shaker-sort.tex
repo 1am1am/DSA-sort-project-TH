@@ -1,27 +1,25 @@
 \subsection[Shaker Sort]{Shaker Sort}
     \subsubsection{Overview}
         \begin{itemize}
-            \item \textbf{History and Origin:} One of the oldest and most intuitive sorting algorithms. Mimicking how humans sort a hand of playing cards.
+            \item \textbf{History and Origin:} A variant algorithm from bubble sort - which named as cocktail sort, coctail-shaker sort, bidirectional bubble sort,etc.
             \item \textbf{Efficiency:} Best for small datasets or nearly sorted/sorted data. Worst for reverse-sorted datasets.
-            \item \textbf{Application:} Often used as the base case for hybrid algorithms by Tim Sort, Intro Sort, Quick Sort, etc. to handle small sub-lists.
+            \item \textbf{Application:} Using shaker sort for better efficiency than bubble sort. It is also uses for teaching basic algorithm about sorting or use for sort a small set data.
         \end{itemize}
-    \subsubsection{Idea}
+    \subsubsection{Core concepts}
         \begin{itemize}
-            \item Let the list be divided by sub-lists, separating them into sorted and unsorted sections.
-            \item Take the first element of the unsorted list and insert it into its proper place in the sorted one.
-            \item After each placement, the size of the sorted region grows by 1 and the size of the unsorted region shrinks by 1.
+            \item The shaker sort compares adjacent elements and swaps their position if neccessary.
+            \item The algorithm works to swap the larger items to the end of the array and swap the smaller items to the begin of the array, those items are described as bubbles float to the surface and shrink to the bottom.
         \end{itemize}
-
-    \subsubsection{Step-by-Step Algorithm}
+    \subsubsection{Step-by-step Expanation}
         \begin{itemize}
-            \item Consider an array of n elements, a[0\ldots (n - 1)].
-            \item \textbf{Step 1:} Start an increase variable \textit{i} that is from 1 to n - 1.
-            \item \textbf{Step 2:} Find the correct position \textit{pos} in a[0\ldots (i - 1)] to insert a[i], where a[pos - 1] < a[i] < a[pos].
-            \begin{itemize}
-                \item Set val = a[i], then move forward a[pos\ldots (i - 1)] to one element. After that, set a[pos] = val.
-                \item Increase \textit{i} by 1.
-            \end{itemize}
-            \item \textbf{Step 3:} If i < n return to \textbf{Step 2}. Otherwise, stop the algorithm. 
+            \item Assume that the array of n elements, a[0...(n-1)].
+            \item \textbf{Step 1: } Set \textit{start} = 0, \textit{end} = n - 1 and \textit{pos} = n - 1
+            \item \textbf{Step 2: } If start = end then stop algorithm else do all the following steps below.
+            \item \textbf{Step 3: } Set pos = end.
+            \item \textbf{Step 4: } Run a loop from start to end, if there is an adjacent pair which not ascending then swap them and set pos = less index of that pair.
+            \item \textbf{Step 5: } Set end = pos.
+            \item \textbf{Step 6: } Run a loop from end to start, if there is an adjacent pair which not descending then swap them and set pos = larger index of that pair.
+            \item \textbf{Step 7: } Set start = pos, then repeat \textbf{Step 2}
         \end{itemize}
 
     \subsubsection{Pseudo Code}
@@ -62,15 +60,16 @@
         
     \subsubsection{Variants and Optimizations}
         \begin{itemize}
-            \item \textbf{The "Hit" Method (Enhanced Insertion Sort)\cite{sodhi2013enhanced}:}
+             \item \textbf{Origin implementation: } Origin shaker sort
             \begin{itemize}
-                \item \textbf{Problem:} Conventional Insertion Sort is inefficient for reverse-sorted lists due to maximum comparisons.
-                \item \textbf{Solution:} Immediately compare $A[i]$ with $A[0]$ (the current minimum).
-                \item \textbf{Benefit:} If $A[i] < A[0]$, it is moved to the front instantly, bypassing all intermediate comparisons and significantly reducing execution time.
+                \item Compares all adjacent pair of elements for twice times from go forward and backward.
+                \item Optional optimize: After each loops, minimize start and end by one cause we know all the values from begin and end were in their correct position.
+                \item Additional flag, if they do not swap any times, break the loop.
             \end{itemize}
-            \item \textbf{Binary Insertion Sort:}
+            \item \textbf{Improved implementation: } Shaker sort with last swapped
             \begin{itemize}
-                \item Use Binary Search to find the position of an element within the sorted sub-array which is greater than or equal to A[i].
-                \item While Binary Search reduces the number of comparisons to $O(n \log n)$, the complexity of data movement remains $O(n^2)$ because elements must still be shifted to make space for the new entry.
+                \item Having all the structures from original shaker sort but has below optimize.
+                \item Additional variable \textit{pos} stores the change of position which was the place swapped in array. 
+                \item We only care about that pos cause if we go forward, all the index before that pos were in their correct position, it is also correct for backward. So we can minimize the range of array.
             \end{itemize}
         \end{itemize}

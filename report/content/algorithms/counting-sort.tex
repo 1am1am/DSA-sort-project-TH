@@ -26,7 +26,7 @@
 
     \subsubsection{Pseudo Code}
         \begin{itemize}
-            \item \textbf{Algorithm:} Insertion Sort
+            \item \textbf{Algorithm:} Counting Sort
             \item \textbf{Input:} An array A of n elements
         \end{itemize}
         \begin{verbatim}
@@ -55,12 +55,6 @@
         
     \subsubsection{Variants and Optimizations}
         \begin{itemize}
-            \item \textbf{The "Hit" Method (Enhanced Insertion Sort)\cite{sodhi2013enhanced}:}
-            \begin{itemize}
-                \item \textbf{Problem:} Conventional Insertion Sort is inefficient for reverse-sorted lists due to maximum comparisons.
-                \item \textbf{Solution:} Immediately compare $A[i]$ with $A[0]$ (the current minimum).
-                \item \textbf{Benefit:} If $A[i] < A[0]$, it is moved to the front instantly, bypassing all intermediate comparisons and significantly reducing execution time.
-            \end{itemize}
             \item \textbf{Binary Insertion Sort:}
             \begin{itemize}
                 \item Use Binary Search to find the position of an element within the sorted sub-array which is greater than or equal to A[i].

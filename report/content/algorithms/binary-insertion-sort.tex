@@ -5,14 +5,14 @@
             \item \textbf{Efficiency:} Best for small datasets or nearly sorted/sorted data. Worst for reverse-sorted datasets.
             \item \textbf{Application:} Instead of using insertion sort when the subarray size becomes small in hybrid algorithms such as Timsort, Introsort, or Quicksort, binary insertion sort can be used for better efficiency. It is also useful in problems where the cost of comparisons is relatively high.
         \end{itemize}
-    \subsubsection{Idea}
+    \subsubsection{Core concepts}
         \begin{itemize}
             \item Let the list be divided by sub-lists, separating them into sorted and unsorted sections.
             \item Take the first element of the unsorted list and insert it into its proper place in the sorted one.
             \item After each placement, the size of the sorted region grows by 1 and the size of the unsorted region shrinks by 1.
         \end{itemize}
 
-    \subsubsection{Step-by-Step Algorithm}
+    \subsubsection{Step-by-step Expanation}
         \begin{itemize}
             \item Binary insertion sort uses the same code structure as Insertion Sort, except for the process of finding the correct position. Therefore, only this step is described below.
             \item Find the correct position \textit{pos} in $a[0\ldots (i - 1)]$ to insert a[i], where a[pos - 1] $\leq$ a[i] < a[pos].
