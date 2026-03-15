@@ -5,7 +5,7 @@
             \item \textbf{Efficiency: } This algorithm is appropriate for medium-sized and sorted/nearly sorted datasets.
             \item \textbf{Application: } The shell sort can be applied in reality to deal with medium-sized data to replace other sorting algorithms namely Merge sort, which are too heavy. Sometimes, this technique can be used as a subroutine in hybrid algorithms. 
         \end{itemize}
-    \subsubsection{Core concepts}
+    \subsubsection{Core Concepts}
         \begin{itemize}
             \item The shell sort uses the same operating principles with insertion sort. However, the key difference is that Shell sort instead of comparing adjacent elements to find place for the insertion, it compares elements which are far apart.
         \end{itemize}
@@ -15,7 +15,7 @@
         \item \textbf{Step 1: } Set the gap base on a certain sequence , usually $(n/2)$
         \item \textbf{Step 2: } Divide the array into several sublist and do insertion sort in those.
         \item \textbf{Step 3: } Reduce the gap and repeat the process on \textbf{Step 2} if the gap is greater than 1.
-        \item \textbf{Step 4:} If the gap equals to 1, do the last insertion sort when the array is nearly sorted.
+        \item \textbf{Step 4: } If the gap equals to 1, do the last insertion sort when the array is nearly sorted.
     \end{itemize}
     \subsubsection{Pseudo code} 
         \begin{verbatim}

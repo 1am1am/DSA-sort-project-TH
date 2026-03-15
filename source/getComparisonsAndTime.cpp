@@ -118,44 +118,6 @@ void makeInput(vector<int>& Array, Command& command){
     if(command.inputOrder == "-nsorted") Array = GenerateData(command.inputSize, "-nsorted");
 }
 
-
-long long getAlgorithm(string Name, const vector<int>& Array, double &Time, vector<int>& SortedArray){
-    vector<int> Tmp = Array;
-    long long Comparisons = 0;
-    auto start = chrono::high_resolution_clock::now();
-    auto end = chrono::high_resolution_clock::now();
-
-    if("selection-sort" == Name){
-        selectionSortTime(Tmp);
-        end = chrono::high_resolution_clock::now();
-        Tmp = Array;
-        selectionSort(Tmp, Comparisons);
-    }
-    else if("insertion-sort" == Name){
-        insertionSortTime(Tmp);
-        end = chrono::high_resolution_clock::now();
-        Tmp = Array;
-        insertionSort(Tmp, Comparisons);
-    }
-
-    else if("flash-sort" == Name){
-        flashSortTime(Tmp);
-        end = chrono::high_resolution_clock::now();
-        Tmp = Array;
-        flashSort(Tmp, Comparisons);
-    }
-
-    chrono::duration<double, milli> duration = end - start;
-    Time = duration.count();
-    
-
-    SortedArray = Tmp; 
-
-    return Comparisons;
-}
-
-
-
 void getComparisonsAndTime(Command& command){
 
     if (command.inputOrder == "-all") return; 

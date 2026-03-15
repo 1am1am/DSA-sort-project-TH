@@ -5,14 +5,14 @@
             \item \textbf{Efficiency:} Highly efficient for datasets with keys that are not too large.
             \item \textbf{Application:} Widely used where numerical data needs to be sorted in linear time \cite{cormen2022introduction}.
         \end{itemize}
-    \subsubsection{Idea}
+    \subsubsection{Core Concepts}
         \begin{itemize}
             \item Radix Sort avoids direct comparison between elements, instead grouping them by their individual digits.
             \item The implemented version is Least Significant Digit (LSD) Radix Sort (Base-10).
             \item It uses 10 structural \texttt{Buckets}, each containing a dynamically allocated array to directly store and retrieve elements for each digit from 0 to 9.
         \end{itemize}
 
-    \subsubsection{Step-by-Step Algorithm}
+    \subsubsection{Step-by-step Explanation}
         \begin{itemize}
             \item \textbf{Step 1:} Find the maximum value (\textit{maxv}) in the array to determine the number of digits.
             \item \textbf{Step 2:} Initialize 10 \texttt{Buckets}, dynamically allocating an array of size $n$ for each bucket's data.
@@ -53,7 +53,7 @@
         17.   j = j * 10
         18. Free Bucket memory
         \end{verbatim}
-    \subsubsection{Complexity}
+    \subsubsection{Complexity Analysis}
         \begin{itemize}
             \item \textbf{Time Complexity:} $O(d(n + k))$
                 \subitem Where \textit{d} is the number of digits, \textit{n} is the number of elements, and \textit{k} is 10.
