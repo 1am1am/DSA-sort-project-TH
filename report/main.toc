@@ -18,14 +18,14 @@
 \contentsline {subsection}{\numberline {2.3}Shell Sort}{8}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Overview}{8}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2}Core concepts}{8}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Step-by-step Expanation}{8}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3}Step-by-step Explanation}{8}{subsubsection.2.3.3}%
 \contentsline {subsubsection}{\numberline {2.3.4}Pseudo code}{8}{subsubsection.2.3.4}%
 \contentsline {subsubsection}{\numberline {2.3.5}Complexity Analysis}{8}{subsubsection.2.3.5}%
 \contentsline {subsubsection}{\numberline {2.3.6}Variants and Optimizations}{9}{subsubsection.2.3.6}%
 \contentsline {subsection}{\numberline {2.4}Bubble Sort}{10}{subsection.2.4}%
 \contentsline {subsubsection}{\numberline {2.4.1}Overview}{10}{subsubsection.2.4.1}%
 \contentsline {subsubsection}{\numberline {2.4.2}Core concepts}{10}{subsubsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}Step-by-step Expanation}{10}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.3}Step-by-step Explanation}{10}{subsubsection.2.4.3}%
 \contentsline {subsubsection}{\numberline {2.4.4}Pseudo code}{10}{subsubsection.2.4.4}%
 \contentsline {subsubsection}{\numberline {2.4.5}Complexity Analysis}{10}{subsubsection.2.4.5}%
 \contentsline {subsubsection}{\numberline {2.4.6}Variants and Optimizations}{11}{subsubsection.2.4.6}%
@@ -68,5 +68,9 @@
 \contentsline {subsubsection}{\numberline {2.11.6}Variants and Optimizations}{24}{subsubsection.2.11.6}%
 \contentsline {section}{\numberline {3}Experimental results and comments}{25}{section.3}%
 \contentsline {section}{\numberline {4}Project Organization and Programming Notes}{38}{section.4}%
-\contentsline {section}{\numberline {5}Acknowledgements}{39}{section.5}%
-\contentsline {section}{\numberline {6}References}{40}{section.6}%
+\contentsline {subsection}{\numberline {4.1}Overview}{38}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Main Functions}{38}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}File Organization}{38}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Program Running Process}{40}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Acknowledgements}{41}{section.5}%
+\contentsline {section}{\numberline {6}References}{42}{section.6}%
