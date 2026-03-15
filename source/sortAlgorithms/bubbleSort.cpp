@@ -43,8 +43,8 @@ void bubbleSort(vector<int>&array, long long& comparisons) {
     int n  = array.size();
     for (int i = 0 ; ++comparisons && i < n-1; i++) {
         for (int j = 0 ; ++comparisons && j < n - 1 - i ; j++ ) {
-            if  ( ++comparisons && array[j ] > array [j+1  ] ) {
-                swap(array[i], array[i+1]);
+            if  ( ++comparisons && array[j] > array [j+1] ) {
+                swap(array[j], array[j+1]);
             }
         }
     }
@@ -56,7 +56,7 @@ void bubbleSortTime(vector<int>&array) {
     for (int i = 0 ;i < n-1; i++) {
         for (int j = 0 ; j < n - 1 - i ; j++ ) {
             if  (array[j ] > array [j+1] ) {
-                swap(array[i], array[i+1]);
+                swap(array[j], array[j+1]);
             }
         }
     }
