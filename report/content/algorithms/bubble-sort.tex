@@ -10,7 +10,7 @@
             \item The bubble sort compares adjacent elements and swaps their position if neccessary.
             \item The algorithm works to swap the larger items to the end of the array, those items are described as bubbles float to the surface, and that is the reason this sorting algorithm is called bubble sort.
         \end{itemize}
-    \subsubsection{Step-by-step Expanation}
+    \subsubsection{Step-by-step Explanation}
     \begin{itemize}
         \item Assume that the array of n elements, a[0...(n-1)].
         \item \textbf{Step 1: } Start with the first element of the array.
@@ -21,8 +21,8 @@
     \end{itemize}
     \subsubsection{Pseudo code} 
         \begin{verbatim}
-            1. for i = 0 to n - 1:
-                2.   for j = 0 to n - i - 1:
+            1. for i = 0 to n - 2:
+                2.   for j = 0 to n - i - 2:
                     3.      if a[j] > a[j+1]:
                         4.      swap(a[j], a[j+1])
         \end{verbatim}

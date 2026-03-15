@@ -7,6 +7,7 @@ using namespace std;
 
 template <class T>
 void Swap(T &a, T &b);
+void writeArrayToFile(string filename, int size, const vector<int>& array);
 //-------------------------------------------------
 void writeFile(string filename, string dataType, int size);
 // Function to generate an array with random data

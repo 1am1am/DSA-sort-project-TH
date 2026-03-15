@@ -9,7 +9,7 @@
         \begin{itemize}
             \item The shell sort uses the same operating principles with insertion sort. However, the key difference is that Shell sort instead of comparing adjacent elements to find place for the insertion, it compares elements which are far apart.
         \end{itemize}
-    \subsubsection{Step-by-step Expanation}
+    \subsubsection{Step-by-step Explanation}
     \begin{itemize}
         \item Assume that the array of n elements, a[0...(n-1)].
         \item \textbf{Step 1: } Set the gap base on a certain sequence , usually $(n/2)$
@@ -44,10 +44,12 @@
     \subsubsection{Variants and Optimizations} 
     \begin{itemize}
         \item Variants of Shell sort is mainly the choose of sequence:
+        \item \textbf{Current sequence: } $n/2,n/4,n/8,...1$
+        \item \textbf{Other sequences: }
         \begin{itemize}
             \item Knuth's Increments: $1,3,13,...,(3k-1)/2$
             \item Sedgewick's Increments: $1,8,23,77,...$
             \item Hibbard's Increments: $1,3,7,15,31,...$
         \end{itemize}
-        \item Each Optimization has its own pros and cons. Depend on the input data, we can choose a distinct version to achieve best performance
+        \item Each optimization has its own pros and cons. Depend on the input data, we can choose a distinct version to achieve best performance
     \end{itemize}

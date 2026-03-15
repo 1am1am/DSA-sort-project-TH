@@ -1,76 +1,85 @@
 \subsection[Radix Sort]{Radix Sort \cite{shun2019parallel}}
     \subsubsection{Overview}
         \begin{itemize}
-            \item \textbf{History and Origin:} A non-comparative sorting algorithm originally used for sorting punch cards.
-            \item \textbf{Efficiency:} Highly efficient for datasets with keys that are not too large (e.g., integers or strings). 
-            \item \textbf{Application:} Widely used in environments where numerical data needs to be sorted in linear time relative to the number of digits.
+            \item \textbf{History and Origin:} A non-comparative sorting algorithm originally used for sorting punch cards, with early implementations on electronic computer systems dating back to 1956 \cite{friend1956sorting}.
+            \item \textbf{Efficiency:} Highly efficient for datasets with keys that are not too large.
+            \item \textbf{Application:} Widely used where numerical data needs to be sorted in linear time \cite{cormen2022introduction}.
         \end{itemize}
     \subsubsection{Idea}
         \begin{itemize}
-            \item Radix Sort avoids direct comparison between elements. Instead, it groups elements by their individual digits.
-            \item The implemented version is Least Significant Digit (LSD) Radix Sort, which processes digits from the least significant (rightmost) to the most significant (leftmost).
-            \item It relies on a stable sorting subroutine (like Counting Sort) to sort the digits at each positional place value.
+            \item Radix Sort avoids direct comparison between elements, instead grouping them by their individual digits.
+            \item The implemented version is Least Significant Digit (LSD) Radix Sort (Base-10).
+            \item It uses 10 structural \texttt{Buckets}, each containing a dynamically allocated array to directly store and retrieve elements for each digit from 0 to 9.
         \end{itemize}
 
     \subsubsection{Step-by-Step Algorithm}
         \begin{itemize}
-            \item Consider an array of n elements.
             \item \textbf{Step 1:} Find the maximum value (\textit{maxv}) in the array to determine the number of digits.
-            \item \textbf{Step 2:} Initialize a multiplier \textit{j} = 1.
-            \item \textbf{Step 3:} While \textit{maxv} / \textit{j} > 0, perform Counting Sort for the current digit place:
+            \item \textbf{Step 2:} Initialize 10 \texttt{Buckets}, dynamically allocating an array of size $n$ for each bucket's data.
+            \item \textbf{Step 3:} Initialize a multiplier \textit{j} = 1.
+            \item \textbf{Step 4:} While \textit{maxv} / \textit{j} > 0:
             \begin{itemize}
-                \item Create a frequency array \textit{Count} of size 10 (for base 10) initialized to 0.
-                \item Calculate occurrences of each digit: \textit{digit} = (array[i] / j) \% 10.
-                \item Accumulate \textit{Count} array to determine actual positions.
-                \item Place elements into a temporary array \textit{B} traversing backwards to maintain stability.
-                \item Copy array \textit{B} back to the original array.
+                \item Reset the \textit{count} of all 10 buckets to 0.
+                \item For each element, extract its digit: \textit{digit} = (array[i] / j) \% 10.
+                \item Append the element to the corresponding bucket's \textit{data} array and increment its \textit{count}.
+                \item Traverse the 10 buckets in order (0 to 9) and sequentially write the elements back into the original array.
             \end{itemize}
-            \item \textbf{Step 4:} Multiply \textit{j} by 10 and return to \textbf{Step 3} until all digits are processed.
+            \item \textbf{Step 5:} Multiply \textit{j} by 10 and return to \textbf{Step 4} until all digits are processed.
+            \item \textbf{Step 6:} Deallocate the memory of the bucket arrays.
         \end{itemize}
 
     \subsubsection{Pseudo Code}
         \begin{itemize}
-            \item \textbf{Algorithm:} LSD Radix Sort
+            \item \textbf{Algorithm:} LSD Radix Sort (Bucket Approach)
             \item \textbf{Input:} An array A of n elements
         \end{itemize}
         \begin{verbatim}
         1. Find maxv in A
-        2. j = 1
-        3. While (maxv / j) > 0:
-        4.    Count = array of 10 zeros
-        5.    For i = 0 to n - 1:
-        6.       digit = (A[i] / j) % 10
-        7.       Count[digit]++
-        8.    For k = 1 to 9:
-        9.       Count[k] = Count[k] + Count[k - 1]
-        10.   B = array of size n
-        11.   For i = n - 1 down to 0:
-        12.      digit = (A[i] / j) % 10
-        13.      B[Count[digit] - 1] = A[i]
-        14.      Count[digit]--
-        15.   Copy B back to A
-        16.   j = j * 10
+        2. Initialize 10 Buckets (each has an array 'data' and 'count')
+        3. j = 1
+        4. While (maxv / j) > 0:
+        5.    For k = 0 to 9:
+        6.       Buckets[k].count = 0
+        7.    For i = 0 to n - 1:
+        8.       digit = (A[i] / j) % 10
+        9.       empty = Buckets[digit].count
+        10.      Buckets[digit].data[empty] = A[i]
+        11.      Buckets[digit].count = Buckets[digit].count + 1
+        12.   dex = 0
+        13.   For k = 0 to 9:
+        14.      For m = 0 to Buckets[k].count - 1:
+        15.         A[dex] = Buckets[k].data[m]
+        16.         dex = dex + 1
+        17.   j = j * 10
+        18. Free Bucket memory
         \end{verbatim}
     \subsubsection{Complexity}
         \begin{itemize}
-            \item \textbf{Time Complexity:}
-            \begin{itemize}
-                \item Best, Average, and Worst case: $O(d(n + k))$
-                    \subitem Where \textit{d} is the number of digits, \textit{n} is the number of elements, and \textit{k} is the base (10).
-            \end{itemize}
-            \item \textbf{Space Complexity:} $O(n + k)$ 
-                \subitem Requires auxiliary arrays (\textit{Count} and \textit{B}) for the internal Counting Sort.
+            \item \textbf{Time Complexity:} $O(d(n + k))$
+                \subitem Where \textit{d} is the number of digits, \textit{n} is the number of elements, and \textit{k} is 10.
+            \item \textbf{Space Complexity:} $O(n \times k)$ 
+                \subitem The current implementation allocates 10 full-sized arrays of size \textit{n}, requiring heavily expanded auxiliary memory.
         \end{itemize}
+
     \subsubsection{Variants and Optimizations}
         \begin{itemize}
-            \item \textbf{Current Implementation (Base-10 LSD):}
+            \item \textbf{Current Implementation (Base-10 with Dynamic Buckets):}
             \begin{itemize}
-                \item The provided C++ code implements Least Significant Digit (LSD) Radix Sort using base 10 (decimal system). It extracts digits using modulo (\texttt{\% 10}) and allocates a counting array of size 10 for each pass.
+                \item The provided C++ code creates 10 explicit buckets, each allocating $O(n)$ memory space. This is intuitive but highly memory-intensive for large datasets.
             \end{itemize}
-            \item \textbf{Theoretical Variant: Bitwise Radix Sort (Base-256):}
+            \item \textbf{Theoretical Upgrade 1: Counting Sort Array (Standard LSD):}
             \begin{itemize}
-                \item \textbf{Problem:} Using base 10 requires division (\texttt{/}) and modulo (\texttt{\%}) operations, which are computationally expensive. Additionally, base 10 requires more passes for large integer limits.
-                \item \textbf{Solution:} Change the radix base to a power of 2 (e.g., base 256 for byte-level extraction) using fast bitwise operations (right shift \texttt{>>} and bitwise AND \texttt{\&}).
-                \item \textbf{Benefit:} Drastically reduces the number of sorting passes (e.g., only 4 passes for 32-bit integers) and replaces slow arithmetic operations with fast bitwise logic.
+                \item \textbf{Optimization:} Instead of 10 arrays of size $n$, use a single prefix-sum \texttt{Count} array of size 10 and one temporary output array of size $n$.
+                \item \textbf{Benefit:} Reduces the Space Complexity drastically from $O(10n)$ to $O(n + 10)$.
+            \end{itemize}
+            \item \textbf{Theoretical Upgrade 2: Bitwise Radix Sort (Base-256):}
+            \begin{itemize}
+                \item \textbf{Optimization:} Change the radix base to a power of 2 (e.g., base 256) using fast bitwise operations (\texttt{>>} and \texttt{\&}).
+                \item \textbf{Benefit:} Eliminates slow division (\texttt{/}) and modulo (\texttt{\%}) operations, executing much faster at the CPU level.
+            \end{itemize}
+            \item \textbf{Theoretical Upgrade 3: In-Place Radix Sort \cite{shun2019parallel}:}
+            \begin{itemize}
+                \item \textbf{Optimization:} Modify the permutation phase to run in-place by tracing cycles.
+                \item \textbf{Benefit:} Eliminates auxiliary array overhead entirely, massively improving cache hits.
             \end{itemize}
         \end{itemize}

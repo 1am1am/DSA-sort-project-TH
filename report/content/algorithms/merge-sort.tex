@@ -26,19 +26,19 @@
             \item \textbf{Input:} An array $A$ of $n$ elements
         \end{itemize}
         \begin{verbatim}
-            MergeSort(arr[], l, r):
-                If l < r:
-                    middle index: m = l + (r - l)/2
-                    Call mergeSort(arr, l, m)
-                    Call mergeSort(arr, m + 1, r)
-                    Call merge(arr[], l, m, r) to merge the two halves
+            1.   MergeSort(arr[], l, r):
+            2.      If l < r:
+            3.          middle index: m = l + (r - l)/2
+            4.          Call mergeSort(arr, l, m)
+            5.          Call mergeSort(arr, m + 1, r)
+            6.          Call merge(arr[], l, m, r) to merge the two halves
 
-            merge(arr[], l, m, r):
-                Set pos = left, leftPos = left, rightPos = mid + 1
-                While leftPos <= mid and rightPos <= right:
-                    tempArray[pos++] = min(a[leftPos], a[rightPos])
-                    If a[leftPos] <= a[rightPos]: increment leftPos
-                    else: increment rightPos
+            7.   merge(arr[], l, m, r):
+            8.      Set pos = left, leftPos = left, rightPos = mid + 1
+            9.      While leftPos <= mid and rightPos <= right:
+            10.         tempArray[pos++] = min(a[leftPos], a[rightPos])
+            11.         If a[leftPos] <= a[rightPos]: increment leftPos
+            12.         else: increment rightPos
         \end{verbatim}
     \subsubsection{Complexity Analysis}
         \begin{itemize}
