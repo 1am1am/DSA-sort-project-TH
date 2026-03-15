@@ -9,7 +9,15 @@
 void runTest() {
     std::vector<std::string> cmdLine(5);
     cmdLine[0] = "07.exe";
+<<<<<<< HEAD
     std::vector<std::string> algorithm = {"bubble-sort"/*, "insertion-sort", "shell-sort", "bubble-sort", "heap-sort", "merge-sort", "quick-sort", "radix-sort", "counting-sort", "binary-insertion-sort", "shaker-sort", "flash-sort"*/};
+=======
+<<<<<<< HEAD
+    std::vector<std::string> algorithm = {"quick-sort", "radix-sort"/*, "insertion-sort", "shell-sort", "bubble-sort", "heap-sort", "merge-sort", "quick-sort", "radix-sort", "counting-sort", "binary-insertion-sort", "shaker-sort", "flash-sort","selection-sort"*/};
+=======
+    std::vector<std::string> algorithm = {/*"merge-sort", "flash-sort", */"insertion-sort"/*, "insertion-sort", "shell-sort", "bubble-sort", "heap-sort", "merge-sort", "quick-sort", "radix-sort", "counting-sort", "binary-insertion-sort", "shaker-sort", "flash-sort"*/};
+>>>>>>> f0c64dbf28a4353edfe98e96fd35f3836bd067c9
+>>>>>>> c74b738388e0b2f679d478643196bc65bb0bb4d7
     std::vector<std::string> size = {"10000", "30000", "50000", "100000", "300000", "500000"};
     for (std::string alg : algorithm) {
         std::cout << "############### DAY LA " << alg << " ###############\n"; 
