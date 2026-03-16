@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99e
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 Reallocating 'name_of_file' (item size: 1) to 6 items.
@@ -7,45 +7,60 @@ Reallocating 'name_of_file' (item size: 1) to 26 items.
 Database file #1: bibliography/bibliography.bib
 Warning--I didn't find a database entry for "hoare1962quicksort"
 Warning--I didn't find a database entry for "cormen2022introduction"
+<<<<<<< HEAD
 You've used 11 entries,
             2118 wiz_defined-function locations,
             567 strings with 5758 characters,
 and the built_in function-call counts, 3435 in all, are:
 = -- 344
 > -- 143
+=======
+You've used 23 entries,
+            2118 wiz_defined-function locations,
+            624 strings with 7595 characters,
+and the built_in function-call counts, 6318 in all, are:
+= -- 617
+> -- 255
+>>>>>>> 6faaa2af0a162555d7299d8ec4dfa6cb62771df7
 < -- 1
-+ -- 59
-- -- 46
-* -- 242
-:= -- 585
-add.period$ -- 33
-call.type$ -- 11
-change.case$ -- 56
++ -- 107
+- -- 80
+* -- 379
+:= -- 1071
+add.period$ -- 69
+call.type$ -- 23
+change.case$ -- 108
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 133
-empty$ -- 276
-format.name$ -- 46
-if$ -- 704
+cite$ -- 23
+duplicate$ -- 244
+empty$ -- 548
+format.name$ -- 80
+if$ -- 1312
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 11
-newline$ -- 58
-num.names$ -- 22
-pop$ -- 49
+int.to.str$ -- 23
+missing$ -- 20
+newline$ -- 118
+num.names$ -- 46
+pop$ -- 147
 preamble$ -- 1
-purify$ -- 45
+purify$ -- 86
 quote$ -- 0
-skip$ -- 90
+skip$ -- 167
 stack$ -- 0
-substring$ -- 221
-swap$ -- 21
+substring$ -- 340
+swap$ -- 33
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 44
+type$ -- 86
 warning$ -- 0
+<<<<<<< HEAD
 while$ -- 37
 width$ -- 13
 write$ -- 121
+=======
+while$ -- 67
+width$ -- 25
+write$ -- 241
+>>>>>>> 6faaa2af0a162555d7299d8ec4dfa6cb62771df7
 (There were 2 warnings)

@@ -1,18 +1,18 @@
-\subsection[Quick Sort]{Quick Sort \cite{nebel2014pivot}}
+\subsection[Quick Sort]{Quick Sort \cite{hoare1962quicksort}}
     \subsubsection{Overview}
         \begin{itemize}
-            \item \textbf{History and Origin:} Developed by Tony Hoare in 1959 \cite{hoare1962quicksort}. One of the most famous divide-and-conquer algorithms, extensively analyzed in standard algorithm texts \cite{cormen2022introduction}.
+            \item \textbf{History and Origin:} Developed by Tony Hoare in 1959 \cite{hoare1962quicksort}. One of the most famous divide-and-conquer algorithms, extensively analyzed in standard algorithm texts \cite{cormen2009introduction}.
             \item \textbf{Efficiency:} Highly efficient and generally outperforms other $O(n \log n)$ algorithms in practice due to excellent cache locality.
             \item \textbf{Application:} The default sorting algorithm in many standard libraries.
         \end{itemize}
-    \subsubsection{Idea}
+    \subsubsection{Core concepts}
         \begin{itemize}
             \item It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays according to whether they are less than or greater than the pivot.
             \item The sub-arrays are then sorted recursively.
             \item The implemented version uses the Lomuto partition scheme with the middle element acting as the initial pivot.
         \end{itemize}
 
-    \subsubsection{Step-by-Step Algorithm}
+    \subsubsection{Step-by-step Explanation}
         \begin{itemize}
             \item \textbf{Step 1:} Calculate the middle index \textit{mid} and swap the element at \textit{mid} with the last element at \textit{r}.
             \item \textbf{Step 2:} Set the pivot as the new element at the last index \textit{r}.
@@ -31,31 +31,31 @@
             \item \textbf{Input:} An array A, left index l, right index r
         \end{itemize}
         \begin{verbatim}
-        Algorithm: Partition(A, l, r)
-        1. mid = l + (r - l) / 2
-        2. Swap(A[mid], A[r])
-        3. pivot = A[r]
-        4. j = l - 1
-        5. For i = l to r - 1:
-        6.    If A[i] <= pivot:
-        7.       j = j + 1
-        8.       Swap(A[j], A[i])
-        9. j = j + 1
-        10. Swap(A[j], A[r])
-        11. Return j
+            Algorithm: Partition(A, l, r)
+            1. mid = l + (r - l) / 2
+            2. Swap(A[mid], A[r])
+            3. pivot = A[r]
+            4. j = l - 1
+            5. For i = l to r - 1:
+            6.    If A[i] <= pivot:
+            7.       j = j + 1
+            8.       Swap(A[j], A[i])
+            9. j = j + 1
+            10. Swap(A[j], A[r])
+            11. Return j
 
-        Algorithm: Quick Sort
-        1. If l < r:
-        2.    p = Partition(A, l, r)
-        3.    QuickSort(A, l, p - 1)
-        4.    QuickSort(A, p + 1, r)
+            Algorithm: Quick Sort
+            1. If l < r:
+            2.    p = Partition(A, l, r)
+            3.    QuickSort(A, l, p - 1)
+            4.    QuickSort(A, p + 1, r)
         \end{verbatim}
-    \subsubsection{Complexity}
+    \subsubsection{Complexity Analysis}
         \begin{itemize}
             \item \textbf{Time Complexity:}
             \begin{itemize}
-                \item Best and Average case: $O(n \log n)$
-                \item Worst case: $O(n^2)$ 
+                \item \textbf{Best and Average case:} $O(n \log n)$
+                \item \textbf{Worst case:} $O(n^2)$ 
                     \subitem Occurs when the partition is highly unbalanced.
             \end{itemize}
             \item \textbf{Space Complexity:} $O(\log n)$ 

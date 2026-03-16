@@ -1,59 +1,57 @@
-\subsection[Shaker Sort]{Shaker Sort}
+\subsection[Shaker Sort]{Shaker Sort\cite{gfg_cocktailsort}}
     \subsubsection{Overview}
         \begin{itemize}
-            \item \textbf{History and Origin:} One of the oldest and most intuitive sorting algorithms. Mimicking how humans sort a hand of playing cards.
+            \item \textbf{History and Origin:} A variant of the bubble sort algorithm, also known as cocktail sort, cocktail-shaker sort, bidirectional bubble sort, etc.
             \item \textbf{Efficiency:} Best for small datasets or nearly sorted/sorted data. Worst for reverse-sorted datasets.
-            \item \textbf{Application:} Often used as the base case for hybrid algorithms by Tim Sort, Intro Sort, Quick Sort, etc. to handle small sub-lists.
+            \item \textbf{Application:} Used for better efficiency than bubble sort in some cases. It is also used for teaching basic sorting algorithms or for sorting small datasets.
         \end{itemize}
-    \subsubsection{Idea}
+    \subsubsection{Core Concepts}
         \begin{itemize}
-            \item Let the list be divided by sub-lists, separating them into sorted and unsorted sections.
-            \item Take the first element of the unsorted list and insert it into its proper place in the sorted one.
-            \item After each placement, the size of the sorted region grows by 1 and the size of the unsorted region shrinks by 1.
+            \item Shaker sort compares adjacent elements and swaps their positions if necessary.
+            \item The algorithm moves larger elements to the end of the array and smaller elements to the beginning of the array. These movements are similar to bubbles floating to the surface and sinking to the bottom.
         \end{itemize}
-
-    \subsubsection{Step-by-Step Algorithm}
+    \subsubsection{Step-by-step Explanation}
         \begin{itemize}
-            \item Consider an array of n elements, a[0\ldots (n - 1)].
-            \item \textbf{Step 1:} Start an increase variable \textit{i} that is from 1 to n - 1.
-            \item \textbf{Step 2:} Find the correct position \textit{pos} in a[0\ldots (i - 1)] to insert a[i], where a[pos - 1] < a[i] < a[pos].
-            \begin{itemize}
-                \item Set val = a[i], then move forward a[pos\ldots (i - 1)] to one element. After that, set a[pos] = val.
-                \item Increase \textit{i} by 1.
-            \end{itemize}
-            \item \textbf{Step 3:} If i < n return to \textbf{Step 2}. Otherwise, stop the algorithm. 
+            \item Assume an array of $n$ elements, $a[0 \ldots (n-1)]$.
+            \item \textbf{Step 1:} Set \textit{swapped} = true.
+            \item \textbf{Step 2:} While \textit{swapped} is true, repeat the following steps.
+            \item \textbf{Step 3:} Set \textit{swapped} = false. Run a loop from $0$ to $n-2$. If an adjacent pair is not in ascending order, swap them and set \textit{swapped} = true.
+            \item \textbf{Step 4:} If \textit{swapped} = false, stop the algorithm.
+            \item \textbf{Step 5:} Set \textit{swapped} = false. Run a loop from $n-2$ down to $0$. If an adjacent pair is not in ascending order, swap them and set \textit{swapped} = true.
+            \item \textbf{Step 6:} Repeat \textbf{Step 2}.
         \end{itemize}
-
     \subsubsection{Pseudo Code}
         \begin{itemize}
             \item \textbf{Algorithm:} Shaker Sort
             \item \textbf{Input:} An array A of n elements
         \end{itemize}
         \begin{verbatim}
-        1. l ← 0
-        2. r ← length(A) - 1
-        3. while l < r 
-        4.      pos ← r
-        5.      for i ← l+1 to r
-        6.           if A[i] < A[i-1]
-        7.                swap A[i], A[i-1]
-        8.                pos ← i-1
-        9.      r ← pos
-        10.     for i ← r-1 downto l
-        11.          if A[i] > A[i+1]
-        12.               swap A[i], A[i+1]
-        13.               pos ← i+1
-        14.     l ← pos
+            1.  swapped = 1
+            2.  while swapped == 1
+            3.       swapped = 0
+            4.       for i = 0 to n-2
+            5.            if A[i] > A[i+1]
+            6.                 swap A[i], A[i+1]
+            7.                 swapped = 1
+            8.
+            9.       if swapped == 0
+            10.           break
+            11.
+            12.      swapped = 0
+            13.      for i = n-2 downto 0
+            14.           if A[i] > A[i+1]
+            15.                swap A[i], A[i+1]
+            16.                swapped = 1
         \end{verbatim}
-    \subsubsection{Complexity}
+    \subsubsection{Complexity Analysis}
         \begin{itemize}
             \item \textbf{Time Complexity:}
             \begin{itemize}
-                \item Best case: $O(n)$
+                \item \textbf{Best case:} $O(n)$
                     \subitem When the input is already sorted.
-                \item Average case: $O(n^2)$
+                \item \textbf{Average case:} $O(n^2)$
                     \subitem When the input is random.
-                \item Worst case: $O(n^2)$ 
+                \item \textbf{Worst case:} $O(n^2)$ 
                     \subitem When the input is reverse-sorted.
             \end{itemize}
             \item \textbf{Space Complexity:} O(1) 
@@ -62,15 +60,24 @@
         
     \subsubsection{Variants and Optimizations}
         \begin{itemize}
-            \item \textbf{The "Hit" Method (Enhanced Insertion Sort)\cite{sodhi2013enhanced}:}
+            \item \textbf{Past implementation:\cite{iverson1962apl}}
+                \begin{itemize}
+                    \item An early implementation related to Shaker Sort.
+                    \item Compares all adjacent pairs of elements once in each iteration but traverses the array with forward and backward passes sequentially.
+                    \item If a pair is swapped, the algorithm updates the array to save information about whether those elements are already in their correct relative position, so they can be skipped in future comparisons.
+                \end{itemize}
+
+            \item \textbf{Original implementation: } Original shaker sort
             \begin{itemize}
-                \item \textbf{Problem:} Conventional Insertion Sort is inefficient for reverse-sorted lists due to maximum comparisons.
-                \item \textbf{Solution:} Immediately compare $A[i]$ with $A[0]$ (the current minimum).
-                \item \textbf{Benefit:} If $A[i] < A[0]$, it is moved to the front instantly, bypassing all intermediate comparisons and significantly reducing execution time.
+                \item Compares all adjacent pairs of elements twice in each iteration: one forward pass and one backward pass.
+                \item Optional optimization: After each iteration, decrease the range by increasing \textit{start} and decreasing \textit{end}, since the elements at the beginning and the end are already in their correct positions.
+                \item Use an additional flag; if no swaps occur in an iteration, the algorithm stops early.
             \end{itemize}
-            \item \textbf{Binary Insertion Sort:}
+
+            \item \textbf{Improved implementation:\cite[Slide~31]{thao_sorting_slides}} Shaker sort with last swapped position
             \begin{itemize}
-                \item Use Binary Search to find the position of an element within the sorted sub-array which is greater than or equal to A[i].
-                \item While Binary Search reduces the number of comparisons to $O(n \log n)$, the complexity of data movement remains $O(n^2)$ because elements must still be shifted to make space for the new entry.
+                \item Keeps the same structure as the original shaker sort but adds the following optimization.
+                \item An additional variable \textit{pos} stores the position of the last swap in the array.
+                \item We only need to consider the range up to \textit{pos}, because elements outside this range are already in their correct positions. This helps reduce the effective range of the array.
             \end{itemize}
         \end{itemize}

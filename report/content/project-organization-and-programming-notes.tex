@@ -1,2 +1,118 @@
 \section{Project Organization and Programming Notes}
 
+\subsection{Overview}
+\begin{itemize}
+    \item The project is divided into several components with distinct functions.
+    \item The structure of the program is strictly built by a range of folders and files. Particularly, the projects comprises algorithm implementations, test cases, other functions to operate the program. Those components are linked by header files.
+\end{itemize}
+
+\subsection{Main Functions}
+\begin{itemize}
+    \item Sorting Algorithm Implementations
+    \begin{itemize}
+        \item Selection Sort
+        \item Insertion Sort
+        \item Binary Insertion Sort
+        \item Bubble Sort
+        \item Heap Sort
+        \item Merge Sort
+        \item Quick Sort
+        \item Shell Sort
+        \item Flash Sort
+        \item Radix Sort
+        \item Counting Sort
+        \item Shaker Sort
+    \end{itemize}
+
+    \item Data Generation
+    \item Comparisons and Time Calculation
+    \item Command Processing
+    \item Console UI
+\end{itemize}
+
+\subsection{File Organization}
+
+\begin{itemize}
+
+\item \textbf{Source}
+
+\begin{itemize}
+
+\item \textbf{sortAlgorithms}
+\begin{itemize}
+    \item \texttt{binaryInsertion.cpp}
+    \item \texttt{bubbleSort.cpp}
+    \item \texttt{countingSort.cpp}
+    \item \texttt{flashSort.cpp}
+    \item \texttt{heapSort.cpp}
+    \item \texttt{insertionSort.cpp}
+    \item \texttt{mergeSort.cpp}
+    \item \texttt{quickSort.cpp}
+    \item \texttt{radixSort.cpp}
+    \item \texttt{selectionSort.cpp}
+    \item \texttt{shakerSort.cpp}
+    \item \texttt{shellSort.cpp}
+    \item \texttt{sort.h}
+\end{itemize}
+
+\item \textbf{TestCases}
+\begin{itemize}
+    \item \texttt{sorted\_10000.txt}
+    \item \texttt{sorted\_30000.txt}
+    \item \texttt{sorted\_50000.txt}
+    \item \texttt{sorted\_100000.txt}
+    \item \texttt{sorted\_300000.txt}
+    \item \texttt{sorted\_500000.txt}
+
+    \item \texttt{nsorted\_10000.txt}
+    \item \texttt{nsorted\_30000.txt}
+    \item \texttt{nsorted\_50000.txt}
+    \item \texttt{nsorted\_100000.txt}
+    \item \texttt{nsorted\_300000.txt}
+    \item \texttt{nsorted\_500000.txt}
+
+    \item \texttt{rev\_10000.txt}
+    \item \texttt{rev\_30000.txt}
+    \item \texttt{rev\_50000.txt}
+    \item \texttt{rev\_100000.txt}
+    \item \texttt{rev\_300000.txt}
+    \item \texttt{rev\_500000.txt}
+
+    \item \texttt{rand\_10000.txt}
+    \item \texttt{rand\_30000.txt}
+    \item \texttt{rand\_50000.txt}
+    \item \texttt{rand\_100000.txt}
+    \item \texttt{rand\_300000.txt}
+    \item \texttt{rand\_500000.txt}
+\end{itemize}
+
+\item \texttt{commandProcessing.cpp}
+\item \texttt{commandProcessing.h}
+
+\item \texttt{consoleUI.cpp}
+\item \texttt{consoleUI.h}
+
+\item \texttt{dataGeneration.cpp}
+\item \texttt{dataGeneration.h}
+
+\item \texttt{getComparisonsAndTime.cpp}
+\item \texttt{getComparisonsAndTime.h}
+
+\item \texttt{main.cpp}
+
+\item \texttt{07.exe} (run file)
+
+\end{itemize}
+
+\end{itemize}
+
+\subsection{Program Running Process}
+The execution of the program is demonstrated at the below chart.
+
+\begin{figure}[h]
+    \centering
+    \vspace{-100pt}
+    \includegraphics[width=0.9\linewidth, trim=0 80 0 0, clip]{img/Process.png}
+    \caption{Program running process}
+    \label{fig:process}
+\end{figure}

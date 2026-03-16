@@ -1,18 +1,19 @@
-\subsection[Binary Insertion Sort]{Binary Insertion Sort}
+\subsection[Binary Insertion Sort]{Binary Insertion Sort\cite{gfg_binaryinsertionsort}}
     \subsubsection{Overview}
         \begin{itemize}
-            \item \textbf{History and Origin:} Binary insertion sort is a well-known variant of insertion sort that uses binary search to determine the correct insertion position. This technique was mentioned by John Mauchly in 1946 in one of the earliest published discussions on computer sorting.
+            \item \textbf{History and Origin:} Binary insertion sort is a well-known variant of insertion sort that uses binary search to determine the correct insertion position. This technique was mentioned by John Mauchly in 1946 in one of the earliest published discussions on computer sorting\cite[p.~82]{knuth1998sorting}.
             \item \textbf{Efficiency:} Best for small datasets or nearly sorted/sorted data. Worst for reverse-sorted datasets.
             \item \textbf{Application:} Instead of using insertion sort when the subarray size becomes small in hybrid algorithms such as Timsort, Introsort, or Quicksort, binary insertion sort can be used for better efficiency. It is also useful in problems where the cost of comparisons is relatively high.
         \end{itemize}
-    \subsubsection{Idea}
+    \subsubsection{Core Concepts}
         \begin{itemize}
-            \item Let the list be divided by sub-lists, separating them into sorted and unsorted sections.
-            \item Take the first element of the unsorted list and insert it into its proper place in the sorted one.
-            \item After each placement, the size of the sorted region grows by 1 and the size of the unsorted region shrinks by 1.
+            \item The array is divided into two parts: a sorted section and an unsorted section.
+            \item For each element in the unsorted section, use \textbf{binary search\cite{gfg_binarysearch}} to find the correct position in the sorted section.
+            \item Shift the elements to create space and insert the element into its correct position.
+            \item After each insertion, the sorted section increases by one element.
         \end{itemize}
 
-    \subsubsection{Step-by-Step Algorithm}
+    \subsubsection{Step-by-step Expanation}
         \begin{itemize}
             \item Binary insertion sort uses the same code structure as Insertion Sort, except for the process of finding the correct position. Therefore, only this step is described below.
             \item Find the correct position \textit{pos} in $a[0\ldots (i - 1)]$ to insert a[i], where a[pos - 1] $\leq$ a[i] < a[pos].
@@ -32,21 +33,21 @@
             \item \textbf{Input:} An array A of n elements
         \end{itemize}
         \begin{verbatim}
-        1. for i ← 1 to length(A)-1
-        2.      value ← A[i]
-        3.      l ← 0, r ← i-1, pos ← i
-        4.      while l <= r
-        5.           m ← l + (r-l) / 2
-        6.           if A[m] >= value
-        7.                pos ← m
-        8.                r ← m-1
-        9.           else
-        10.               l ← m+1
-        11.     for j ← i downto pos+1
-        12.          A[j] ← A[j-1]
-        13.     A[pos] ← value
+            1. for i = 1 to length(A)-1
+            2.      value = A[i]
+            3.      l = 0, r = i-1, pos = i
+            4.      while l <= r
+            5.           m = l + (r-l) / 2
+            6.           if A[m] >= value
+            7.                pos = m
+            8.                r = m-1
+            9.           else
+            10.               l = m+1
+            11.     for j = i downto pos+1
+            12.          A[j] = A[j-1]
+            13.     A[pos] = value
         \end{verbatim}
-    \subsubsection{Complexity}
+    \subsubsection{Complexity Analysis}
         \begin{itemize}
             \item \textbf{Time Complexity:}
             \begin{itemize}
@@ -64,9 +65,10 @@
         
     \subsubsection{Variants and Optimizations}
         \begin{itemize}
-            \item \textbf{Binary Insertion Sort:}
+            \item \textbf{Clustered Binary Insertion Sort:\cite{goel2018cbis}}
             \begin{itemize}
-                \item Use Binary Search to find the position of an element within the sorted sub-array which is greater than or equal to A[i].
-                \item While Binary Search reduces the number of comparisons to $O(n \log n)$, the complexity of data movement remains $O(n^2)$ because elements must still be shifted to make space for the new entry.
+                \item A variant of Binary Insertion Sort.
+                \item Uses the concept of clusters to determine the range for searching the correct insertion position.
+                \item By using a previously updated position pointer (POP), the algorithm can determine which cluster to perform the binary search on, making it slightly faster than BIS in some cases.
             \end{itemize}
         \end{itemize}

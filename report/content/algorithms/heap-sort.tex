@@ -36,16 +36,16 @@
 \subsubsection{Pseudo code}
 
 \begin{verbatim}
-1. Heapify(A, start, n)
-2.  leftChild = start * 2 + 1
-3.  rightChild = start * 2 + 2
-4.  LargerChild = leftChild
-5.  if leftChild >= n: return
-6.  if A[leftChild] < A[rightChild]:
-7.      LargerChild = rightChild
-8.  if A[start] < A[LargerChild]:
-9.      swap(A[start], A[LargerChild])
-10.      Heapify(A,LargerChild,n) 
+    1. Heapify(A, start, n)
+    2.  leftChild = start * 2 + 1
+    3.  rightChild = start * 2 + 2
+    4.  LargerChild = leftChild
+    5.  if leftChild >= n: return
+    6.  if A[leftChild] < A[rightChild]:
+    7.      LargerChild = rightChild
+    8.  if A[start] < A[LargerChild]:
+    9.      swap(A[start], A[LargerChild])
+    10.      Heapify(A,LargerChild,n) 
 \end{verbatim}
 
 \begin{verbatim}
@@ -69,5 +69,5 @@
 \begin{itemize}
     \item Variants of this algorithm is the adjustment for the number children.
     \item \textbf{Current implementation:  }Binary heap: Build Max-Heap with each node has at most two children $( $ Left and Right$)$
-    \item \textbf{Another implementation: }Ternary heap \cite{johnson1975priority}: each node has at most three children 
+    \item \textbf{Another implementation: }Ternary heap \cite{johnson1975priority}: each node has at most three children, which reduce swaps but increase comparisons
 \end{itemize}
