@@ -17,7 +17,7 @@
             \item \textbf{Step 1:} Find the maximum value (\textit{maxv}) in the array to determine the number of digits.
             \item \textbf{Step 2:} Initialize 10 \texttt{Buckets}, dynamically allocating an array of size $n$ for each bucket's data.
             \item \textbf{Step 3:} Initialize a multiplier \textit{j} = 1.
-            \item \textbf{Step 4:} While \textit{maxv} / \textit{j} > 0:
+            \item \textbf{Step 4:} While $maxv / j > 0$:
             \begin{itemize}
                 \item Reset the \textit{count} of all 10 buckets to 0.
                 \item For each element, extract its digit: \textit{digit} = (array[i] / j) \% 10.
@@ -34,24 +34,24 @@
             \item \textbf{Input:} An array A of n elements
         \end{itemize}
         \begin{verbatim}
-        1. Find maxv in A
-        2. Initialize 10 Buckets (each has an array 'data' and 'count')
-        3. j = 1
-        4. While (maxv / j) > 0:
-        5.    For k = 0 to 9:
-        6.       Buckets[k].count = 0
-        7.    For i = 0 to n - 1:
-        8.       digit = (A[i] / j) % 10
-        9.       empty = Buckets[digit].count
-        10.      Buckets[digit].data[empty] = A[i]
-        11.      Buckets[digit].count = Buckets[digit].count + 1
-        12.   dex = 0
-        13.   For k = 0 to 9:
-        14.      For m = 0 to Buckets[k].count - 1:
-        15.         A[dex] = Buckets[k].data[m]
-        16.         dex = dex + 1
-        17.   j = j * 10
-        18. Free Bucket memory
+            1. Find maxv in A
+            2. Initialize 10 Buckets (each has an array 'data' and 'count')
+            3. j = 1
+            4. While (maxv / j) > 0:
+            5.    For k = 0 to 9:
+            6.       Buckets[k].count = 0
+            7.    For i = 0 to n - 1:
+            8.       digit = (A[i] / j) % 10
+            9.       empty = Buckets[digit].count
+            10.      Buckets[digit].data[empty] = A[i]
+            11.      Buckets[digit].count = Buckets[digit].count + 1
+            12.   dex = 0
+            13.   For k = 0 to 9:
+            14.      For m = 0 to Buckets[k].count - 1:
+            15.         A[dex] = Buckets[k].data[m]
+            16.         dex = dex + 1
+            17.   j = j * 10
+            18. Free Bucket memory
         \end{verbatim}
     \subsubsection{Complexity Analysis}
         \begin{itemize}

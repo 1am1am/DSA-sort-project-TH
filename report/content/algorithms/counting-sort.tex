@@ -24,21 +24,21 @@
             \item \textbf{Input:} An array A of n elements
         \end{itemize}
         \begin{verbatim}
-        1. maxv ← 0
-        2. for i ← 0 to length(A)-1
-            if A[i] > maxv
-                    maxv ← A[i]
-        3. create Count[0..maxv] and set all to 0
-        4. for i ← 0 to length(A)-1
-            Count[A[i]] ← Count[A[i]] + 1
-        5. for i ← 1 to maxv
-            Count[i] ← Count[i] + Count[i-1]
-        6. create array B[0..length(A)-1]
-        7. for i ← length(A)-1 downto 0
-            B[Count[A[i]]-1] ← A[i]
-            Count[A[i]] ← Count[A[i]] - 1
-        8. for i ← 0 to length(A)-1
-            A[i] ← B[i]
+            1. maxv = 0
+            2. for i = 0 to length(A)-1
+                if A[i] > maxv
+                        maxv = A[i]
+            3. create Count[0..maxv] and set all to 0
+            4. for i = 0 to length(A)-1
+                Count[A[i]] = Count[A[i]] + 1
+            5. for i = 1 to maxv
+                Count[i] = Count[i] + Count[i-1]
+            6. create array B[0..length(A)-1]
+            7. for i = length(A)-1 downto 0
+                B[Count[A[i]]-1] = A[i]
+                Count[A[i]] = Count[A[i]] - 1
+            8. for i = 0 to length(A)-1
+                A[i] = B[i]
         \end{verbatim}
     \subsubsection{Complexity Analysis}
         \begin{itemize}

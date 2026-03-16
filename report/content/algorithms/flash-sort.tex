@@ -27,37 +27,37 @@
             \item \textbf{Input:} An array $A$ of $n$ elements
         \end{itemize}
         \begin{verbatim}
-        1.  If n <= 1: return
-        2.  m = floor(0.45 * n)
-        3.  Initialize L[0...m-1] with 0
+            1.  If n <= 1: return
+            2.  m = floor(0.45 * n)
+            3.  Initialize L[0...m-1] with 0
 
-        4.  minVal = A[0], maxIndex = 0
-        5.  For i = 1 to n - 1:
-        6.      If A[i] < minVal: minVal = A[i]
-        7.      If A[i] > A[maxIndex]: maxIndex = i
+            4.  minVal = A[0], maxIndex = 0
+            5.  For i = 1 to n - 1:
+            6.      If A[i] < minVal: minVal = A[i]
+            7.      If A[i] > A[maxIndex]: maxIndex = i
 
-        8. c1 = (m - 1) / (A[maxIndex] - minVal)
-        9. For i = 0 to n - 1:
-        10.     k = floor(c1 * (A[i] - minVal))
-        11.     L[k] = L[k] + 1
-        12. For i = 1 to m - 1:
-        13.     L[i] = L[i] + L[i - 1]
+            8. c1 = (m - 1) / (A[maxIndex] - minVal)
+            9. For i = 0 to n - 1:
+            10.     k = floor(c1 * (A[i] - minVal))
+            11.     L[k] = L[k] + 1
+            12. For i = 1 to m - 1:
+            13.     L[i] = L[i] + L[i - 1]
 
-        14. Swap(A[0], A[maxIndex])
-        15. move = 0, j = 0, k = m - 1
-        16. While move < n - 1:
-        17.     While j >= L[k]:
-        18.         j = j + 1
-        19.         k = floor(c1 * (A[j] - minVal))
-        20.     flash = A[j]
-        21.     While j != L[k]:
-        22.         k = floor(c1 * (flash - minVal))
-        23.         L[k] = L[k] - 1
-        24.         pos = L[k]
-        25.         Swap(flash, A[pos])
-        26.         move = move + 1
+            14. Swap(A[0], A[maxIndex])
+            15. move = 0, j = 0, k = m - 1
+            16. While move < n - 1:
+            17.     While j >= L[k]:
+            18.         j = j + 1
+            19.         k = floor(c1 * (A[j] - minVal))
+            20.     flash = A[j]
+            21.     While j != L[k]:
+            22.         k = floor(c1 * (flash - minVal))
+            23.         L[k] = L[k] - 1
+            24.         pos = L[k]
+            25.         Swap(flash, A[pos])
+            26.         move = move + 1
 
-        27. Call InsertionSort(A)
+            27. Call InsertionSort(A)
         \end{verbatim}
     \subsubsection{Complexity Analysis}
         \begin{itemize}

@@ -33,19 +33,19 @@
             \item \textbf{Input:} An array A of n elements
         \end{itemize}
         \begin{verbatim}
-        1. for i ← 1 to length(A)-1
-        2.      value ← A[i]
-        3.      l ← 0, r ← i-1, pos ← i
-        4.      while l <= r
-        5.           m ← l + (r-l) / 2
-        6.           if A[m] >= value
-        7.                pos ← m
-        8.                r ← m-1
-        9.           else
-        10.               l ← m+1
-        11.     for j ← i downto pos+1
-        12.          A[j] ← A[j-1]
-        13.     A[pos] ← value
+            1. for i = 1 to length(A)-1
+            2.      value = A[i]
+            3.      l = 0, r = i-1, pos = i
+            4.      while l <= r
+            5.           m = l + (r-l) / 2
+            6.           if A[m] >= value
+            7.                pos = m
+            8.                r = m-1
+            9.           else
+            10.               l = m+1
+            11.     for j = i downto pos+1
+            12.          A[j] = A[j-1]
+            13.     A[pos] = value
         \end{verbatim}
     \subsubsection{Complexity Analysis}
         \begin{itemize}

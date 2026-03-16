@@ -31,31 +31,31 @@
             \item \textbf{Input:} An array A, left index l, right index r
         \end{itemize}
         \begin{verbatim}
-        Algorithm: Partition(A, l, r)
-        1. mid = l + (r - l) / 2
-        2. Swap(A[mid], A[r])
-        3. pivot = A[r]
-        4. j = l - 1
-        5. For i = l to r - 1:
-        6.    If A[i] <= pivot:
-        7.       j = j + 1
-        8.       Swap(A[j], A[i])
-        9. j = j + 1
-        10. Swap(A[j], A[r])
-        11. Return j
+            Algorithm: Partition(A, l, r)
+            1. mid = l + (r - l) / 2
+            2. Swap(A[mid], A[r])
+            3. pivot = A[r]
+            4. j = l - 1
+            5. For i = l to r - 1:
+            6.    If A[i] <= pivot:
+            7.       j = j + 1
+            8.       Swap(A[j], A[i])
+            9. j = j + 1
+            10. Swap(A[j], A[r])
+            11. Return j
 
-        Algorithm: Quick Sort
-        1. If l < r:
-        2.    p = Partition(A, l, r)
-        3.    QuickSort(A, l, p - 1)
-        4.    QuickSort(A, p + 1, r)
+            Algorithm: Quick Sort
+            1. If l < r:
+            2.    p = Partition(A, l, r)
+            3.    QuickSort(A, l, p - 1)
+            4.    QuickSort(A, p + 1, r)
         \end{verbatim}
     \subsubsection{Complexity Analysis}
         \begin{itemize}
             \item \textbf{Time Complexity:}
             \begin{itemize}
-                \item Best and Average case: $O(n \log n)$
-                \item Worst case: $O(n^2)$ 
+                \item \textbf{Best and Average case:} $O(n \log n)$
+                \item \textbf{Worst case:} $O(n^2)$ 
                     \subitem Occurs when the partition is highly unbalanced.
             \end{itemize}
             \item \textbf{Space Complexity:} $O(\log n)$ 
