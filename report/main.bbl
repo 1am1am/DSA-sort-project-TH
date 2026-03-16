@@ -36,6 +36,11 @@ Thomas~H. Cormen, Charles~E. Leiserson, Ronald~L. Rivest, and Clifford Stein.
 \newblock {\em Introduction to Algorithms}.
 \newblock MIT Press, 3 edition, 2009.
 
+\bibitem{cormen2022introduction}
+Thomas~H Cormen, Charles~E Leiserson, Ronald~L Rivest, and Clifford Stein.
+\newblock {\em Introduction to Algorithms}.
+\newblock MIT Press, 4th edition, 2022.
+
 \bibitem{friend1956sorting}
 E.~H. Friend.
 \newblock Sorting on electronic computer systems.
@@ -70,6 +75,11 @@ Shubham Goel and Ravinder Kumar.
 \newblock Brownian motus and clustered binary insertion sort methods: An
   efficient progress over traditional methods.
 \newblock {\em Future Generation Computer Systems}, 86:266--280, 2018.
+
+\bibitem{hoare1962quicksort}
+Charles A.~R. Hoare.
+\newblock Quicksort.
+\newblock {\em The Computer Journal}, 5(1):10--16, 1962.
 
 \bibitem{iverson1962apl}
 Kenneth~E. Iverson.

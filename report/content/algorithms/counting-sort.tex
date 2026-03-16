@@ -62,8 +62,8 @@
         \begin{itemize}
         \item \textbf{Counting sort with negative numbers\cite{stackoverflow_countingsort_negative}:}
             \begin{itemize}
-                \item \textbf{Idea 1:} Find the maximum and minimum values in the array, then create an array with size $(maximum - minimum + 1)$. Instead of $Cnt[a[i]]$, use $Cnt[a[i] - minimum]$. All other steps are the same as the standard counting sort.
-                \item \textbf{Idea 2:} Increase the size of the $Cnt$ array to cover the range $[-max, max]$. Instead of $Cnt[a[i]]$, use $Cnt[a[i] + max]$. All other steps remain the same.
+                \item \textbf{Idea 1:} Find the maximum and minimum values in the array, then create an array with size $(maximum - minimum + 1)$ to cover the range $[minimum, max]$. Instead of $Cnt[a[i]]$, use $Cnt[a[i] - minimum]$. All other steps are the same as the standard counting sort.
+                \item \textbf{Idea 2:} Increase the size of the $Cnt$ array to cover the range $[-max, max]$ (i.e., size $2 \cdot max + 1$). Instead of using $Cnt[a[i]]$, use $Cnt[a[i] + max]$. All other steps remain the same.
                 \item \textbf{Idea 3\cite{saiana2018parallelcounting}:} Separate the array into two lists: negative and positive numbers. Convert the negative numbers to positive values (for example by multiplying by $-1$) or apply \textbf{Idea 1} or \textbf{Idea 2}.
             \end{itemize}
         \end{itemize}
