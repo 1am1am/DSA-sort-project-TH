@@ -98,6 +98,7 @@ long long getAlgorithm(string Name, const vector<int>& Array,double &Time,vector
 void readFile(vector<int>& Array, Command& command){
     ifstream fin;
     fin.open(command.inputFile);
+    std::cout << command.inputFile;
     if(!fin.is_open()){
         cout << "Error!\n";
         command.inputSize = 0;
@@ -120,12 +121,12 @@ void makeInput(vector<int>& Array, Command& command){
 
 void getComparisonsAndTime(Command& command){
 
-    if (command.inputOrder == "-all") return; 
+    if (command.inputOrder == "-all" && command.inputFile.empty()) return; 
 
     double time1 = 0.0, time2 = 0.0;
     vector<int> Array; 
     
-    if(command.inputFile != "") {
+    if(!command.inputFile.empty()) {
         readFile(Array, command);
     } else {
         makeInput(Array, command);

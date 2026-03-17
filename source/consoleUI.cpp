@@ -65,7 +65,6 @@ void print(Command& command) {
         command.inputOrder = "-rev";
         getComparisonsAndTime(command);
         consoleUI(command);
-        std::cout << '\n';
 
         command.inputOrder = "-rand";
         getComparisonsAndTime(command);
