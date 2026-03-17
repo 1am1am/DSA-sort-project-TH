@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.22)  17 MAR 2026 16:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.22)  17 MAR 2026 16:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1199,17 +1199,13 @@ Package pdftex.def Info: data/Graph/Randomize Input (1).pdf , page1 used on inpu
 (pdftex.def)             Requested size: 756.1179pt x 335.14902pt.
  [42
 
- <./data/Graph/Randomize Input (1).pdf>]) (content/project-organization-and-programming-notes.tex [43] [44]
-<img/programProcess.png, id=968, 543.02875pt x 954.56625pt>
+ <./data/Graph/Randomize Input (1).pdf>]) (content/project-organization-and-programming-notes.tex [43] [44] [45]
+<img/programProcess.png, id=972, 543.02875pt x 954.56625pt>
 File: img/programProcess.png Graphic file (type png)
 <use img/programProcess.png>
 Package pdftex.def Info: img/programProcess.png  used on input line 153.
 (pdftex.def)             Requested size: 293.4647pt x 515.88051pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [45] (content/acknowledgements.tex
+) [46 <./img/programProcess.png>] (content/acknowledgements.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -1229,7 +1225,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-) [46] (content/reference.tex (main.bbl [47])) [48] [49 <./img/programProcess.png>] (main.aux)
+) [47] (content/reference.tex (main.bbl [48])) [49] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1246,7 +1242,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  95i,18n,96p,487b,678s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (50 pages, 1268964 bytes).
+Output written on main.pdf (50 pages, 1269013 bytes).
 PDF statistics:
  1101 PDF objects out of 1200 (max. 8388607)
  175 named destinations out of 1000 (max. 500000)
