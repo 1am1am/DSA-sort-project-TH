@@ -1,5 +1,3 @@
 # DSA-sort-project-TH
 Group7 DSA 
-ME MAY BEO VCL
-GG
-
+run test de chay het moi sort trong moi test case
