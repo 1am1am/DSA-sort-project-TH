@@ -29,10 +29,10 @@ void runTest() {
 int main(int argc, char* argv[]) {
     //g++ -g source.cpp source/sortAlgorithms.cpp -o source/07.exe
 
-     std::vector<std::string> commandLine(argv, argv + argc);
+    std::vector<std::string> commandLine(argv, argv + argc);
 
-     Command command = commandProcessing(argc, commandLine);
-     getComparisonsAndTime(command);
+    Command command = commandProcessing(argc, commandLine);
+    getComparisonsAndTime(command);
     
     print(command);
     
