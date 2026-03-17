@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1773736219.1378 "main.aux" "main.bbl" "main" 1773736221.51273 0
-  "./bibliography/bibliography.bib" 1773736218 6756 dcec04900e5e31a4a404c1029c0ad294 ""
+["bibtex main"] 1773739350.99394 "main.aux" "main.bbl" "main" 1773739353.48228 0
+  "./bibliography/bibliography.bib" 1773738320 6756 dcec04900e5e31a4a404c1029c0ad294 ""
   "C:/Program Files/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1773736220 15242 ed3e2ab58b5e6427c5c09706c0f2b27b "pdflatex"
+  "main.aux" 1773739352 15242 ed3e2ab58b5e6427c5c09706c0f2b27b "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1773736219.32603 "d:/HCMUS/DSA/LAB/git/report/main.tex" "main.pdf" "main" 1773736221.51309 0
+["pdflatex"] 1773739351.24435 "d:/HCMUS/DSA/LAB/git/report/main.tex" "main.pdf" "main" 1773739353.48263 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -213,7 +213,7 @@
   "C:/Users/Admin/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1766421624 24215232 f44b50421e9d3dedd8ade97a75028966 ""
   "content/acknowledgements.tex" 1773634357 736 81714c5feee2fb2d4064160a0c2a5786 ""
   "content/algorithms.tex" 1773597038 812 be8717193597bda063e6e691bc6224aa ""
-  "content/algorithms/binary-insertion-sort.tex" 1773634357 4578 55bb60c793053a726e0ee372b5aa0c17 ""
+  "content/algorithms/binary-insertion-sort.tex" 1773738314 4578 55bb60c793053a726e0ee372b5aa0c17 ""
   "content/algorithms/bubble-sort.tex" 1773634357 3204 fd371f93ad008a9d39456a9fadf1108d ""
   "content/algorithms/counting-sort.tex" 1773635436 5053 c71d4b05d7fc8aebde14b6154d27a1a7 ""
   "content/algorithms/flash-sort.tex" 1773634357 5110 eb46d8a12c92ad25ad9cba921263d19a ""
@@ -227,7 +227,7 @@
   "content/algorithms/shell-sort.tex" 1773634357 3121 3d4631a9b3415cdba120340245892e3b ""
   "content/experimental-results-and-comments.tex" 1773634357 3605 e7e31044a30eb2f92b7e42af2b0568bb ""
   "content/group-information.tex" 1773496983 1282 bb1bae9364ab21152f4c1c17ef7b24bf ""
-  "content/project-organization-and-programming-notes.tex" 1773589428 3343 22fc89aa4ff2900fc5e8994f18c90e62 ""
+  "content/project-organization-and-programming-notes.tex" 1773739344 3558 aea6b43a3d268f43d4f2bc9754aa3a1e ""
   "content/reference.tex" 1773496983 90 f5cff3b0c5d1f7bf4229caf30ff79be0 ""
   "content/title.tex" 1773496983 1498 9dbdf51a895d8989933a5353f2f67a1a ""
   "d:/HCMUS/DSA/LAB/git/report/main.tex" 1773496983 745 9b438f0bc71ac331b7ed973aa8e2827e ""
@@ -246,11 +246,11 @@
   "hcmus-report-template.sty" 1773599134 4759 9449d115106628569569337f0f4c446c ""
   "img/Process.png" 1773589428 9383 f0aeeb9339924346e1b6b56fbfa9b346 ""
   "img/hcmus-logo.png" 1773496983 258629 122747e63e393f11b7f15571540c7d20 ""
-  "main.aux" 1773736220 15242 ed3e2ab58b5e6427c5c09706c0f2b27b "pdflatex"
-  "main.bbl" 1773736219 5271 860948e6af31e3ca2fd04f656c04354d "bibtex main"
-  "main.out" 1773736220 14659 721c6e0a0f4fb887b00d3d72d47ec585 "pdflatex"
+  "main.aux" 1773739352 15242 ed3e2ab58b5e6427c5c09706c0f2b27b "pdflatex"
+  "main.bbl" 1773739351 5271 860948e6af31e3ca2fd04f656c04354d "bibtex main"
+  "main.out" 1773739352 14659 721c6e0a0f4fb887b00d3d72d47ec585 "pdflatex"
   "main.tex" 1773496983 745 9b438f0bc71ac331b7ed973aa8e2827e ""
-  "main.toc" 1773736220 8820 9c0f3dc0c9fdd8302b13acd0c429da65 "pdflatex"
+  "main.toc" 1773739352 8820 9c0f3dc0c9fdd8302b13acd0c429da65 "pdflatex"
   "preamble.tex" 1773599316 503 cdf38ae60e2bf1900f7483b663546eb4 ""
   (generated)
   "main.aux"
