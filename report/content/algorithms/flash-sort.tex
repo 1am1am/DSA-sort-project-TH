@@ -39,25 +39,33 @@
             8. c1 = (m - 1) / (A[maxIndex] - minVal)
             9. For i = 0 to n - 1:
             10.     k = floor(c1 * (A[i] - minVal))
-            11.     L[k] = L[k] + 1
-            12. For i = 1 to m - 1:
-            13.     L[i] = L[i] + L[i - 1]
+            11.     If k < 0: k = 0
+            12.     If k >= m: k = m - 1
+            13.     L[k] = L[k] + 1
+            14. For i = 1 to m - 1:
+            15.     L[i] = L[i] + L[i - 1]
 
-            14. Swap(A[0], A[maxIndex])
-            15. move = 0, j = 0, k = m - 1
-            16. While move < n - 1:
-            17.     While j >= L[k]:
-            18.         j = j + 1
-            19.         k = floor(c1 * (A[j] - minVal))
-            20.     flash = A[j]
-            21.     While j != L[k]:
-            22.         k = floor(c1 * (flash - minVal))
-            23.         L[k] = L[k] - 1
-            24.         pos = L[k]
-            25.         Swap(flash, A[pos])
-            26.         move = move + 1
+            16. Swap(A[0], A[maxIndex])
+            17. move = 0, j = 0, k = m - 1
+            18. While move < n - 1:
+            19.     While j < n && j >= L[k]:
+            20.         j = j + 1
+            21.         If(j < n):
+            22.             k = floor(c1 * (A[j] - minVal))
+            23.             If k < 0: k = 0
+            24.             If k >= m: k = m - 1
+            25.     If j >= n: break
+            26.     flash = A[j]
+            27.     While j != L[k]:
+            28.         k = floor(c1 * (flash - minVal))
+            29.         If k < 0: k = 0
+            30.         If k >= m: k = m - 1
+            31.         L[k] = L[k] - 1
+            32.         pos = L[k]
+            33.         Swap(flash, A[pos])
+            34.         move = move + 1
 
-            27. Call InsertionSort(A)
+            35. Call InsertionSort(A)
         \end{verbatim}
     \subsubsection{Complexity Analysis}
         \begin{itemize}

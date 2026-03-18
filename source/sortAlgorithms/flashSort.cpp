@@ -27,6 +27,8 @@ void flashSort(std::vector<int>& array, long long& comparisons) {
 
     for (int i = 0; ++comparisons && i < n; ++i) {
         int k = (int)(c1 * (array[i] - minVal));
+        if (++comparisons && k < 0) k = 0;
+        if (++comparisons && k >= m) k = m - 1;
         L[k]++;
     }
 
@@ -40,14 +42,20 @@ void flashSort(std::vector<int>& array, long long& comparisons) {
     int k = m - 1;
 
     while (++comparisons && move < n - 1) {
-        while (++comparisons && j >= L[k]) {
+        while (++comparisons && ++comparisons && j < n && j >= L[k]) {
             j++;
-            k = (int)(c1 * (array[j] - minVal));
+            if (++comparisons && j < n){
+                k = (int)(c1 * (array[j] - minVal));
+                if (++comparisons && k < 0) k = 0;
+                if (++comparisons && k >= m) k = m - 1;
+            }
         }
-        
+        if(++comparisons && j >= n) break;
         int flash = array[j];
         while (++comparisons && j != L[k]) {
             k = (int)(c1 * (flash - minVal));
+            if (++comparisons && k < 0) k = 0;
+            if (++comparisons && k >= m) k = m - 1;
             int pos = --L[k];
             std::swap(flash, array[pos]);
             move++;
@@ -84,6 +92,8 @@ void flashSortTime(std::vector<int>& array) {
 
     for (int i = 0; i < n; ++i) {
         int k = (int)(c1 * (array[i] - minVal));
+        if (k < 0) k = 0;
+        if (k >= m) k = m - 1;
         L[k]++;
     }
 
@@ -97,14 +107,20 @@ void flashSortTime(std::vector<int>& array) {
     int k = m - 1;
 
     while (move < n - 1) {
-        while (j >= L[k]) {
+        while (j < n && j >= L[k]) {
             j++;
-            k = (int)(c1 * (array[j] - minVal));
+            if (j < n){
+                k = (int)(c1 * (array[j] - minVal));
+                if (k < 0) k = 0;
+                if (k >= m) k = m - 1;
+            }
         }
-        
+        if(j >= n) break;
         int flash = array[j];
         while (j != L[k]) {
             k = (int)(c1 * (flash - minVal));
+            if (k < 0) k = 0;
+            if (k >= m) k = m - 1;
             int pos = --L[k];
             std::swap(flash, array[pos]);
             move++;
