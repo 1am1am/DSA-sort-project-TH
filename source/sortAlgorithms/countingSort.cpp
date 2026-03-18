@@ -16,7 +16,7 @@ void countingSort(vector<int>& A, long long& comparisions){
     for(int i = 0; ++comparisions && i < A.size(); ++i) ++Count[A[i]];
     for(int i = 1; ++comparisions && i <= maxv; ++i) Count[i] += Count[i - 1];
     int* B = new int [A.size() + 5];
-    for(int i = A.size() - 1; ++comparisions && i >= 0; --i) B[Count[A[i]] - 1] = A[i], --Count[A[i]];
+    for(int i = (int) A.size() - 1; ++comparisions && i >= 0; --i) B[Count[A[i]] - 1] = A[i], --Count[A[i]];
     for(int i = 0; ++comparisions && i < A.size(); ++i) A[i] = B[i];
     delete[]Count;
     delete[]B;
@@ -34,7 +34,7 @@ void countingSortTime(vector<int>& A){
     for(int i = 0; i < A.size(); ++i) ++Count[A[i]];
     for(int i = 1; i <= maxv; ++i) Count[i] += Count[i - 1];
     int* B = new int [A.size() + 5];
-    for(int i = A.size() - 1; i >= 0; --i) B[Count[A[i]] - 1] = A[i], --Count[A[i]];
+    for(int i = (int) A.size() - 1; i >= 0; --i) B[Count[A[i]] - 1] = A[i], --Count[A[i]];
     for(int i = 0; i < A.size(); ++i) A[i] = B[i];
     delete[]Count;
     delete[]B;
