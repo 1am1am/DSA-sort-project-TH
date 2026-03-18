@@ -6,6 +6,8 @@
 #include <iostream>
 #include <string>
 
+bool isPrinted = false;
+
 void outputParameter(std::string outputType, Command command) {
     if (outputType == "-time") {
         std::cout << "Running time: " << command.runningTime1 << (!command.algorithm2.empty() ? " | " : "") << (!command.algorithm2.empty() ? std::to_string(command.runningTime2) : "") << '\n';
@@ -42,9 +44,16 @@ std::string nameAlgorithm(std::string algorithm) {
 }
 
 void consoleUI(Command command) {
-    std::cout << "Algorithm: " << command.algorithm1 << (!command.algorithm2.empty() ? " | " : "") << command.algorithm2 << '\n';
-    if (!command.inputFile.empty()) std::cout << "Input file: " << command.inputFile << '\n';
-    std::cout << "Input size: " << command.inputSize << '\n';
+    if (!isPrinted) {
+        isPrinted = true;
+        if (command.mode == "-a") std::cout << "ALGORITHM MODE\n";
+        else if (command.mode == "-c") std::cout << "COMPARE MODE\n";
+        std::cout << "Algorithm: " << command.algorithm1 << (!command.algorithm2.empty() ? " | " : "") << command.algorithm2 << '\n';
+        if (!command.inputFile.empty()) std::cout << "Input file: " << command.inputFile << '\n';
+        std::cout << "Input size: " << command.inputSize << '\n';
+        if (command.isCommand3) std::cout << '\n';
+    }
+
     if (command.inputFile.empty()) std::cout << "Input order: " << command.inputOrder << '\n';
     std::cout << "-------------------------\n";
     outputParameter(command.outputParameter, command);
@@ -53,7 +62,8 @@ void consoleUI(Command command) {
 void print(Command& command) {
     if (command.inputOrder == "-all" && command.inputFile.empty()) {
         command.isCommand3 = true;
-        command.inputOrder = "-sorted";
+        
+        command.inputOrder = "-rand";
         getComparisonsAndTime(command);
         consoleUI(command);
         std::cout << '\n';
@@ -63,13 +73,14 @@ void print(Command& command) {
         consoleUI(command);
         std::cout << '\n';
 
+        command.inputOrder = "-sorted";
+        getComparisonsAndTime(command);
+        consoleUI(command);
+        std::cout << '\n';
+
         command.inputOrder = "-rev";
         getComparisonsAndTime(command);
-        consoleUI(command);
-
-        command.inputOrder = "-rand";
-        getComparisonsAndTime(command);
-        consoleUI(command);
+        consoleUI(command);   
     } else {
         consoleUI(command);
     }

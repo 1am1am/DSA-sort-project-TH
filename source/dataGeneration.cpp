@@ -29,7 +29,6 @@ vector<int> GenerateRandomData(int n)
 	{
 		array.push_back (rand()%n);
 	}
-	cout << endl;
 	return array;
 }
 
@@ -98,7 +97,7 @@ vector<int> GenerateData(int n , string dataType) {
 void writeFile(Command command, string filename) {
 	ofstream fout(filename);
 	if (!fout.is_open()) {
-		cout << "Error " << endl;
+		cout << "Error!" << endl;
 	}
 
 	fout << command.inputSize << endl;
